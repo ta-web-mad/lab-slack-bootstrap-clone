@@ -5,3 +5,78 @@ main-titles dark-grey: #2C303F;
 paragraph grey: #5b5e6d;
 nav grey: #5b5e6d;
 */
+img {
+    width: 100%;
+}
+
+p {
+    color: #5b5e6d;
+}
+
+.slackLogo {
+    max-width: 300px;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.nav {
+    display: flex;
+    color: #5b5e6d;
+
+}
+
+.ul {
+    display: flex;
+    list-style: none;
+
+}
+
+.li {
+    margin-left: 10px;
+
+}
+
+header a {
+    color: #5b5e6d;
+    text-decoration: none;
+}
+
+.navicon {
+    width: 40px;
+}
+
+.slackIco {
+    width: 200px;
+}
+
+@media screen and (min-width: 500px) {
+    .header .navicon {
+        display: none;
+    }
+
+    .header .nav {
+        display: block;
+    }
+}
+
+.discoverWhy {
+    border-style: solid;
+    border-radius: 10px;
+    border-color: blue;
+    color: blue;
+    padding: 10px 30px;
+}
+
+
+
+@media screen and (min-width: 1500px) {
+    .hideColumn {
+        display: none;
+    }
+
+}
