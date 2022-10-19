@@ -5,3 +5,74 @@ main-titles dark-grey: #2C303F;
 paragraph grey: #5b5e6d;
 nav grey: #5b5e6d;
 */
+img {
+    width: 100%;
+}
+
+.menu {
+
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    align-items: center;
+}
+
+.menu .logo {
+    width: 160px;
+}
+
+.menu .navicon {
+    width: 25px;
+}
+
+.menu nav {
+    display: none;
+}
+
+.menu ul {
+    display: flex;
+    margin: 0;
+    list-style: none;
+}
+
+.menu a {
+    text-decoration: none;
+}
+
+
+
+@media screen and (min-width: 992px) {
+
+    .menu .navicon {
+        display: none;
+    }
+
+    .menu nav {
+        display: block;
+    }
+}
+
+.discover {
+    background-color: #edeff5;
+
+}
+
+
+
+.discover img {
+    border-bottom: 1px solid #2C303F;
+}
+
+
+
+.info .slackicon {
+    width: 40px;
+}
+
+footer {
+    background-color: #edeff5;
+}
+
+.footer .flag {
+    width: 10px;
+}
