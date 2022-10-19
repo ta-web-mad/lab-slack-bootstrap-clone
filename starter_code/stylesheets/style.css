@@ -5,3 +5,128 @@ main-titles dark-grey: #2C303F;
 paragraph grey: #5b5e6d;
 nav grey: #5b5e6d;
 */
+img {
+  width: 100%;
+}
+
+h1 {
+  font-size: 60px;
+  font-weight: bold;
+}
+
+main .p1 {
+  font-size: 25px;
+}
+
+h2 {
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.logo {
+  width: 150px;
+}
+
+.navicon {
+  width: 50px;
+}
+
+.menu {
+  border-bottom: 1px solid #ccc;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  align-items: center;
+}
+
+.menu nav {
+  display: none;
+}
+
+.menu ul {
+  display: flex;
+  margin: 0;
+  list-style: none;
+}
+
+.menu a {
+  color: inherit;
+  margin-left: 20px;
+  text-decoration: none;
+}
+
+.buttom {
+  border: 1px solid black;
+  padding: 10px;
+}
+
+.iconSlack {
+  width: 100px;
+}
+
+.textCenter {
+  text-align: center;
+}
+
+.companyIcons {
+  width: 80%;
+  margin: auto;
+  padding: 10% 0;
+}
+
+.section1 {
+  background-color: rgba(204, 204, 204, 0.708);
+}
+
+.button2 {
+  text-decoration: none;
+  border: 2px solid darkblue;
+  font-size: 20px;
+  font-weight: bold;
+  border-color: darkblue;
+  padding: 10px 20px;
+  background-color: white;
+  margin-top: 30px;
+
+}
+
+.listNone {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.listNone li a {
+  color: black;
+  margin-bottom: 10px;
+  text-decoration: none;
+  padding: 10px 0;
+}
+
+.flexList {
+  display: flex;
+  padding-left: 20px;
+}
+
+.flagIcon {
+  width: 15px;
+}
+
+footer {
+  background-color: rgba(204, 204, 204, 0.708);
+}
+
+.flexLine {
+  display: flex;
+}
+
+@media screen and (min-width: 992px) {
+  .menu .navicon {
+    display: none;
+  }
+
+  .menu nav {
+    display: block;
+  }
+}
