@@ -371,6 +371,13 @@ footer > div {
 	padding: 0;
 }
 
+@media screen and (max-width: 768px) {
+	.footer-important-links {
+		display: flex;
+		justify-content: center;
+	}
+}
+
 .footer-important-links a {
 	color: var(--main-titles-dark-grey);
 	text-decoration: none;
