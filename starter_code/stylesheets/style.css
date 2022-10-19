@@ -375,6 +375,11 @@ footer > div {
 	.footer-important-links {
 		display: flex;
 		justify-content: center;
+		align-items: center;
+	}
+
+	.g-15 {
+		gap: 15px;
 	}
 }
 
