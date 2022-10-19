@@ -5,3 +5,139 @@ main-titles dark-grey: #2C303F;
 paragraph grey: #5b5e6d;
 nav grey: #5b5e6d;
 */
+body {
+    font-family: "https://use.fontawesome.com/releases/v5.0.1/css/all.css";
+}
+
+img {
+    width: 100%;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid grey;
+    padding: 30px;
+    align-items: center;
+
+}
+
+.logo {
+    width: 150px;
+}
+
+.navicon {
+    width: 80px;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav a {
+    text-decoration: none;
+    list-style: none;
+
+
+}
+
+nav li {
+    text-decoration: none;
+    list-style: none;
+    margin-right: 15px;
+    font-family: sans-serif;
+}
+
+.border-li {
+    border: 1px solid black;
+    padding: 2px;
+}
+
+button {
+    background-color: rgb(71, 135, 208);
+    color: white;
+    border-radius: 5px;
+    border-color: rgb(71, 135, 208);
+    font-family: sans-serif;
+}
+
+input {
+    width: 60%;
+    font-family: sans-serif;
+}
+
+.img {
+    width: 75%;
+    padding: 10px;
+    align-items: center;
+}
+
+h2 {
+    text-align: center;
+    padding: 20px;
+}
+
+.center {
+    text-align: center;
+    padding-bottom: 20px;
+    font-family: sans-serif;
+}
+
+.section2 {
+    background-color: #F4F3F4;
+    padding-bottom: 30px;
+}
+
+.section1 {
+    padding: 20px;
+}
+
+.display {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section3 {
+    margin: 30px;
+    border-bottom: 1px solid rgb(166, 161, 161);
+
+}
+
+.section3 p {
+    font-family: sans-serif;
+
+}
+
+.limks {
+    list-style: none;
+    text-decoration: none;
+
+
+}
+
+.icon {
+    width: 35%;
+    padding-left: 40px;
+    padding-top: 10px;
+}
+
+.font {
+    font-family: sans-serif;
+}
+
+.links a {
+    text-decoration: none;
+    list-style: none;
+    color: #5b5e6d;
+    font-family: sans-serif;
+}
+
+.section2 button {
+    text-align: center;
+    color: grey;
+    border: 1px solid grey;
+    background-color: white;
+    padding: 10px;
+    margin-bottom: 30px;
+}
