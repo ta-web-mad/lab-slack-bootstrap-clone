@@ -14,6 +14,8 @@
   <!-- link your styles -->
   <link rel="stylesheet" href="./stylesheets/style.css" />
   <title>Where work happens | Slack</title>
+
+  <link rel="stylesheet" href="https://i.icomoon.io/public/temp/9d6bb7516a/UntitledProject/style.css">
 </head>
 
 <body>
@@ -46,9 +48,9 @@
 
         <div class="col-12 col-lg-6 order-lg-2">
 
-          <h1>Where Work Happens</h1>
+          <h1 class="grey-color">Where Work Happens</h1>
 
-          <p>
+          <p class="pgrey-color">
 
             When your learn team needs to kick off a project, hire a new employee, deploy some code, review a sales
             contract, finalize a year's budget, measures an A/B test, plan your next office opening, and more. Slack has
@@ -56,14 +58,14 @@
 
           </p>
 
-          <div>
-            <form action="/some-url" mathod-post>
+          <div class="input-button">
+            <form action="/some-url" mathod="post" class="d-lg-none">
 
-              <input type="email" id="email" placeholder="Email adress">
+              <input type="email" id="email" placeholder="Email adress" class="mb-3 p-3 input">
 
             </form>
 
-            <a href="#">Get Started</a>
+            <a href="#" class="blue-button p-3">Get Started</a>
           </div>
           <p>
 
@@ -83,65 +85,65 @@
   </section>
 
 
-  <section>
+  <section class="section-2 pt-4 pb-4">
 
 
     <div class="container">
 
-      <div class="row">
+      <div class="row align-items">
 
         <div class="col-12">
 
-          <h2>
+          <h2 class="grey-color text-center">
             You're in good company
           </h2>
 
-          <p>
+          <p class="text-center pgrey-color">
             Millions of people around the world have already made Slack the place where their work happens.
           </p>
 
-          <a href="">Discover why</a>
+          <a href="#" class=" button-2 text-uppercase mt-mb-4">Discover why</a>
 
         </div>
 
-        <div class="col-12 col-md-6 col-lg-4">
+        <div class="col-md-6 col-lg-4 text-center">
 
-          <img src="./images/airbnb-logo.png" alt="Airbnb logo">
-
-        </div>
-
-
-        <div class="col-12 col-md-6 col-lg-4">
-
-          <img src="./images/capital-one-logo.png" alt="CapitalOne logo">
+          <img src="./images/airbnb-logo.png" alt="Airbnb logo" class="w-50 m-3">
 
         </div>
 
 
-        <div class="col-12 d-md-none d-lg-block col-lg-4">
+        <div class=" col-md-6 col-lg-4 text-center">
 
-          <img src="./images/harvard-logo.png" alt="Hardvard logo">
-
-        </div>
-
-
-        <div class="col-12 d-md-none d-lg-block col-lg-4">
-
-          <img src="./images/los-angeles-times-logo.png" alt="Los Angeles Times logo">
+          <img src="./images/capital-one-logo.png" alt="CapitalOne logo" class="w-50 m-3">
 
         </div>
 
 
-        <div class="col-12 col-md-6 col-lg-4">
+        <div class="d-md-none d-lg-block col-lg-4 text-center">
 
-          <img src="./images/oracle-logo.png" alt="Oracle logo">
+          <img src="./images/harvard-logo.png" alt="Hardvard logo" class="w-50 m-3">
 
         </div>
 
 
-        <div class="col-12 col-md-6 col-lg-4">
+        <div class="d-md-none d-lg-block col-lg-4 text-center">
 
-          <img src="./images/ticketmaster-logo.png" alt="Ticketmaster logo">
+          <img src="./images/los-angeles-times-logo.png" alt="Los Angeles Times logo" class="w-50 m-3">
+
+        </div>
+
+
+        <div class="col-12 col-md-6 col-lg-4 text-center">
+
+          <img src="./images/oracle-logo.png" alt="Oracle logo" class="w-50 m-3">
+
+        </div>
+
+
+        <div class="col-12 col-md-6 col-lg-4 text-center">
+
+          <img src="./images/ticketmaster-logo.png" alt="Ticketmaster logo" class="w-50 m-3">
 
         </div>
 
@@ -155,23 +157,26 @@
 
     <div class="container">
       <div class="row">
-        <div class="col-12">
-          <h3>
-            Try it for free
-          </h3>
-          <p>
-
-            Already using Slack? <a href="#">Sing in</a>
-
-          </p>
+        <div class="col-12 d-md-flex justify-content-between">
           <div>
-            <form action="/some-url" mathod-post>
+            <h3 class="grey-color text-center text-md-start">
+              Try it for free
+            </h3>
+            <p class="pgrey-color text-center text-md-start">
 
-              <input type="email" id="email" placeholder="Email adress">
+              Already using Slack? <a href="#">Sing in</a>
 
-            </form>
+            </p>
+          </div>
+          <div class="">
+            <div>
+              <form action="/some-url" mathod-post class="d-lg-none">
 
-            <a href="#">Get Started</a>
+                <input type="email" id="email" placeholder="Email adress" class="w-100 mb-3 p-3">
+
+              </form>
+            </div>
+            <a href="#" class="blue-button w-100 p-3">Get Started</a>
           </div>
 
         </div>
@@ -179,7 +184,93 @@
     </div>
 
   </section>
-  <section></section>
+  <section>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <img src="./images/Slack.ico" alt="Slack Icon" class="slack-icon">
+        </div>
+        <div class="col-6 col-md-2">
+          <h4 class="text-uppercase grey-color">Company</h4>
+          <ul class="list-style">
+
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Press</a></li>
+            <li><a href="#">Brand Guidelines</a></li>
+
+          </ul>
+        </div>
+        <div class="col-6 col-md-2">
+          <h4 class="text-uppercase grey-color">Product</h4>
+          <ul class="list-style">
+            <li><a href="#">Why Slack?</a></li>
+            <li><a href="#">Enterprise</a></li>
+            <li><a href="#">Customer Stories</a></li>
+            <li><a href="#">Pricing</a></li>
+            <li><a href="#">Security</a></li>
+          </ul>
+        </div>
+        <div class="col-6 col-md-2">
+          <h4 class="text-uppercase grey-color">Resource</h4>
+          <ul class="list-style">
+            <li><a href="#">Download</a></li>
+            <li><a href="#">Help Center</a></li>
+            <li><a href="#">Guides</a></li>
+            <li><a href="#">Partners</a></li>
+            <li><a href="#">Events</a></li>
+            <li><a href="#">App Directory</a></li>
+            <li><a href="#">API</a></li>
+          </ul>
+        </div>
+        <div class="col-6 col-md-2">
+          <h4 class="text-uppercase grey-color">Extras</h1>
+            <ul class="list-style">
+              <li><a href="#" class="text-decoration-none">Podcast</a></li>
+              <li><a href="#">Slack Shop</a></li>
+              <li><a href="#">Slack at Work</a></li>
+              <li><a href="#">Slack Fund</a></li>
+            </ul>
+        </div>
+      </div>
+    </div>
+
+  </section>
+  <footer class="section-2">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <ul class="list-style d-flex ">
+            <li class="ml-3"><a href="#">Status</a></li>
+            <li class="ml-3"><a href=" #">Privacy & Terms</a></li>
+            <li class="ml-3"><a href="#">Contact Us</a></li>
+          </ul>
+        </div>
+        <div class="col-md-3">
+
+          <form action="/some-url">
+            <select name="Lenguage" id="#">
+              <option value="English">English (US)</option>
+              <option value="Español">Español (ESP)</option>
+              <option value="German">German (GER)</option>
+              <option value="Français">Français (FRA)</option>
+            </select>
+          </form>
+        </div>
+
+        <div class="col-md-3">
+          <span class="icon-twitter"></span>
+          <span class="icon-facebook"></span>
+          <span class="icon-youtube"></span>
+
+        </div>
+
+
+      </div>
+    </div>
+  </footer>
 
 
 </body>
