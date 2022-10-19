@@ -5,3 +5,189 @@ main-titles dark-grey: #2C303F;
 paragraph grey: #5b5e6d;
 nav grey: #5b5e6d;
 */
+
+img {
+    width: 100%;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    justify-content: space-between;
+    margin: 0px 30px;
+}
+
+.menu ul {
+    display: flex;
+    list-style: none;
+}
+
+.menu a {
+    text-decoration: none;
+    margin: 10px;
+    color: #5b5e6d;
+}
+
+.menu .slack-logo {
+    width: 150px;
+}
+
+.menu .navicon-logo {
+    width: 80px;
+}
+
+.margin-button {
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px 30px;
+}
+
+h1 {
+    color: #2C303F;
+    font-weight: bolder;
+}
+
+h3 {
+    color: #2C303F;
+    margin-top: 20px;
+    font-weight: bolder;
+}
+
+h5 {
+    padding-left: 30px;
+}
+
+.underline {
+    margin-top: 0px;
+}
+
+.justify-first-col {
+    padding: 20px;
+}
+
+.style-paragrafh {
+    margin-bottom: 10px;
+    color: #5b5e6d;
+}
+
+.input-email {
+    height: 35px;
+    border: 1px solid grey;
+}
+
+.btn-get-started {
+    border: 1px solid #192592;
+    color: white;
+    background-color: #192592;
+    padding: 7px 30px;
+    font-size: 15px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.over-logos {
+    text-align: center;
+}
+
+.over-logos a {
+    border: 1px solid #192592;
+    text-decoration: none;
+    padding: 10px 15px;
+    font-size: 12px;
+    border-radius: 4px;
+}
+
+.style-paragrafh-two {
+    margin: 40px 0;
+    color: #5b5e6d;
+}
+
+.col-margin {
+    padding: 10px;
+}
+
+.logos-section {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.logos-section img {
+    width: 200px;
+    padding: 20px;
+    align-items: center;
+}
+
+.grey-background {
+    background-color: #F4F3F4;
+    padding: 50px;
+}
+
+.try-it-section {
+    padding: 20px;
+}
+
+.try-it {
+    display: flex;
+    justify-content: space-between;
+}
+
+.list-section {
+    padding-top: 30px;
+}
+
+.list-section img {
+    width: 100px;
+    padding-left: 25px;
+    padding-bottom: 25px;
+}
+
+.list-section ul {
+    list-style: none;
+}
+
+.list-section a {
+    text-decoration: none;
+    color: #5b5e6d;
+}
+
+.list-align ul {
+    align-items: flex-start;
+}
+
+.footer {
+    display: flex;
+    background-color: #F4F3F4;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer ul {
+    list-style: none;
+    display: flex;
+    padding-top: 15px;
+}
+
+.footer a {
+    text-decoration: none;
+    color: #5b5e6d;
+    padding: 10px;
+    font-weight: bolder;
+}
+
+.footer img {
+    width: 30px;
+}
+
+.footer div {
+    display: flex;
+
+}
+
+.footer span {
+    color: #5b5e6d;
+    margin: 10px;
+}
+
+.language-picker {}
