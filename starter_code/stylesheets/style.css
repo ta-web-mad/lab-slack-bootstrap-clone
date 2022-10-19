@@ -5,3 +5,128 @@ main-titles dark-grey: #2C303F;
 paragraph grey: #5b5e6d;
 nav grey: #5b5e6d;
 */
+
+img {
+    width: 100%;
+}
+
+body {
+    background-color: white;
+}
+
+
+.logo {
+    width: 80px;
+}
+
+.button1 {
+    height: 60px;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.button2 {
+    background-color: #192592;
+    width: auto;
+    height: 60px;
+    text-align: left;
+    margin-bottom: 40px;
+}
+
+.sponsors {
+    background-color: #F4F3F4;
+    align-items: center;
+    text-align: center;
+    padding: 40px;
+}
+
+.sponsors img {
+    margin-top: 80px;
+    width: 200px;
+    justify-content: space-between;
+
+}
+
+.button3 {
+    color: #192592;
+    width: auto;
+    height: 60px;
+    text-align: center;
+    margin-bottom: 20px;
+    margin: 30px auto;
+}
+
+.trial {
+    margin-top: 50px;
+    justify-content: space-between;
+}
+
+@media screen and (min-width: 992px) {
+
+    .button1 {
+        display: none;
+    }
+
+}
+
+h5 {
+    font-weight: 600;
+}
+
+.footerElement {
+    color: grey;
+    text-decoration: none;
+}
+
+.pagFooter ul {
+    list-style: none;
+}
+
+.slackicon {
+    width: 200px;
+    margin-right: 60%;
+}
+
+.pagFooter article {
+    padding: 20px;
+}
+
+.navbar-collapse {
+    flex-basis: 100%;
+    flex-grow: 0;
+}
+
+.finalFooter {
+    background-color: rgb(246, 246, 246);
+    display: flex;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 40px;
+
+}
+
+.finalFooter .flag {
+    width: 20px
+}
+
+.finalFooter ul {
+    display: flex;
+    flex-direction: row;
+    align-items: right;
+    list-style: none;
+}
+
+.finalFooter li {
+    padding: 30px;
+    text-decoration: none;
+}
+
+.finalFooter language {
+    display: flex;
+}
+
+
+h6 {
+    font-size: 20px;
+    font-weight: 600;
+}
