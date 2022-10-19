@@ -5,3 +5,124 @@ main-titles dark-grey: #2C303F;
 paragraph grey: #5b5e6d;
 nav grey: #5b5e6d;
 */
+img {
+    width: 100%;
+}
+
+p {
+    color: #5b5e6d;
+
+}
+
+header {
+    padding: 20px;
+}
+
+h1 {
+    font-family: serif;
+    font-weight: 900;
+}
+h2 {
+    font-family: serif;
+    font-weight: 900;
+}
+
+.slackLogo {
+    max-width: 100px;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.nav {
+    display: flex;
+    color: #5b5e6d;
+    display: none;
+}
+
+.ul {
+    display: flex;
+    list-style: none;
+
+}
+
+.li {
+    margin-left: 10px;
+
+}
+
+header a {
+    color: #5b5e6d;
+    text-decoration: none;
+}
+
+.navicon {
+    width: 40px;
+}
+
+.slackIco {
+    width: 100px;
+    margin: 20px;
+    padding: 10px;
+}
+
+@media screen and (min-width: 700px) {
+    header .navicon {
+        display: none;
+    }
+
+    header .nav {
+        display: block;
+    }
+}
+
+.formButton {
+    margin: 10px;
+    color:  white;
+    background-color: #192592;
+    border-radius: 10px;
+}
+
+.discoverWhy {
+    border-style: solid;
+    border-radius: 5px;
+    border-color: blue;
+    color: blue;
+    padding: 10px 80px;
+    margin: 50px;
+    text-decoration: none;
+}
+
+.section2 article {
+    padding: 50px;
+    border-bottom-color:#b2b3b9 ;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+}
+
+.section3 {
+    margin-top: 20px;
+}
+.section3 a {
+    color: #5b5e6d;
+    text-decoration: none;
+}
+
+.section3 ul {
+list-style: none;
+}
+.footer {
+    display: flex;
+}
+
+.footer .ul {
+    display: flex;
+}
+.row {
+    align-items: baseline;
+    justify-content: space-between;
+}
