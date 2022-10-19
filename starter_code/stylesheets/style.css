@@ -5,3 +5,124 @@ main-titles dark-grey: #2C303F;
 paragraph grey: #5b5e6d;
 nav grey: #5b5e6d;
 */
+img {
+    width: 100%;
+}
+
+.menu {
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+}
+
+.logo {
+    width: 122px;
+
+
+}
+
+.navicon {
+
+    width: 20px;
+
+
+}
+
+.menu ul {
+    display: none;
+    margin: 0;
+    list-style: none;
+}
+
+.menu a {
+    color: #5b5e6d;
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+@media screen and (min-width: 990px) {
+
+
+
+    .menu .navicon {
+        display: none;
+    }
+
+    .menu ul {
+        display: flex;
+        margin: 0;
+        list-style: none;
+    }
+
+
+
+
+}
+
+.section-one {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.section-one h1 {
+    text-align: center;
+}
+
+.sect .col-md-6 h1 {
+    margin: 20px;
+}
+
+.buttonGetStar {
+    color: white;
+    background-color: #192592;
+    text-decoration: none;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    margin: 10px;
+    padding: 10px 0;
+    display: block;
+    width: 200px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.col-md-12 h5 {
+    font-size: 1em;
+}
+
+.buttonDiscover {
+    color: #192592;
+    background-color: white;
+    border: 1px solid #192592;
+    text-decoration: none;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    margin: 10px;
+    padding: 10px 0;
+    display: block;
+    width: 200px;
+    text-align: center;
+    border-radius: 10px;
+
+}
+
+.section-logos img {
+    padding: 20px;
+    width: 80%;
+    margin: 30px;
+}
+
+.col-6 li {
+    text-decoration: none;
+    list-style: none;
+}
+
+.col-md-12 img {
+    width: 20%;
+    ;
+}
