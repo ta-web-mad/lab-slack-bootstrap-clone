@@ -5,3 +5,109 @@ main-titles dark-grey: #2C303F;
 paragraph grey: #5b5e6d;
 nav grey: #5b5e6d;
 */
+img {
+    width: 100%;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px;
+    align-items: center;
+
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+
+}
+
+nav a {
+    text-decoration: none;
+    margin-left: 30px;
+    color: #5b5e6d
+}
+
+.nav-icon {
+    width: 72px;
+
+}
+
+.logo {
+    width: 100px;
+}
+
+.row a {
+    text-decoration: none;
+
+}
+
+.text-left {
+    padding-top: 30px;
+
+}
+
+.logos img {
+    display: flex;
+    align-items: center;
+    margin: 50px;
+}
+
+.fondo {
+    background-color: #F4F3F4;
+}
+
+.small {
+    font-size: x-small;
+    margin-top: 15px;
+}
+
+.button {
+    background-color: #192592;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+
+}
+
+.ico {
+    width: 50px;
+}
+
+.bottom ul {
+    list-style: none;
+
+}
+
+.discover {
+    background-color: white;
+    color: #192592;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    border: 1px solid #192592;
+
+}
+
+@media screen and (min-width: 768px) {
+    .row {
+        display: flex;
+        justify-content: center;
+    }
+
+    .logos img {
+        width: 50%;
+    }
+
+
+}
+
+@media screen and (min-width: 992px) {}
+
+@media screen and (max-width: 767px) {
+    .logos img {
+        width: 60%;
+    }
+}
