@@ -1,20 +1,171 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
 
-    <!-- link the font awesome CDN -->
-    <link href="https://use.fontawesome.com/releases/v5.0.1/css/all.css" rel="stylesheet"/>
+		<!-- link the font awesome CDN -->
+		<script src="https://kit.fontawesome.com/95602ce0dc.js" crossorigin="anonymous"></script>
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			crossorigin="anonymous"
+		/>
 
-    <!-- link your styles -->
-    <link rel="stylesheet" href="./stylesheets/style.css" />
-    <title>Where work happens | Slack</title>
-  </head>
+		<!-- link your styles -->
+		<link rel="stylesheet" href="./stylesheets/style.css" />
+		<title>Where work happens | Slack</title>
+	</head>
 
-  <body>
-   
-    
-  </body>
+	<body>
+		<header>
+			<img src="./images/slack-logo.png" alt="Slack logo" />
+			<div class="navicon d-lg-none">
+				<div></div>
+				<div></div>
+				<div></div>
+			</div>
+			<nav class="d-none d-lg-block">
+				<ul>
+					<li><a href="#">Why Slack?</a></li>
+					<li><a href="#">Pricing</a></li>
+					<li><a href="#">About Us</a></li>
+					<li><a href="#">Your Workspaces</a></li>
+				</ul>
+			</nav>
+		</header>
+		<main>
+			<div class="container">
+				<div class="row g-4 g-lg-6 justify-content-lg-between">
+					<div class="col-lg-6 order-1 order-lg-2">
+						<h1>Where Work Happens</h1>
+						<p>
+							When your team needs to kick off a project, hire a new employee, deploy some code, review a sales
+							contract, finalize next year's budget, measure an A/B test, plan your next office opening, and more, Slack
+							has you covered.
+						</p>
+						<form action="Submit">
+							<input class="d-lg-none" type="email" name="" id="" placeholder="Email address" />
+							<button class="start-btn" type="submit">Get Started</button>
+						</form>
+						<p class="signed-in">Already using Slack? <a href="#" class="signin-link">Sign in</a>.</p>
+					</div>
+					<div class="flex-justify col-lg-6 order-2 order-lg-1">
+						<img src="./images/home_talking.png" alt="Illustration" />
+					</div>
+				</div>
+			</div>
+		</main>
+		<section class="companies">
+			<div class="container">
+				<h2>You're in good company</h2>
+				<p>Millions of people around the world have already made Slack the place where their work happens.</p>
+				<a class="discover-btn" href="#">Discover why</a>
+				<div class="companies-logos row justify-content-center align-items-center">
+					<div class="flex-justify col-md-6 col-lg-4">
+						<img src="./images/airbnb-logo.png" alt="logo" />
+					</div>
+					<div class="flex-justify col-md-6 col-lg-4">
+						<img src="./images/capital-one-logo.png" alt="logo" />
+					</div>
+					<div class="flex-justify d-md-none d-lg-flex col-lg-4">
+						<img src="./images/harvard-logo.png" alt="logo" />
+					</div>
+					<div class="flex-justify d-md-none d-lg-flex col-lg-4">
+						<img src="./images/los-angeles-times-logo.png" alt="logo" />
+					</div>
+					<div class="flex-justify col-md-6 col-lg-4">
+						<img src="./images/oracle-logo.png" alt="logo" />
+					</div>
+					<div class="flex-justify col-md-6 col-lg-4">
+						<img src="./images/ticketmaster-logo.png" alt="logo" />
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="try">
+			<div class="container">
+				<div class="row align-items-center justify-content-lg-between">
+					<div class="col-lg-4">
+						<h3>Try ir for free</h3>
+						<p class="signed-in">Already using Slack? <a href="#" class="signin-link">Sign in</a>.</p>
+					</div>
+					<div class="submit-box-2 col-lg-2">
+						<form action="Submit">
+							<input class="d-lg-none" type="email" name="" id="" placeholder="Email adresss" />
+							<button class="start-btn" type="submit">Get Started</button>
+						</form>
+					</div>
+				</div>
+			</div>
+		</section>
+		<footer>
+			<div class="footer-linktree">
+				<div class="container">
+					<div class="row justify-content-md-between g-5">
+						<div class="col-md-2">
+							<img class="slack-icon" src="./images/Slack.ico" alt="Slack icon" />
+						</div>
+						<div class="link-section col-6 col-md-2 offset-lg-2">
+							<p class="link-category">Company</p>
+							<a href="#">About Us</a>
+							<a href="#">Careers</a>
+							<a href="#">Blog</a>
+							<a href="#">Press</a>
+							<a href="#">Brand Guidelines</a>
+						</div>
+						<div class="link-section col-6 col-md-2">
+							<p class="link-category">Product</p>
+							<a href="#">Why Slack?</a>
+							<a href="#">Enterprise</a>
+							<a href="#">Customer Services</a>
+							<a href="#">Pricing</a>
+							<a href="#">Security</a>
+						</div>
+						<div class="link-section col-6 col-md-2">
+							<p class="link-category">Resources</p>
+							<a href="#">Download</a>
+							<a href="#">Help Center</a>
+							<a href="#">Guides</a>
+							<a href="#">Partners</a>
+							<a href="#">Events</a>
+							<a href="#">App Directory</a>
+							<a href="#">API</a>
+						</div>
+						<div class="link-section col-6 col-md-2">
+							<p class="link-category">Extras</p>
+							<a href="#">Podcast</a>
+							<a href="#">Slack Shop</a>
+							<a href="#">Slack at Work</a>
+							<a href="#">Slack Fund</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="footer-important">
+				<div class="container">
+					<div class="row align-items-center justify-content-lg-between">
+						<div class="col-md-6 col-lg-5">
+							<ul class="footer-important-links flex">
+								<li><a href="#">Status</a></li>
+								<li><a href="#">Privacy & Terms</a></li>
+								<li><a href="#">Contact Us</a></li>
+							</ul>
+						</div>
+						<div class="flex-justify g-10 offset-md-1 col-md-3 offset-lg-2 col-lg-3">
+							<img src="./images/us-flag.png" alt="US Flag" />
+							<p class="fw-bold">English (US)</p>
+							<i class="fa-solid fa-chevron-down"></i>
+						</div>
+						<div class="flex-justify g-20 col-md-2 col-lg-2">
+							<i class="fa-brands fa-twitter"></i>
+							<i class="fa-brands fa-facebook-f"></i>
+							<i class="fa-brands fa-youtube"></i>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</body>
 </html>
