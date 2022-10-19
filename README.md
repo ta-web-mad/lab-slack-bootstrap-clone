@@ -30,7 +30,7 @@ Create Pull Request so your TAs can check up your work.
 
 You are provided with the basic files: HTML, CSS and required images.
 
-Also you will find  the `reference.pdf` file, where you can see in detail the expected composition for every size, matching `sm`, `md` and `lg` Bootstrap's breakpoints.
+Also you will find  the `reference.jpg` file, where you can see in detail the expected composition for every size, matching `sm`, `md` and `lg` Bootstrap's breakpoints.
 
 Reminder: **Mobile first!**
 
