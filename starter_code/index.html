@@ -8,13 +8,185 @@
     <!-- link the font awesome CDN -->
     <link href="https://use.fontawesome.com/releases/v5.0.1/css/all.css" rel="stylesheet"/>
 
+    <!-- link to bootstrap CSS -->
+    <link href='https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css' rel='stylesheet' integrity='sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi' crossorigin='anonymous'>
+
     <!-- link your styles -->
     <link rel="stylesheet" href="./stylesheets/style.css" />
     <title>Where work happens | Slack</title>
   </head>
 
   <body>
-   
-    
+
+    <!-- header -->
+
+    <header class="nav-bar">
+      <a href="#">
+        <img src="./images/slack-logo.png" alt="logo" class="logo">
+      </a>
+      <img src="./images/navicon.png" alt="navegation icon" class="navicon d-lg-none">
+      <nav class="d-none d-lg-block">
+        <ul>
+          <li><a href="#"></a>Why Slack?</li>
+          <li><a href="#"></a>Pricing</li>
+          <li><a href="#"></a>About Us</li>
+          <li><a href="#"></a>Your Workspaces</li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- section 1 -->
+
+    <section class="section1">
+      <div class="container">
+        <div class="row">
+          <img class="col-6 d-none d-lg-block" src="./images/home_talking.png" alt="home image">
+          <div class="col-lg-6">
+            <h1 class="my-3">Where Work Happens</h1>
+            <p class="my-2">When your team needs ti kick off a project, 
+            hire a new employee, deploy some code, review a sales contract,
+            finalize next year's budget, measure an A/B test, plan your next office opening,
+            and more, Slack has you covered.</p>
+            <div class="row">
+                <input type="email" class="col d-lg-none form-control my-2 p-3" id="exampleFormControlInput1" placeholder="Email address">
+                <button type="button" class="get-started-btn col-md-4 btn btn-primary my-2 p-3 text-uppercase">Get started</button>
+            </div>
+            <p class="my-2">Alredy using Slack? <a href="#">Sing in</a></p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- section 2 -->
+
+    <section class="section2 bg-light py-3 border-top">
+      <div class="container">
+        <div class="flex-nowrap">
+          <h2 class="text-center my-2 pt-5 fs-1">You're in googd company</h2>
+          <p class="text-center my-3 py-3 fs-4">Millions of people around the world have alredy made Slack
+            the place where theis work happens.
+          </p>
+          <div class="d-flex col my-3 justify-content-center">
+          <button type="button" class="discover-btn btn btn-primary py-4 px-5 text-uppercase">Discover why</button>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <img class="col col-md-6 col-lg-4 img-fluid p-5" src="./images/airbnb-logo.png" alt="airbnb logo">
+          <img class="col col-md-6 col-lg-4 img-fluid p-5" src="./images/capital-one-logo.png" alt="capital one logo">
+          <img class="col d-md-none d-lg-block col-lg-4 img-fluid p-5" src="./images/harvard-logo.png" alt="harvard logo">
+          <img class="col col-md-6 col-lg-4 img-fluid p-5" src="./images/los-angeles-times-logo.png" alt="los angeles times logo">
+          <img class="col col-md-6 col-lg-4 img-fluid p-5" src="./images/oracle-logo.png" alt="oracle logo">
+          <img class="col d-md-none d-lg-block col-lg-4 img-fluid p-5" src="./images/ticketmaster-logo.png" alt="tickermaster logo">
+        </div>
+      </div>
+    </section>
+
+    <!-- section 3 -->
+
+    <section class="section3">
+      <div class="container">
+        <div class="row text-center my-3 align-self-start">
+          <div class="col-md-6 col-lg align">
+            <h2>Try it for free</h2>
+            <p>Alredy using Slack? <a href="#">Sign in</a></p>
+          </div>
+          <div class="col-md-6 col-lg">
+            <div class="row">
+            <input type="email" class="col  d-lg-none form-control my-2 p-3" id="exampleFormControlInput1" placeholder="Email address">
+            <button type="button" class="get-started-btn col-md-4 btn btn-primary my-2 p-3 text-uppercase">Get started</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr>
+    </section>
+
+    <!-- section 4 -->
+
+    <section class="section4">
+      <div class="container">
+        <div class="row mt-5">
+          <!-- image -->
+          <a href="#" class="col-sm-12 col-md pb-5"><img src="./images/Slack.ico" alt="slack icon"></a>
+          <div class="d-sm-none d-lg-block col-1"></div>
+          <!-- company -->
+          <div class="col-md col-sm-6">
+            <ul>
+              <li><a href="#" class="text-uppercase font-weight-bold">Company</a></li>
+              <li><a href="#"></a>About us</li>
+              <li><a href="#"></a>Careers</li>
+              <li><a href="#"></a>Blog</li>
+              <li><a href="#"></a>Press</li>
+              <li><a href="#"></a>Brand Guidelines</li>
+            </ul>
+            <!-- product -->
+          </div>
+          <div class="col-md col-sm-6">
+            <ul>
+              <li><a href="#" class="text-uppercase font-weight-bold">Product</a></li>
+              <li><a href="#"></a>Why Slack?</li>
+              <li><a href="#"></a>Enterprise</li>
+              <li><a href="#"></a>Custumer Stories</li>
+              <li><a href="#"></a>Pricing</li>
+              <li><a href="#"></a>Security</li>
+            </ul>
+          </div>
+          <!-- Resources -->
+          <div class="col-md col-sm-6">
+            <ul>
+              <li><a href="#" class="text-uppercase font-weight-bold">Resources</a></li>
+              <li><a href="#"></a>Download</li>
+              <li><a href="#"></a>Help Center</li>
+              <li><a href="#"></a>Guides</li>
+              <li><a href="#"></a>Partners</li>
+              <li><a href="#"></a>Events</li>
+              <li><a href="#"></a>App Directory</li>
+              <li><a href="#"></a>API</li>
+            </ul>
+          </div>
+          <!-- Extras -->
+          <div class="col-md col-sm-6">
+            <ul>
+              <li><a href="#" class="text-uppercase font-weight-bold">Extras</a></li>
+              <li><a href="#"></a>Podcast</li>
+              <li><a href="#"></a>Slack Shop</li>
+              <li><a href="#"></a>Slack at Work</li>
+              <li><a href="#"></a>Slack Found</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer -->
+
+    <footer class="footer bg-light border-top">
+      <div class="container py-4">
+        <div class="row text-center">
+          <div class="col-sm-12 col-md-6 mb-3">
+          <nav>
+            <ul>
+              <li class="mx-1"><a href="#"></a>Status</li>
+              <li class="mx-1"><a href="#"></a>Privacy & Terms</li>
+              <li class="mx-1"><a href="#"></a>Contact Us</li>
+            </ul>
+          </nav>
+          </div>
+          <div class="col-md-5">
+          <div class="row text-center">
+          <div class="col-sm-12 col-md-6 mb-3">
+            <a href="#"> <img src="./images/us-flag.png" alt="us logo">English US</a>
+          </div>
+          <div class="col-sm-12 col-md-6">
+            <a href="#" class="mx-2"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"/></svg></i></a>
+            <a href="#" class="mx-2"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M504 256C504 119 393 8 256 8S8 119 8 256c0 123.78 90.69 226.38 209.25 245V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.28c-30.8 0-40.41 19.12-40.41 38.73V256h68.78l-11 71.69h-57.78V501C413.31 482.38 504 379.78 504 256z"/></svg></a>
+            <a href="#" class="mx-2"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z"/></svg></a>
+          </div>
+          </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
   </body>
 </html>
