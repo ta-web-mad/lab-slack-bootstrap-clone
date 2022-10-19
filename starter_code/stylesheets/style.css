@@ -5,3 +5,42 @@ main-titles dark-grey: #2C303F;
 paragraph grey: #5b5e6d;
 nav grey: #5b5e6d;
 */
+
+img {
+    width: 100%;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.slack-logo {
+    width: 100px;
+}
+
+.navicon {
+    width: 50px;
+}
+
+nav ul {
+    display: flex;
+    margin: 0;
+}
+
+nav li {
+    list-style: none;
+}
+
+nav a {
+    text-decoration: none;
+    margin-left: 15px;
+    text-align: center;
+    color: #5b5e6d;
+}
+
+.border-box {
+    border: 1px solid #5b5e6d;
+}
