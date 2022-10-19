@@ -16,6 +16,7 @@ h3 {
     font-family: serif;
 }
 
+
 .nav-menu {
     display: flex;
     justify-content: space-between;
@@ -52,6 +53,10 @@ h3 {
     margin-left: 20px;
 }
 
+h2 {
+    margin-top: 30px;
+}
+
 .section-1 {
     display: flex;
     margin-top: 30px;
@@ -71,11 +76,16 @@ h3 {
     background-color: #F4F3F4;
     padding: 40px;
     text-align: center;
+    margin-top: 33px;
 }
 
 .section-2 img {
     width: 100%;
     padding: 60px
+}
+
+.section-2 p {
+    margin-bottom: 40px;
 }
 
 .discover-button {
@@ -89,8 +99,8 @@ h3 {
 }
 
 .section-3 {
-    /* text-align: center; */
-    padding: 30px 0px;
+    justify-content: center;
+    padding: 62px 0px;
 }
 
 hr {
@@ -117,10 +127,6 @@ hr {
     width: 70px;
 }
 
-.section-4 h6 {
-    margin-top: 40px;
-}
-
 .section-4 a {
     color: #5b5e6d;
     padding: 10px;
@@ -128,6 +134,8 @@ hr {
 
 .section-4 ul {
     list-style: none;
+    color: #5b5e6d;
+    margin-top: 40px;
 }
 
 .email {
@@ -149,10 +157,17 @@ hr {
 .footer {
     background-color: #F4F3F4;
     padding: 40px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .footer a {
     color: #5b5e6d;
+    font-weight: 700;
+}
+
+.footer img {
+    width: 5%;
 }
 
 @media (min-width: 992px) {
