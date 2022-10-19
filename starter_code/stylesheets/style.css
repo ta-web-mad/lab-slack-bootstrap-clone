@@ -5,3 +5,177 @@ main-titles dark-grey: #2C303F;
 paragraph grey: #5b5e6d;
 nav grey: #5b5e6d;
 */
+
+img {
+    width: 100%;
+}
+
+h1,
+h2,
+h3 {
+    font-family: serif;
+}
+
+
+.nav-menu {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    border-bottom: 1px solid #F4F3F4;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    background-color: white;
+}
+
+.nav-menu img {
+    width: 100px;
+}
+
+.nav-menu .navicon {
+    width: 50px;
+}
+
+.nav-menu nav {
+    display: none;
+    margin-right: 20px;
+}
+
+.nav-menu ul {
+    display: flex;
+    list-style: none;
+    margin-bottom: 0px;
+}
+
+.nav-menu a {
+    color: #5b5e6d;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+h2 {
+    margin-top: 30px;
+}
+
+.section-1 {
+    display: flex;
+    margin-top: 30px;
+    padding-top: 150px;
+}
+
+.section-1 .log-in {
+    padding: 10px;
+    justify-content: center;
+}
+
+.sign-in-button {
+    margin-left: 5px;
+}
+
+.section-2 {
+    background-color: #F4F3F4;
+    padding: 40px;
+    text-align: center;
+    margin-top: 33px;
+}
+
+.section-2 img {
+    width: 100%;
+    padding: 60px
+}
+
+.section-2 p {
+    margin-bottom: 40px;
+}
+
+.discover-button {
+    background-color: white;
+    color: #4409cf;
+    border-radius: 5px;
+    text-transform: uppercase;
+    padding: 15px;
+    text-align: center;
+    border: 1px solid #4409cf;
+}
+
+.section-3 {
+    justify-content: center;
+    padding: 62px 0px;
+}
+
+hr {
+    margin: 0px;
+}
+
+.log-in {
+    display: flex;
+    color: #5b5e6d;
+}
+
+.sign-in-button {
+    color: #192592;
+    text-decoration: underline;
+}
+
+.section-4 {
+    /* display: flex; */
+    padding: 30px;
+    color: black;
+}
+
+.section-4 img {
+    width: 70px;
+}
+
+.section-4 a {
+    color: #5b5e6d;
+    padding: 10px;
+}
+
+.section-4 ul {
+    list-style: none;
+    color: #5b5e6d;
+    margin-top: 40px;
+}
+
+.email {
+    border: 2px solid #F4F3F4;
+    color: #5b5e6d;
+    padding: 15px 10px;
+}
+
+.get-started-button {
+    background-color: #4409cf;
+    color: white;
+    border-radius: 5px;
+    text-transform: uppercase;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+
+.footer {
+    background-color: #F4F3F4;
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer a {
+    color: #5b5e6d;
+    font-weight: 700;
+}
+
+.footer img {
+    width: 5%;
+}
+
+@media (min-width: 992px) {
+    .nav-menu nav {
+        display: block;
+    }
+
+    .nav-menu .navicon {
+        display: none;
+    }
+}
