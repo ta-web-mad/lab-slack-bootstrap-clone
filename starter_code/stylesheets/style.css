@@ -1,7 +1,198 @@
 /*
 background-grey: #F4F3F4;
-button-purple: #192592
 main-titles dark-grey: #2C303F;
 paragraph grey: #5b5e6d;
-nav grey: #5b5e6d;
 */
+
+img {
+    width: 100%;
+}
+
+.menu {
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+}
+
+.menu .logo {
+    width: 120px;
+}
+
+.menu .navicon {
+    width: 30px;
+}
+
+.menu ul {
+    display: flex;
+    margin: 0;
+    list-style: none;
+    color: #5b5e6d;
+}
+
+.menu a {
+    color: inherit;
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+.borderbox {
+    border: 1px solid;
+    display: block;
+}
+
+.buttonstart {
+    text-decoration: none;
+    letter-spacing: 2px;
+    background-color: #192592;
+    color: white;
+    text-transform: uppercase;
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding: 15px 0;
+}
+
+.intro {
+    padding: 20px;
+}
+
+h1 {
+    color: #2C303F;
+    font-size: 2em;
+    width: 70%;
+}
+
+.intro p {
+    color: #5b5e6d;
+}
+
+
+.buttondiscover {
+    text-decoration: none;
+    letter-spacing: 2px;
+    background-color: white;
+    color: #192592;
+    text-transform: uppercase;
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding: 15px 0;
+    border: 1px solid #192592;
+}
+
+.sponsor {
+    background-color: #F4F3F4;
+    padding: 30px;
+
+}
+
+.sponsor img {
+    padding: 50px;
+}
+
+.buttonfree {
+    text-decoration: none;
+    letter-spacing: 2px;
+    background-color: #192592;
+    color: white;
+    text-transform: uppercase;
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+    margin-right: 15px;
+}
+
+.start .email {
+    width: 100%;
+    padding: 10px;
+    margin: 25px 0;
+}
+
+
+.start p {
+    color: grey;
+}
+
+.footer {
+    list-style: none;
+    color: #5b5e6d;
+
+}
+
+.footer ul {
+    list-style: none;
+    align-items: center;
+}
+
+.footer a {
+    text-decoration: none;
+    color: #5b5e6d;
+}
+
+.contact ul {
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+    list-style: none
+}
+
+.contact a {
+    color: inherit;
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+.footer img {
+    width: 20%;
+}
+
+.start .email,
+.buttonfree {
+    text-align: center;
+    justify-content: center;
+
+
+}
+
+.contact {
+    display: flex;
+    background-color: #F4F3F4;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.contact ul {
+    list-style: none;
+    display: flex;
+    padding-top: 15px;
+}
+
+.contact a {
+    text-decoration: none;
+    color: #5b5e6d;
+    padding: 10px;
+    font-weight: bolder;
+}
+
+.contact img {
+    width: 30px;
+}
+
+.contact div {
+    display: flex;
+}
+
+.contact span {
+    color: #5b5e6d;
+    margin: 10px;
+
+}
+
+.icon-facebook,
+.icon-twitter,
+.icon-youtube {
+    margin: 10px;
+}
