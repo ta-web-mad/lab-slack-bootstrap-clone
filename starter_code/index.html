@@ -16,8 +16,8 @@
 
   <body>
     <header class="menu">
-      <a href="#">
-        <img class="slackLogo" src="./images/slack-logo.png" alt="slack logo">
+      <a class="slackLogo" href="#">
+        <img src="./images/slack-logo.png" alt="slack logo">
       </a>
       <nav class="nav">
         <ul class="ul">
@@ -42,8 +42,8 @@
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias veniam necessitatibus nulla ducimus expedita architecto
               </p>
               <form action="/some-url" method="post">
-                <input type="email" name="email" id="email" placeholder="Email Adress">
-                <button type="submit">Get Started</button>
+                <input type="email" name="email" id="email" placeholder="Email adress">
+                <button class="formButton" type="submit">Get Started</button>
               </form>
               <p>
                 Already using Slack? <a href="#">Sign in</a>
@@ -82,7 +82,7 @@
                 </article>
               </div>
               
-              <div class="col-md-6 col-lg-4">
+              <div class="col-md-6 col-lg-4 d-md-none d-lg-block">
                 <article>
                   <img src="./images/harvard-logo.png" alt="Logotipo de la Universidad de Harvard">
                 </article>
@@ -91,7 +91,7 @@
             
             <div class="row">
               
-              <div class="col-md-6 col-lg-4">
+              <div class="col-md-6 col-lg-4 d-md-none d-lg-block">
                 <article>
                   <img src="./images/los-angeles-times-logo.png" alt="Logotipo de Los Ángeles Times">
                 </article>
@@ -116,7 +116,7 @@
       <section class="section3">
         <div class="container">
           <div class="row">
-            <div class="col-6">
+            <div class="col-md-4">
               <h2>
                 Try it for free
               </h2>
@@ -125,7 +125,7 @@
               </p>            
             </div>
            
-            <div class="col-6">
+            <div class="col-md-8">
               <form action="/some-url" method="post">
                 <input type="email" name="email" id="email" placeholder="Email Adress">
                 <button type="submit">Get Started</button>
@@ -133,14 +133,11 @@
             </div>
           </div>
          
+          <article>
+            <img class="slackIco" src="./images/Slack.ico" alt="">
+          </article>
           <div class="row">
-            <div class="col-6">
-              <article>
-                <img class="slackIco" src="./images/Slack.ico" alt="">
-              </article>
-            </div>
-           
-            <div class="col-6">
+            <div class="col-6 col-md-3">
               <h3>
                 Company
               </h3>
@@ -153,7 +150,7 @@
               </ul>
             </div>
            
-            <div class="col-6">
+            <div class="col-6 col-md-3">
               <h3>
                 Product
               </h3>
@@ -166,7 +163,7 @@
               </ul>
             </div>
            
-            <div class="col-6">
+            <div class="col-6 col-md-3">
               <h3>
                 Resources
               </h3>
@@ -181,7 +178,7 @@
               </ul>
             </div>
            
-            <div class="col-6">
+            <div class="col-6 col-md-3">
               <h3>
                 Extras
               </h3>
@@ -202,7 +199,13 @@
     </main>
     
     <footer>
-
+      <div class="footer">
+        <ul>
+          <li><a href="#"></a>Status</li>
+          <li><a href="#">Privacy & Terms</a></li>
+          <li><a href="#">Contact Us</a></li>
+        </ul>
+      </div>
     </footer>
     
   </body>

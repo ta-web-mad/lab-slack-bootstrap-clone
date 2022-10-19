@@ -11,10 +11,24 @@ img {
 
 p {
     color: #5b5e6d;
+
+}
+
+header {
+    padding: 20px;
+}
+
+h1 {
+    font-family: serif;
+    font-weight: 900;
+}
+h2 {
+    font-family: serif;
+    font-weight: 900;
 }
 
 .slackLogo {
-    max-width: 300px;
+    max-width: 100px;
 }
 
 .menu {
@@ -27,7 +41,7 @@ p {
 .nav {
     display: flex;
     color: #5b5e6d;
-
+    display: none;
 }
 
 .ul {
@@ -51,32 +65,64 @@ header a {
 }
 
 .slackIco {
-    width: 200px;
+    width: 100px;
+    margin: 20px;
+    padding: 10px;
 }
 
-@media screen and (min-width: 500px) {
-    .header .navicon {
+@media screen and (min-width: 700px) {
+    header .navicon {
         display: none;
     }
 
-    .header .nav {
+    header .nav {
         display: block;
     }
 }
 
-.discoverWhy {
-    border-style: solid;
+.formButton {
+    margin: 10px;
+    color:  white;
+    background-color: #192592;
     border-radius: 10px;
-    border-color: blue;
-    color: blue;
-    padding: 10px 30px;
 }
 
+.discoverWhy {
+    border-style: solid;
+    border-radius: 5px;
+    border-color: blue;
+    color: blue;
+    padding: 10px 80px;
+    margin: 50px;
+    text-decoration: none;
+}
 
+.section2 article {
+    padding: 50px;
+    border-bottom-color:#b2b3b9 ;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+}
 
-@media screen and (min-width: 1500px) {
-    .hideColumn {
-        display: none;
-    }
+.section3 {
+    margin-top: 20px;
+}
+.section3 a {
+    color: #5b5e6d;
+    text-decoration: none;
+}
 
+.section3 ul {
+list-style: none;
+}
+.footer {
+    display: flex;
+}
+
+.footer .ul {
+    display: flex;
+}
+.row {
+    align-items: baseline;
+    justify-content: space-between;
 }
