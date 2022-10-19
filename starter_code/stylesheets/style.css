@@ -5,3 +5,74 @@ main-titles dark-grey: #2C303F;
 paragraph grey: #5b5e6d;
 nav grey: #5b5e6d;
 */
+
+img {
+    width: 100%;
+}
+.menu {
+    border-bottom: 1px solid #5b5e6d;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+}
+
+.menu .logo {
+    width: 180px;
+}
+
+.menu .navicon {
+    width: 30px;
+}
+
+.menu ul {
+    display: flex;
+    margin: 0;
+    list-style: none;
+    color: #5b5e6d;
+}
+
+.menu a {
+    color: inherit;
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+.hiro {
+    border-bottom: 1px solid #5b5e6d;
+} 
+
+.sponsors img {
+    width: 75%;
+    padding: 25px;
+    border-bottom: 1px solid #5b5e6d;
+}
+.sponsors button {
+    color: #192592;
+    border-radius: 5px;
+    border-color: #192592 ;
+    background-color: white;
+    margin-top: 30px;
+    padding: 15px;
+}
+
+.login {
+   display: flex;
+   justify-content: space-between;
+   padding: 100px;
+
+}
+
+button {
+    color: white;
+    border-radius: 5px;
+    border-color: #192592;
+    background-color: #192592;
+    margin-top: 30px;
+}
+
+.contact img {
+    width: 75px;
+    display: flex;
+    justify-content: space-between;
+}
