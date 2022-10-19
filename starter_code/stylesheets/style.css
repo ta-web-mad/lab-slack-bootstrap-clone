@@ -5,3 +5,235 @@ main-titles dark-grey: #2C303F;
 paragraph grey: #5b5e6d;
 nav grey: #5b5e6d;
 */
+
+img {
+    width: 100%;
+}
+
+        /* MENU */
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #5b5e6d;
+    padding: 10px;
+    align-items: center;
+}
+
+.menu .logo {
+    width: 80px;
+}
+
+.menu .navicon {
+    width: 20px;
+}
+
+.menu ul {
+    display: flex;
+    margin: 0px;
+    list-style: none;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #5b5e6d;
+    margin-right: 10px;
+}
+
+            /* SECTION 1  */
+
+.section-1 {
+    padding: 20px 0px;
+}
+
+.section-1 .button {
+    border: 1px solid #192592;
+    border-radius: 5px;
+    background-color: #192592;
+    text-align: center;
+    width: 100%;
+    display: block;
+    padding: 20px 0px;
+    margin: 10px 0px;
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 10px;
+    letter-spacing: 1px;
+}
+
+.section-1 .email {
+    width: 100%;
+    padding: 15px 0px;
+    margin: 10px 0px;
+}
+
+@media screen and (min-width: 992px) {
+
+    .section-1 input {
+        display: none;
+    }
+
+    .section-1 .button {
+    width: 200px;
+}
+
+.section-1 img {
+    width: 60%;
+}
+
+}
+
+@media screen and (min-width: 768px) {
+
+.section-1 .button {
+    border: 1px solid #192592;
+    border-radius: 5px;
+    background-color: #192592;
+    text-align: center;
+    width: 60%;
+    display: block;
+    padding: 20px 0px;
+    margin: 10px 0px;
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 10px;
+    letter-spacing: 1px;
+}
+
+.section-1 .email {
+    width: 60%;
+    padding: 15px 0px;
+    margin: 10px 0px;
+}
+
+}
+
+
+            /* SECTION 2 */
+
+.section-2 {
+    text-align: center;
+    background-color: #F4F3F4;
+    border: 2px solid lightgrey;
+    border-width: 2px 0px;
+    padding: 20px 0px;
+}
+
+.section-2 img {
+    width: 70%;
+    padding: 30px;
+}
+
+.section-2 .button {
+    border: 1px solid #192592;
+    border-radius: 5px;
+    background-color: white;
+    text-align: center;
+    width: 100%;
+    display: block;
+    padding: 20px 0px;
+    margin: 10px 0px;
+    text-transform: uppercase;
+    color: #192592;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 10px;
+    letter-spacing: 1px;
+}
+
+            /* SECTION 3 */
+
+.section-3 {
+    padding: 20px 0px;
+    border: 1px solid lightgrey;
+    border-width: 1px 0px;
+}
+
+.section-3 .button {
+    border: 1px solid #192592;
+    border-radius: 5px;
+    background-color: #192592;
+    text-align: center;
+    width: 100%;
+    display: block;
+    padding: 20px 0px;
+    margin: 10px 0px;
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 10px;
+    letter-spacing: 1px;
+}
+
+.section-3 .email {
+    width: 100%;
+    padding: 15px 0px;
+    margin: 10px 0px;
+}
+
+@media screen and (min-width: 768px) {
+
+    .section-3 h3, p {
+        text-align: left;
+    }
+
+}
+
+            /* SECTION 4 */
+
+.section-4 {
+    padding: 20px 0px;
+    border: 1px solid lightgrey;
+    border-width: 1px 0px;
+}
+
+.section-4 h4 {
+    text-transform: uppercase;
+    color: grey;
+}
+
+.section-4 img {
+    width: 60px;
+    margin: 30px 0px;
+}
+
+.section-4 ul {
+    padding: 0;
+}
+
+.section-4 li {
+    list-style: none;    
+    margin: 15px 0px;
+}
+
+.section-4 a {
+    text-decoration: none;
+    color: #5b5e6d;
+}
+
+            /* SECTION 5 */
+
+.section-5 {
+    padding: 20px 0px;
+    background-color: #F4F3F4;
+}
+
+.section-5 a {
+    text-decoration: none;
+    font-size: bolder;
+    color: #5b5e6d;
+}
+
+.section-5 article {
+    margin: 15px 0px;
+}
+
+.section-5 select {
+    border: none;
+    background-color: #F4F3F4;
+}
