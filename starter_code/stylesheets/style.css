@@ -15,6 +15,7 @@ img {
     justify-content: space-between;
     align-items: center;
     padding: 20px;
+    border-bottom: 0.7px solid #a2a2a2;
 }
 
 .slack-logo {
@@ -37,10 +38,5 @@ nav li {
 nav a {
     text-decoration: none;
     margin-left: 15px;
-    text-align: center;
     color: #5b5e6d;
-}
-
-.border-box {
-    border: 1px solid #5b5e6d;
 }
