@@ -128,9 +128,8 @@ footer{
    background-color: #f4f4f4;
    text-align: center;
    padding: 20px 20px;
-   color:#5b5e6d
-
-
+   color:#5b5e6d;
+   align-items: center;
 }
 
 footer ul{
@@ -139,6 +138,7 @@ footer ul{
    display: flex;
    justify-content: center;
    text-align: center;
+   align-items: center;
 
 }
 
@@ -151,10 +151,17 @@ footer li{
 }
 
 footer img{
-   width:50px;
+   width:35px;
    text-align: center;
 }
 
 .logo{
    width: 100px;
+}
+
+select option{
+   margin: 40px;
+      background: rgba(0, 0, 0, 0.3);
+      color: #fff;
+      text-shadow: 0 1px 0 rgba(0, 0, 0, 0.4);
 }
