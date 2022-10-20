@@ -5,3 +5,168 @@ main-titles dark-grey: #2C303F;
 paragraph grey: #5b5e6d;
 nav grey: #5b5e6d;
 */
+
+
+img{
+   width: 100%;
+}
+
+.padding{
+   padding: 20px 20px;
+}
+
+.flex-justify{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.button{
+   margin: 5px;
+   background-color: #192592;
+   text-transform: uppercase;
+   letter-spacing: 0.5px;
+}
+
+.button-2 {
+   margin: 5px;
+   background-color: #F4F3f4;
+   text-transform: uppercase;
+   letter-spacing: 0.5px;
+   color: #192592;
+   border: 1px solid #192592;
+}
+
+.menu{
+   display: flex;
+   justify-content: space-between;
+   padding: 20px 20px;
+   align-items: center;
+   border-bottom: 2.5px solid #5b5e6d;
+
+}
+
+.menu ul{
+   display: flex;
+   margin: 0px;
+   list-style-type: none;
+   align-items: center;
+}
+
+.menu a{
+   list-style-type: none;
+   margin-left: 20px;
+
+}
+
+.menu-button{
+   background-color: white;
+   border: 1px solid #5b5e6d;
+   color: black;
+   margin: 0px;
+}
+
+.logo{
+   width: 100px;
+}
+
+.navicon{
+   width: 40px;
+   margin: 0;
+}
+
+.form{
+   display: flex;
+   justify-content: center;
+}
+
+.form input{
+   border: 2.5px solid #192592;
+   border-radius: 5%;
+}
+
+.first-section{
+   display: flex;
+
+}
+
+.second-section{
+   background-color: #F4F3f4;
+   border-top: 2.5px solid black;
+
+}
+
+.second-section img{
+   padding: 30px 30px;
+
+}
+
+
+
+.third-section{
+   display: flex;
+   justify-content: space-between;
+   margin: 15px 15px;
+}
+
+.fourth-section img{
+   width: 100px;
+}
+
+.a-style{
+   list-style-type: none;
+   color: #5b5e6d;
+   text-decoration: none;
+}
+
+.signin-link{
+padding: 2.5px 2.5px;
+
+}
+
+footer{
+   background-color: #f4f4f4;
+   text-align: center;
+   padding: 20px 20px;
+   color:#5b5e6d;
+   align-items: center;
+}
+
+footer ul{
+   margin: 0px;
+   list-style: none;
+   display: flex;
+   justify-content: center;
+   text-align: center;
+   align-items: center;
+
+}
+
+footer li{
+   margin-left: 10px;
+   color:#5b5e6d;
+   text-align: center;
+   justify-content: center;
+
+}
+
+footer img{
+   width:35px;
+   text-align: center;
+}
+
+.logo{
+   width: 100px;
+}
+
+.select {
+   margin: 5px;
+   background: #F4F3f4;
+   color: #5b5e6d;
+   border: none;
+
+}
+
+.select option{
+   padding: 20px 20px;
+}
