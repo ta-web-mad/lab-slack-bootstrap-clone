@@ -5,3 +5,120 @@ main-titles dark-grey: #2C303F;
 paragraph grey: #5b5e6d;
 nav grey: #5b5e6d;
 */
+
+/* header */
+
+img{
+    width: 100%;
+}
+
+header {
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+}
+
+header .logo{
+    width: 20%;
+
+}
+header nav {
+    display: none;
+    background-color: #5b5e6d;
+}
+header ul{
+    list-style: none;
+    display: flex;
+    margin: 0;
+    
+}
+header ul li{
+    padding: 0 10px;
+  
+}
+header a{
+        color: inherit;
+        margin-left: 20px;
+        text-decoration: none;
+        
+        
+}
+
+/* section1  */
+.main-part h1{
+    color: #2C303F;
+
+}
+.main-part p{
+    color: #5b5e6d;
+}
+
+/* section2 */
+
+.img-list div{
+    padding: 20px 0;
+    border-bottom: 1px solid rgba(189, 187, 187,.3);
+
+}
+.img-list div img{
+    width: 45%;
+}
+
+/* section3 */
+.sec3,
+.sec5{
+        background-color: #F4F3F4;
+}
+
+/* section4 */
+.sec4,
+.sec4 h3{
+    font-size: 15px;
+
+}
+.sec4 h3{
+    font-weight: 700;
+}
+.icon-box img{
+    width: 10%;
+}
+
+.col2 ul{
+    list-style: none;
+}
+.col2 ul a{
+    text-decoration: none;
+    color: black;
+}
+
+/* section5 */
+.sec5-info{
+ 
+}
+.sec5-info>div{
+    padding: 10px 0;
+}
+.sec5-info ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.sec5-info  a{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+@media screen and (min-width: 992px) {
+    header .menu-icon {
+        display: none;
+    }
+
+    header nav {
+        display: block;
+    }
+}
