@@ -1,12 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
 
     <!-- link the font awesome CDN -->
-    <link href="https://use.fontawesome.com/releases/v5.0.1/css/all.css" rel="stylesheet"/>
+    <link href="https://use.fontawesome.com/releases/v5.0.1/css/all.css" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
 
     <!-- link your styles -->
     <link rel="stylesheet" href="./stylesheets/style.css" />
@@ -14,7 +17,164 @@
   </head>
 
   <body>
-   
-    
+    <header class="menu">
+
+      <a href="#">
+        <img src="./images/slack-logo.png" alt="logotipo" class="logo">
+      </a>
+      <img src="./images/navicon.png" alt="navicon" class="navicon">
+
+      <nav class="d-none d-lg-block">
+        <ul>
+          <li><a href="#">Why Slack?</a></li>
+          <li><a href="#">Pricing</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Your Workpaces</a></li>
+
+        </ul>
+      </nav>
+    </header>
+    <section class="firstPart">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 order-1 order-md-2">
+            <h1 class="text-center">Where Work happens</h1>
+            <p class="text-center">When your teem needs to kick off a project, hire a new employee, deploy some code ,
+              review a sales
+              contract, finalize next years budger, measure an A/B test, plan your next office opening, and more,
+              Slack has you covered</p>
+            <p><input type="text" name="email" /></p>
+            <a href="#" class="ButtonStarted">Get started</a>
+          </div>
+          <div class="col-md-6 order-2 order-md-1">
+            <img src="./images/home_talking.png" alt="happyPersons">
+          </div>
+        </div>
+      </div>
+
+      <section class="secondPart">
+        <div class="container">
+          <div class="info">
+            <h2 class="text-center">Your're in good company</h2>
+            <p class="text-center">Millions of people around the world have already made Slack the place where their
+              work happens.</p>
+            <a href="#" class="buttonDiscover">Discover Why?</a>
+          </div>
+          <div class="row">
+            <div class="col-sm-4 pading">
+              <img src="./images/airbnb-logo.png" alt="">
+            </div>
+            <div class="col-sm-4 pading">
+              <img src="./images/capital-one-logo.png" alt="">
+            </div>
+            <div class="col-sm-4 pading">
+              <img src="./images/harvard-logo.png" alt="">
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-sm-4 pading">
+              <img src="./images/los-angeles-times-logo.png" alt="">
+            </div>
+            <div class="col-sm-4 pading">
+              <img src="./images/oracle-logo.png" alt="">
+            </div>
+            <div class="col-sm-4 pading">
+              <img src="./images/ticketmaster-logo.png" alt="">
+            </div>
+          </div>
+        </div>
+      </section>
+
+    </section>
+    <section class="thirdpart">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <h3>Try it for free</h3>
+            <p>Already using Slack? <a href="#">Sig In</a></p>
+          </div>
+          <div class="col-md-6">
+
+            <input type="text" name="email2" />
+            <a href="#" class="ButtonStarted2">Get started</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="fourpart">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-3 imgSlak">
+            <img src="./images/iso-slack.png" alt="imgSlak">
+          </div>
+          <div class="col-6 col-sm-2">
+            <h5> COMPANY </h5>
+            <ul>
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">careers</a></li>
+              <li><a href="#">Blog</a></li>
+              <li><a href="#">Press</a></li>
+              <li><a href="#">Brand Guidelines</a></li>
+            </ul>
+
+          </div>
+          <div class="col-6 col-sm-2">
+            <h5>PRODUCT</h5>
+            <ul>
+              <li><a href="#">Why Slack?</a></li>
+              <li><a href="#">Enterprise</a></li>
+              <li><a href="#">Customer Stories</a></li>
+              <li><a href="#">Pricing</a></li>
+              <li><a href="#">Security</a></li>
+            </ul>
+          </div>
+          <div class="col-6 col-sm-2">
+            <h5>RESOURCES</h5>
+            <ul>
+              <li><a href="#">Download</a></li>
+              <li><a href="#">Help Center</a></li>
+              <li><a href="#">Guides</a></li>
+              <li><a href="#">Partners</a></li>
+              <li><a href="#">Events</a></li>
+              <li><a href="#">App Directory</a></li>
+              <li><a href="#">API</a></li>
+            </ul>
+          </div>
+          <div class="col-6 col-sm-2">
+            <h5>EXTRAS</h5>
+            <ul>
+              <li><a href="#">Podcast</a></li>
+              <li><a href="#">Slack Shop</a></li>
+              <li><a href="#">Slack at Work</a></li>
+              <li><a href="#">Slack Fund</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-7">
+            <ul>
+              <li><a href="#">Status</a></li>
+              <li><a href="#">Privacy & Terms</a></li>
+              <li><a href="#">Contact Us</a></li>
+            </ul>
+          </div>
+          <div class="col-md-2">
+            <img src="./images/EEUU.jpg" alt="EEUU">
+            <p class="text-center">English (US)</p>
+          </div>
+          <div class="col-md-2 ">
+            <img src="./images/twitter-black.png" alt="">
+            <img src="./images/facebook.jpg" alt="">
+            <img src="./images/instagram.png" alt="">
+          </div>
+        </div>
+    </footer>
+
   </body>
+
 </html>

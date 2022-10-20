@@ -5,3 +5,170 @@ main-titles dark-grey: #2C303F;
 paragraph grey: #5b5e6d;
 nav grey: #5b5e6d;
 */
+img {
+    width: 100%;
+}
+
+.menu {
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+}
+
+.menu .logo {
+    width: 180px;
+}
+
+.menu .navicon {
+    width: 30px;
+}
+
+.menu nav {
+    display: none;
+}
+
+.menu ul {
+    display: flex;
+    margin: 0;
+    list-style: none;
+}
+
+.menu a {
+    color: inherit;
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+@media screen and (min-width: 992px) {
+
+    .menu .navicon {
+        display: none;
+    }
+
+    .menu nav {
+        display: block;
+    }
+}
+
+.ButtonStarted {
+    color: white;
+    background-color: blue;
+    text-decoration: none;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    border: 1px solid blue;
+    margin: 50px 10px;
+    padding: 10px 0;
+    display: block;
+    width: 200px;
+    text-align: center;
+    margin: 50px auto
+}
+
+.ButtonStarted2 {
+    color: white;
+    background-color: blue;
+    text-decoration: none;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    border: 1px solid blue;
+    /* margin: 50px 10px; */
+    padding: 10px 0;
+    /* display: block; */
+    width: 400px;
+    text-align: center;
+}
+
+.buttonDiscover {
+    color: blue;
+    background-color: white;
+    text-decoration: none;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    border: 1px solid blue;
+    margin: 50px 10px;
+    padding: 10px 0;
+    display: block;
+    width: 200px;
+    text-align: center;
+    margin: 50px auto
+}
+
+.secondPart .info {
+    align-items: center;
+    align-content: center;
+
+}
+
+.secondPart {
+    background-color: #F4F3F4;
+}
+
+.thirdpart {
+    align-items: center;
+    text-align: center;
+}
+
+.pading {
+    padding: 30px;
+}
+
+.fourpart ul {
+    list-style: none;
+    text-decoration: none;
+}
+
+.fourpart a {
+    list-style: none;
+    text-decoration: none;
+    color: gray;
+}
+
+.imgSlak img {
+    width: 100px;
+}
+
+footer {
+    background-color: #F4F3F4;
+
+}
+
+footer a {
+    text-decoration: none;
+    list-style: none;
+    color: gray;
+    margin: 10px;
+}
+
+footer li {
+    list-style: none;
+    display: flex;
+}
+
+footer ul {
+    display: flex;
+}
+
+footer img {
+    width: 20px;
+    margin: 10px;
+}
+
+.firstpart {
+    margin-top: 30px;
+}
+
+.secondPart .info {
+
+    padding-top: 30px;
+    padding-inline: 30px;
+}
+
+.thirdpart {
+    margin-top: 20px;
+}
