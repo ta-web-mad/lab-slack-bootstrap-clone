@@ -107,7 +107,6 @@ header ul {
     display: flex;
     list-style: none;
     justify-content: space-between;
-    margin-inline-start: auto;
 }
 
 .list-two a {
@@ -116,6 +115,10 @@ header ul {
     list-style: none;
 }
 
+.icon a {
+    color: black;
+
+}
 
 
 @media screen and (min-width:992px) {}
