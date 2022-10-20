@@ -1,0 +1,215 @@
+/*
+background-grey: #F4F3F4;
+button-purple: #192592
+main-titles dark-grey: #2C303F;
+paragraph grey: #5b5e6d;
+nav grey: #5b5e6d;
+*/
+img {
+    width: 100%;
+}
+
+.row {
+    margin: 0;
+    padding: 0;
+}
+
+.logo {
+    width: 150px;
+}
+
+.navicon {
+    width: 30px;
+}
+
+nav ul {
+    margin: 0;
+    list-style: none;
+}
+
+nav li {
+    padding: 0px 10px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.nav-button {
+    padding: 7px 5px;
+    border: 1px solid black;
+}
+
+.button-form {
+    display: block;
+    background-color: #192592;
+    color: white;
+    padding: 20px 0px;
+    letter-spacing: 1px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.discover {
+    display: block;
+    background-color: white;
+    color: #192592;
+    padding: 20px 0px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    border: 1px solid #192592;
+    margin: 0px auto;
+
+}
+
+.slack-info * {
+    margin-top: 10px;
+}
+
+.form {
+    display: block;
+
+}
+
+.discover-section {
+    padding: 50px 0px;
+    background-color: #F4F3F4;
+
+}
+
+.brand {
+    display: flex;
+    justify-content: center;
+
+}
+
+.discover-section div * {
+    margin-top: 22px;
+}
+
+.discover-section div img {
+    padding: 20px;
+    width: 60%;
+    margin: auto;
+}
+
+.try-section {
+    padding: 50px 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.try-form {
+    margin-top: 20px;
+    width: 75%;
+}
+
+.try-form input {
+    width: 100%;
+}
+
+.try-form a {
+    margin-top: 10px;
+}
+
+@media screen and (max-width : 750px) {
+    footer {
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+
+    }
+
+    footer ul {
+        display: flex;
+    }
+
+    .socials {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media screen and (min-width : 750px) {
+    .try-section {
+        flex-direction: row;
+        text-align: left;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .try-form {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+
+    .try-form input {
+        width: 50%;
+    }
+
+    footer {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+
+}
+
+@media screen and (min-width : 1200px) {
+    .try-form input {
+        display: none;
+    }
+}
+
+ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.footer-section {
+    padding-top: 20px;
+
+}
+
+.footer-section ul li {
+    padding: 10px 0px;
+}
+
+.main-title {
+    text-transform: uppercase;
+    color: #2C303F;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+footer {
+    background-color: #F4F3F4;
+    display: flex;
+    padding: 10px;
+}
+
+footer ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+footer nav {
+    display: flex;
+}
+
+footer a {
+    padding: 10px;
+}
+
+.slack-icon {
+    width: 100px;
+}
