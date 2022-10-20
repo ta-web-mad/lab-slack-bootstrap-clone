@@ -5,3 +5,120 @@ main-titles dark-grey: #2C303F;
 paragraph grey: #5b5e6d;
 nav grey: #5b5e6d;
 */
+img {
+    width: 100%;
+}
+
+header li {
+    /* width: 100px; */
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 2%;
+}
+
+header a img {
+    width: 100px;
+}
+
+header a {
+    text-decoration: none;
+    list-style: none;
+    color: grey;
+}
+
+header ul {
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    justify-content: space-between;
+    margin-left: 20%;
+}
+
+.menu {
+    width: 30px;
+}
+
+.menu-link {
+    /* margin-left: 40%; */
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+}
+
+.bottom {
+    border-bottom: 1px;
+}
+
+.image-list div {
+    padding: 10%;
+    border-bottom: 1px solid rgb(167, 158, 158)
+}
+
+.image-list img {
+    width: 80%;
+    padding: 5px;
+}
+
+.iso-image {
+    width: 40%;
+
+}
+
+.link-list ul {
+    list-style: none;
+}
+
+
+.link-list a {
+    text-decoration: none;
+    color: rgb(167, 158, 158);
+    list-style: none;
+}
+
+.sec-one {}
+
+.button {
+    display: block;
+    width: 100%;
+    text-decoration: none;
+    background-color: #192592;
+    color: white;
+    text-align: center;
+    padding: 10px 0px;
+    border-radius: 5px;
+}
+
+.button-two {
+    display: block;
+    width: 100%;
+    text-decoration: none;
+    background-color: white;
+    color: #192592;
+    border: 1px solid #192592;
+    text-align: center;
+    padding: 10px 0px;
+    border-radius: 3px;
+}
+
+.list-two {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+}
+
+.list-two a {
+    text-decoration: none;
+    color: rgb(167, 158, 158);
+    list-style: none;
+}
+
+.icon a {
+    color: black;
+
+}
+
+
+@media screen and (min-width:992px) {}
