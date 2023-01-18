@@ -5,3 +5,66 @@ main-titles dark-grey: #2C303F;
 paragraph grey: #5b5e6d;
 nav grey: #5b5e6d;
 */
+
+img {
+    width: 100%;
+}
+
+section {
+    padding: 30px;
+    border-bottom: 1px solid #EEEEEE;
+}
+
+/* header */
+
+.menu {
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+}
+
+.logo {
+    width: 150px;
+}
+
+.navicon {
+    width: 30px;
+}
+
+nav ul {
+    display: flex;
+    margin: 0;
+    list-style: none;
+}
+
+nav a {
+    color: inherit;
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+/* getStarted */
+
+.homeImage {
+    margin: 20px auto;
+}
+
+/* sponsors */
+
+.sponsors {
+    background-color: #F6F6F6;
+}
+
+/* tryIt */
+
+/* footer */
+
+.slackIcon {
+    width: 80px;
+}
+
+.socialMediaLogo {
+    width: 30px;
+}
