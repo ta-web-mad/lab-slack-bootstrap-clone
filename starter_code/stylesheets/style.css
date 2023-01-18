@@ -5,3 +5,181 @@ main-titles dark-grey: #2C303F;
 paragraph grey: #5b5e6d;
 nav grey: #5b5e6d;
 */
+
+img {
+    width:100%;
+}
+
+header {
+    border-bottom: 1px solid #5b5e6d;
+}
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu .slack-logo {
+    width: 8em;
+}
+
+.menu .navicon {
+    width: 2em;
+}
+
+.menu ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+}
+
+.menu li {
+    margin-left: 0.5em;
+    padding: 0 0.2em;
+    font-size: 1em;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #5b5e6d;
+}
+
+.menu .workspace {
+    border: 1px solid black;
+    border-radius: 0.2em;
+    padding: 0.2em 0.4em;
+}
+
+.work-happens {
+    padding: 4em 2em 0 2em;
+}
+
+.work-happens h1 {
+    font-weight: 700;
+}
+
+.work-happens input {
+    border:1px solid #5b5e6d;
+    border-radius: 0.2em;
+    width: 100%;
+}
+
+.button-started {
+    text-decoration: none;
+    color: white;
+    background-color: #192592;
+    font-size: 1em;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight: 500;
+    border: 1px solid black;
+    border-radius: 0.2em;
+    display: block;
+    width:100%;
+    text-align: center;
+}
+
+.sponsor-section {
+    background-color: #F4F3F4;
+}
+
+.sponsor {
+    padding: 4em 2em 0 2em;
+    text-align: center;
+}
+
+.sponsor h2 {
+    font-weight: 700;
+    margin-bottom: 1em;
+}
+
+.sponsor .button-discover {
+    text-decoration: none;
+    color: #192592;
+    background-color: white;
+    font-size: 1.2em;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight: 600;
+    border: 1px solid #192592;
+    padding: 1em;
+    margin-top: 0.5em;
+    border-radius: 0.2em;
+    display: block;
+    text-align: center;
+    margin-top: 2em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.sponsor-img div {
+    border-bottom: 1px solid #5b5e6d;
+}
+
+.free {
+    border-bottom: 1px solid #5b5e6d;
+}
+
+.try-for-free {
+    padding: 4em 2em 0 2em;
+}
+
+.try-for-free input {
+    border:1px solid #5b5e6d;
+    border-radius: 0.2em;
+    width: 100%;
+}
+
+.footer-icon {
+    width: 150px;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: #5b5e6d;
+}
+
+.footer-titles {
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.footer-end {
+    background-color: #F4F3F4;
+    text-align: center;
+    padding: 3em;
+}
+
+.contact-bar ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+}
+.contact-bar ul li {
+    margin-left: 0.5em;
+    padding: 0 0.2em;
+    font-size: 1em;
+}
+.contact-bar ul li a {
+    text-decoration: none;
+    color:#5b5e6d;
+    font-weight: 700;
+}
+.us-flag {
+    width: 30px;
+}
+
+.social-media-bar {
+    color:#5b5e6d;
+}
+
+.social-media-bar span {
+    font-size: 150%;
+}
+
+.button-lenguages {
+    background-color: #F4F3F4;
+    border-color: #F4F3F4;
+    color:#5b5e6d;
+}
