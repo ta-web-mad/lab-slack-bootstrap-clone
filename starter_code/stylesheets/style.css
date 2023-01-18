@@ -5,3 +5,262 @@ main-titles dark-grey: #2C303F;
 paragraph grey: #5b5e6d;
 nav grey: #5b5e6d;
 */
+
+img {
+    width: 100%;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #afaeae;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    background-color: white;
+}
+
+.menu .logo {
+    width: 150px;
+}
+
+.menu .navicon {
+    width: 40px;
+}
+
+.menu .nav ul {
+    display: flex;
+    list-style: none;
+    margin: auto;
+}
+
+.menu .nav li a {
+    text-decoration: none;
+    color: #5b5e6d;
+    margin: auto;
+    margin-right: 10px;
+}
+
+.menu .nav .workspaces {
+    border-radius: 5%;
+    text-decoration: none;
+    color: #5b5e6d;
+    border: 1px solid black;
+    padding: 5px;
+}
+
+.work {
+    padding-top: 150px;
+    color: #5b5e6d;
+}
+
+.work h1 {
+    font-size: 3em;
+    margin-bottom: 25px;
+    font-weight: 700;
+    color: black;
+
+}
+
+.work p {
+    margin-bottom: 35px;
+}
+
+.email1 {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #5b5e6d;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.email2 {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #5b5e6d;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+
+.button1 {
+    width: 100%;
+    border-radius: 5px;
+    padding: 10px;
+    border: 0px;
+    background-color: #192592;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.button3 {
+    width: 100%;
+    border-radius: 5px;
+    padding: 10px;
+    border: 0px;
+    background-color: #192592;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.brands {
+    text-align: center;
+    background-color: #F4F3F4;
+    border-top: 1px solid #5b5e6d;
+    border-bottom: 1px solid #5b5e6d;
+    padding: 70px 0px;
+    color: #5b5e6d;
+}
+
+.brands h2 {
+    color: rgb(64, 64, 64);
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.brands p {
+    margin-bottom: 35px;
+}
+
+.button2 {
+    display: block;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #192592;
+    background-color: white;
+    border: 1px solid #192592;
+    border-radius: 5px;
+    padding: 15px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.brands img {
+    height: auto;
+    padding: 60px;
+}
+
+.try {
+    align-items: center;
+    text-align: center;
+    margin: 30px 0px;
+}
+
+.try h2 {
+    font-weight: 700;
+}
+
+footer {
+    border-top: 1px solid #5b5e6d;
+    color: #5b5e6d;
+    padding-top: 20px;
+}
+
+footer .iso {
+    width: 100px;
+}
+
+footer p {
+    margin-bottom: 10px;
+    font-weight: 600;
+    color: #484a55;
+}
+
+footer ul {
+    list-style: none;
+    padding-left: 0px;
+}
+
+footer li {
+    margin-bottom: 10px;
+}
+
+.finish {
+    background-color: #F4F3F4;
+    padding: 20px 0px;
+}
+
+.finish p {
+    margin-top: 10px;
+}
+
+.finish a {
+    color: #5b5e6d;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.finish img {
+    width: 20px;
+
+}
+
+.airbnb {
+    border-bottom: 1px solid grey;
+}
+
+.capital {
+    border-bottom: 1px solid grey
+}
+
+.harvard {
+    border-bottom: 1px solid grey
+}
+
+.angeles {
+    border-bottom: 1px solid grey
+}
+
+.oracle {
+    border-bottom: 1px solid grey
+}
+
+
+/*Media querry de medio a arriba*/
+
+@media screen and (min-width: 768px) {
+
+
+    .button2 {
+        width: 30%;
+    }
+
+    .email2 {
+        margin-bottom: 0px;
+    }
+
+    .button3 {
+        margin-bottom: 0px;
+    }
+
+
+    .oracle {
+        border: none;
+        border-right: 1px solid grey;
+    }
+
+    .airbnb {
+        border-right: 1px solid grey;
+    }
+
+}
+
+/*Media querry grande*/
+
+@media screen and (min-width:992px) {
+    .angeles {
+        border-bottom: none;
+        border-right: 1px solid grey;
+    }
+
+    .capital {
+        border-right: 1px solid grey;
+    }
+}
