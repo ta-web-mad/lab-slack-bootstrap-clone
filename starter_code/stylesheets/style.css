@@ -5,3 +5,95 @@ main-titles dark-grey: #2C303F;
 paragraph grey: #5b5e6d;
 nav grey: #5b5e6d;
 */
+img {
+    width: 100%;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: black;
+    text-decoration: none;
+    list-style: none;
+    border-bottom: solid;
+
+}
+
+.logoimage {
+    width: 100px;
+}
+
+.navicon {
+    width: 40px;
+    margin-right: 30px;
+    align-items: center;
+
+}
+
+.menu ul {
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+    color: black;
+
+
+
+}
+
+.menu ul li a {
+    list-style: none;
+    text-decoration: none;
+    color: black;
+    margin-left: 30px;
+    text-emphasis-color: black;
+}
+
+.button-purple {
+    color: white;
+    background-color: #192592;
+    margin-top: 10px;
+    justify-content: center;
+
+}
+
+.body {
+    font-family: sans-serif;
+}
+
+.home-talking {
+    width: 300px;
+}
+
+.button-white {
+    color: purple;
+    background-color: white;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 30px;
+
+}
+
+.try {
+    margin: 30px;
+    border-bottom: solid;
+    border-color: black;
+    padding-bottom: 50px;
+}
+
+.sponsors {
+    justify-content: center;
+    border-bottom: solid;
+    border: 5px;
+    margin-top: 50px;
+    padding-top: 50px;
+}
+
+.sponsors-background {
+    background-color: #F4F3F4;
+    padding-bottom: 40px;
+    justify-content: space-between;
+}
+
+
+@media screen and (min-width: 786px);
