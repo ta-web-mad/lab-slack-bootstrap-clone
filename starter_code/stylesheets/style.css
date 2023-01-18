@@ -5,3 +5,146 @@ main-titles dark-grey: #2C303F;
 paragraph grey: #5b5e6d;
 nav grey: #5b5e6d;
 */
+
+img {
+    width: 100%;
+}
+
+.menu {
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding: 10px;
+}
+
+.menu .logo {
+    width: 140px;
+}
+
+.menu .navicon {
+    width: 30px;
+    margin-right: 10px;
+}
+
+.menu ul {
+    display: flex;
+    margin: 0;
+    list-style: none;
+}
+
+.menu a {
+    color: inherit;
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+
+.hero {
+    padding-top: 20px;
+    margin: 20px;
+}
+
+.hero h1 {
+    font-size: 2.8em;
+    padding-bottom: 5px;
+    font-weight: bold;
+}
+
+.hero form {
+    width: 100%;
+
+}
+
+.hero input {
+    padding: 12px;
+
+}
+
+.hero button {
+    padding: 16px 115px;
+    background-color: #192592;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+
+.hero .already {
+    text-align: center;
+}
+
+.partners {
+    text-align: center;
+    padding-top: 65px;
+    padding-right: 35px;
+    padding-left: 35px;
+    padding-bottom: 50px;
+    margin-bottom: 40px;
+    background-color: #F4F3F4;
+}
+
+.partners h2 {
+    font-size: 1.7;
+    font-weight: bold;
+}
+
+.partners button {
+    text-transform: uppercase;
+    margin-bottom: 50px;
+    background-color: white;
+    color: #192592;
+    border-color: #192592;
+}
+
+.partners img {
+    width: 70%;
+    margin: 25px;
+}
+
+.tryfree {
+    text-align: center;
+    margin: 20px;
+}
+
+.tryfree h3 {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.tryfree input {
+    padding: 12px;
+}
+
+.tryfree button {
+    padding: 16px 115px;
+    background-color: #192592;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+
+.footermenu {
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 0;
+    padding: 10px;
+}
+
+.footermenu .slackicon {
+    width: 80px;
+}
+
+
+.footermenu ul {
+    display: flex;
+    margin: 0;
+    list-style: none;
+}
+
+.footermenu a {
+    color: inherit;
+    margin-left: 20px;
+    text-decoration: none;
+    font-size: 0.7em;
+}
