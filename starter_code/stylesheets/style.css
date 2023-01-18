@@ -5,3 +5,100 @@ main-titles dark-grey: #2C303F;
 paragraph grey: #5b5e6d;
 nav grey: #5b5e6d;
 */
+
+img {
+    width: 100%;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #bebebe;
+    padding: 10px 40px;
+    position: fixed;
+    width: 100%;
+    background-color: white;
+}
+
+.menu ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+}
+
+.menu li {
+    margin-right: 20px;
+}
+
+.menu .logo {
+    width: 150px;
+}
+
+.menu .navicon {
+    width: 30px;
+    filter: opacity(50%)
+}
+
+.first-section {
+    padding-top: 9em;
+}
+
+.first-section-input {
+    align-items: center;
+}
+
+.blue-button {
+    background-color: #192592;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.second-section {
+    background-color: #F4F3F4;
+    padding-top: 3em;
+}
+
+.second-section img {
+    height: auto;
+    padding: 60px;
+}
+
+.white-section-button {
+    background-color: white;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 2em;
+}
+
+.logo-border-line {
+    border-bottom: 2px solid #bebebe;
+    padding-bottom: 2em;
+    padding-top: 2em;
+}
+
+.second-section {
+    padding-top: 3em;
+}
+
+.third-section {
+    padding-top: 3em;
+}
+
+.third-section img {
+    width: 10%;
+}
+
+footer {
+    padding: 3em;
+    color: #5b5e6d;
+}
+
+footer a {
+    text-decoration: none;
+    color: #5b5e6d;
+}
+
+h4 {
+    margin-bottom: 1em;
+}
