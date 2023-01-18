@@ -5,16 +5,253 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
     <!-- link the font awesome CDN -->
     <link href="https://use.fontawesome.com/releases/v5.0.1/css/all.css" rel="stylesheet"/>
 
     <!-- link your styles -->
     <link rel="stylesheet" href="./stylesheets/style.css" />
+
     <title>Where work happens | Slack</title>
   </head>
 
   <body>
-   
     
+    <header>
+      
+      <div class="container">
+
+        <div>
+          <img class="slack-logo" src="./images/slack-logo.png" alt="slack logo">
+        </div>
+        
+        <div class="d-lg-none">
+          <img class="navicon" src="./images/navicon.png" alt="nav icon">
+        </div>
+
+        <div class="nav-bar d-none d-lg-block">
+          <ul>
+            <li><a href="#">Why Slack?</a></li>
+            <li><a href="#">Pricing</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a class="workspace" href="#">Your Workspaces</a></li>
+          </ul>
+        </div>
+
+      </div>
+      
+    </header>
+
+    <section class="hero">
+
+      <div class="container">
+
+        <div class="row">
+
+          <div class="col-lg-6 order-1 order-lg-2">
+
+            <h1>Where Work Happens</h1>
+            <p>When your team needs to kick off a project, hire a new employee, deploy some code, review a sales contract, finalize next year's budget, measure an A/B test, plan ypur next office opening, and more, Slack has you covered.</p>
+
+            <div class="row">
+
+              <div class="col-md-6 d-lg-none">
+                <input type="text" placeholder="Email adress">
+              </div>
+
+              <div class="col-md-3 col-lg-4">
+                <button class="button">Get started</button>
+              </div>
+            </div>
+
+            <p class="sign-in d-flex justify-content-md-start">Already using Slack?<a href="#">Sign in</a>.</p>
+
+          </div>
+
+          <div class="col-lg-6 order-2 order-lg-1 justify-content-center">
+
+            <figure>
+              <img src="./images/home_talking.png" alt="home talking">
+            </figure>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="sponsors">
+
+      <div class="container">
+
+        <h2>You're in good company</h2>
+        <p>Millions of people around the world have already made Slack the place where their work happens.</p>
+        <a class="btn btn-outline-dark d-grid d-md-inline" href="#">Discover Why</a>
+
+        <div class="container row sponsor-logos">
+
+          <figure class="col-md-6 col-lg-4 d-flex justify-content-center align-items-center airbnb">
+            <img src="./images/airbnb-logo.png\" alt="airbnb">
+          </figure>
+
+          <figure class="col-md-6 col-lg-4 d-flex justify-content-center align-items-center capital-one">
+            <img src="./images/capital-one-logo.png" alt="capital">
+          </figure>
+
+          <figure class="col-md-6 col-lg-4 d-flex d-md-none d-lg-flex justify-content-center align-items-center harvard">
+            <img src="./images/harvard-logo.png" alt="harvard">
+          </figure>
+
+          <figure class="col-md-6 col-lg-4 d-flex d-md-none d-lg-flex justify-content-center align-items-center los-angeles">
+            <img src="./images/los-angeles-times-logo.png" alt="losangelestimes">
+          </figure>
+
+          <figure class="col-md-6 col-lg-4 d-flex justify-content-center align-items-center oracle">
+            <img src="./images/oracle-logo.png" alt="oracle">
+          </figure>
+
+          <figure class="col-md-6 col-lg-4 d-flex justify-content-center align-items-center ticketmaster">
+            <img src="./images/ticketmaster-logo.png" alt="ticketmaster">
+          </figure>
+
+        </div>
+      </div>
+    </section>
+
+    <section class="try-it">
+      <div class="container">
+
+        <div class="row">
+
+          <div class="col-md-6 text-sm-center text-md-start">
+
+            <h3>Try it for free</h3>
+            <p class="sign-in">Already using Slack? <a href="#">Sign in</a>.</p>
+
+          </div>
+
+          <div class="col-md-6 d-md-flex align-items-center d-lg-block get-started">
+
+            <div class="row d-flex justify-content-end">
+
+              <div class="col-md-6 col-lg-4 d-lg-none">
+                <input type="text" placeholder="Email adress">
+              </div>
+
+              <div class="col-md-6 col-lg-4">
+                <button class="btn btn-outline-dark d-grid d-md-inline button">Get started</button>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="links">
+      <div class="container">
+
+        <div class="row">
+
+          <div class="col-md-2 col-lg-4 text-md-start">
+            <img src="./images/iso-slack.png" alt="slack icon">
+          </div>
+
+          <div class="col-md-10 col-lg-8">
+            <div class="row">
+              
+              <div class="col-6 col-md-3">
+                <h4>Company</h4>
+                <ul>
+                  <li><a href="#">About Us</a></li>
+                  <li><a href="#">Career</a></li>
+                  <li><a href="#">Blog</a></li>
+                  <li><a href="#">Press</a></li>
+                  <li><a href="#">Brand Guidelines</a></li>
+                </ul>
+              </div>
+
+              <div class="col-6 col-md-3">
+                <h4>Product</h4>
+                <ul>
+                  <li><a href="#">Why Slack?</a></li>
+                  <li><a href="#">Enterprise</a></li>
+                  <li><a href="#">Customer Stories</a></li>
+                  <li><a href="#">Pricing</a></li>
+                  <li><a href="#">Security</a></li>
+                </ul>
+              </div>
+
+              <div class="col-6 col-md-3">
+                <h4>Resources</h4>
+                <ul>
+                  <li><a href="#">Download</a></li>
+                  <li><a href="#">Help Center</a></li>
+                  <li><a href="#">Guides</a></li>
+                  <li><a href="#">Partners</a></li>
+                  <li><a href="#">Events</a></li>
+                  <li><a href="#">App Directory</a></li>
+                  <li><a href="#">API</a></li>
+                </ul>
+              </div>
+
+              <div class="col-6 col-md-3">
+                <h4>Extras</h4>
+                <ul>
+                  <li><a href="#">Podcast</a></li>
+                  <li><a href="#">Slack Shop</a></li>
+                  <li><a href="#">Slack at Work</a></li>
+                  <li><a href="#">Slack Fund</a></li>
+                </ul>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container">
+
+        <div class="row justify-content-md-between">
+
+          <div class="col-md-6">
+
+            <ul>
+              <li><a href="#">Status</a></li>
+              <li><a href="#">Privacy & Terms</a></li>
+              <li><a href="#">Contact Us</a></li>
+            </ul>
+
+          </div>
+
+          <div class="col-md-6 ">
+
+            <div class="row justify-content-end">
+              
+              <div class="col-md-6 d-flex english">
+                <img class="" src="./images/us-flag.png" alt="US flag">
+                <p>English (US)</p>
+                <a href="#"><img src="./images/chevron-down.svg" alt="chevron down"></a>
+              </div>
+
+              <div class="col-md-3 d-flex social-media">
+                <ul>
+                  <li><a href="#"><img src="./images/icons8-twitter-24.png" alt="twitter logo"></a></li>
+                  <li><a href="#"><img src="./images/icons8-youtube-play-24.png" alt="youtube logo"></a></li>
+                  <li><a href="#"><img src="./images/icons8-facebook-f-24.png" alt="facebook logo"></a></li>
+                </ul>
+              
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+    </footer>
+
   </body>
 </html>

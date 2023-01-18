@@ -5,3 +5,269 @@ main-titles dark-grey: #2C303F;
 paragraph grey: #5b5e6d;
 nav grey: #5b5e6d;
 */
+
+img {
+    width: 100%;
+}
+
+
+header {
+    border-bottom: 1px solid #F4F3F4;
+}
+
+header>div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.slack-logo {
+    width: 100px;
+}
+
+.navicon {
+    width: 60px;
+    opacity: 0.5;
+}
+
+.nav-bar > ul {
+    display: flex;
+    list-style: none;
+    margin-top: 10px;
+}
+
+.nav-bar a{
+    text-decoration: none;
+    color:#2C303F;
+    font-weight: 100;
+    margin-right: 30px;
+}
+
+.workspace {
+    border: 1px solid #2C303F;
+    border-radius: 5px;
+    padding: 8px 5px;
+}
+
+
+.hero {
+    margin-top: 30px;
+}
+
+h1 {
+    font-size: 60px;
+    color: #2C303F;
+}
+
+.hero p {
+    font-size: 18px;
+    font-weight: 100;
+}
+
+input {
+    width: 100%;
+    padding: 10px 15px;
+    margin-bottom: 10px;
+    border: 1px solid #2C303F;
+    border-radius: 5px;
+}
+
+.button {
+    width: 100%;
+    padding: 10px 15px;
+    color: white;
+    background-color: #192592;
+    border: none;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+
+.sign-in {
+    margin-top: 10px;
+    justify-content: center;
+}
+
+.sign-in a{
+    margin-left: 5px;
+}
+
+
+.sponsors {
+    background-color: #F4F3F4;
+    text-align: center; 
+    padding-bottom: 30px;
+    border-top: 1px solid #abaeb8;
+    border-bottom: 1px solid #abaeb8;
+}
+
+.sponsors h2 {
+    padding-top: 40px;
+    font-size: 40px;
+}
+
+.sponsors p {
+    margin-bottom: 40px;
+}
+
+.sponsors a{
+    background-color: white;
+    color: #192592;
+    padding: 15px 40px;
+    text-transform: uppercase;
+}
+
+.sponsor-logos {
+    margin-top: 60px;
+}
+
+.sponsor-logos figure {
+    height: 150px;
+    margin-bottom: 0;
+    padding: 20px;
+    align-content: center;
+}
+
+.sponsor-logos img {
+    width: 50%;
+}
+
+h3 {
+    margin-top: 40px;
+    font-weight: 300;
+}
+
+.try-it {
+    padding-bottom: 50px;
+    border-bottom: 1px solid #abaeb8;
+}
+
+
+.links img {
+    width: 100px;
+}
+
+h4 {
+    text-transform: uppercase;
+    color: #2C303F;
+    font-size: 15px;
+    font-weight: 300;
+    margin-top: 20px;
+}
+
+.links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.links a {
+    text-decoration: none;
+    color: #abaeb8;
+}
+
+footer {
+    background-color: #F4F3F4;
+}
+
+footer ul{
+    list-style: none;
+    display: flex;
+    margin-top: 15px;
+    justify-content: center;
+    padding: 0;
+}
+
+footer a {
+    text-decoration: none;
+    color:#2C303F;
+    font-size: 15px;
+    font-weight: 600;
+    margin-right: 10px;
+}
+
+footer img {
+    width: 20px;
+}
+
+.english {
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+}
+
+.english img{
+    height: 20px;
+}
+
+.english p{
+    margin: 0 5px;
+}
+
+.social-media {
+    display: flex;
+    justify-content: center;
+}
+
+.social-media img {
+    filter: grayscale(100%);
+}
+
+
+@media screen and (max-width: 768px) {
+    .airbnb {
+        border-bottom: 1px solid #abaeb8;
+    }
+    .capital-one {
+        border-bottom: 1px solid #abaeb8;
+    }
+    .harvard{
+        border-bottom: 1px solid #abaeb8;
+    }
+    .los-angeles{
+        border-bottom: 1px solid #abaeb8;
+    }
+    .oracle{
+        border-bottom: 1px solid #abaeb8;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width: 992px) {
+    .airbnb {
+        border-bottom: 1px solid #abaeb8;
+        border-right: 1px solid #abaeb8;
+    }
+    .capital-one {
+        border-bottom: 1px solid #abaeb8;
+    }
+    .oracle{
+        border-right: 1px solid #abaeb8;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .airbnb {
+        border-bottom: 1px solid #abaeb8;
+        border-right: 1px solid #abaeb8;
+    }
+    .capital-one {
+        border-bottom: 1px solid #abaeb8;
+        border-right: 1px solid #abaeb8;
+    }
+    .harvard{
+        border-bottom: 1px solid #abaeb8;
+    }
+    .los-angeles{
+        border-right: 1px solid #abaeb8;
+    }
+    .oracle{
+        border-right: 1px solid #abaeb8;
+    }
+
+    .get-started {
+        display: flex;
+        justify-content: space-between;
+    }
+    .get-started button {
+        margin-top: 50px;
+    }
+}
