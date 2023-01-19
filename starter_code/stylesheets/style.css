@@ -5,3 +5,147 @@ main-titles dark-grey: #2C303F;
 paragraph grey: #5b5e6d;
 nav grey: #5b5e6d;
 */
+img {
+    width: 100%;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #888888;
+    padding: 30px;
+}
+
+.menu .logo {
+    width: 100px;
+}
+
+
+.menu ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+}
+
+.menu li {
+    margin-left: 10px;
+}
+
+.menu a {
+    color: black;
+    text-decoration: none;
+}
+
+.section1 {
+    padding: 50px;
+}
+
+.section1 img {
+    padding: 15px;
+}
+
+.section1 button {
+    color: white;
+    background-color: rgb(42, 42, 170);
+    font-weight: 300px;
+    display: block;
+    width: 158px;
+    text-align: center;
+    border: none;
+}
+
+.section1 button a {
+    color: white;
+    text-decoration: none;
+}
+
+.section2 {
+    background-color: rgb(205, 201, 201);
+    padding: 30px;
+}
+
+.section2 {
+    text-align: center;
+}
+
+.section2 button {
+    color: rgb(42, 42, 170);
+    background-color: white;
+    font-weight: 300px;
+    border: 1px solid rgb(42, 42, 170);
+    display: block;
+    width: 158px;
+    margin: 0 auto;
+}
+
+.section2 a {
+    text-decoration: none;
+}
+
+.section2 img {
+    border-bottom: 1px solid rgb(143, 139, 139);
+    width: 300px;
+    padding: 50px;
+}
+
+.section3 {
+    padding: 50px;
+    border-bottom: 1px solid rgb(143, 139, 139);
+    text-align: center;
+}
+
+.section3 button {
+    color: white;
+    background-color: rgb(42, 42, 170);
+    font-weight: 300px;
+    display: block;
+    text-align: center;
+    border: none;
+    margin: 0 auto;
+}
+
+.section3 button a {
+    color: white;
+}
+
+.section3 a {
+    color: rgb(42, 42, 170);
+    text-decoration: none;
+}
+
+.section4 {
+    color: rgb(158, 155, 155);
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.section4 h3 {
+    font-size: 1.2em;
+}
+
+.section4 a {
+    text-decoration: none;
+    color: rgb(158, 155, 155);
+}
+
+
+
+
+
+
+.footer {
+    background-color: rgb(205, 201, 201);
+    padding-top: 20px;
+    text-align: center;
+}
+
+.footer a {
+    text-decoration: none;
+    color: gray;
+    font-weight: 500px;
+}
+
+.footer img {
+    width: 30px;
+}
