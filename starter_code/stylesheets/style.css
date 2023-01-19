@@ -5,3 +5,192 @@ main-titles dark-grey: #2C303F;
 paragraph grey: #5b5e6d;
 nav grey: #5b5e6d;
 */
+
+@import url(https://fonts.googleapis.com/css?family=Roboto+Condensed:400&subset=latin,latin-ext);
+
+body{
+    color: #46464d;
+    line-height: 1.3em;
+
+}
+img {
+    width: 100%;
+}
+nav{
+    display: flex;
+    align-items: center;
+    margin-right: 50px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    border-bottom: 1px rgb(105, 102, 102) solid;
+}
+
+.slack-logo{
+    width: 150px;
+    padding-left: 30px;
+}
+.navicon{
+    width: 50px;
+    margin-top: -1px;
+    margin-right: 7px
+}
+
+header ul{
+    display: flex;
+    list-style: none;
+    margin: 0;
+}
+
+header a{
+    text-decoration: none;
+    color: rgb(90, 86, 86);
+    padding: 20px;
+    font-size: 1.1em;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+.your-work-space-buttom{
+    border: 1px black solid;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.section-1{
+    padding-top: 150px;
+    border-bottom: 2px #c5c5c5 solid;
+    color: #3c3c42;
+    padding-bottom: 25px;
+}
+.section-1 h1{
+    font-family: serif;
+    font-size: 5em;
+    font-weight: 900;
+    letter-spacing: 0;
+    color: #35353a;
+}
+
+.email-address{
+    margin-bottom: 5px;
+    width: 100%;
+    padding: 5px 15px;
+    border: 1px darkgray solid;
+    border-radius: 5px;
+    font-size: 0.8em;
+    height: 44px;
+}
+
+.get-started-buttom{
+    background-color: #4646b7;
+    display: block;
+    border-radius: 5px;
+    color: white;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    margin-bottom: 15px;
+    margin-top: 5px;
+}
+
+.section-2{
+ background-color: #F4F3F4; 
+ padding: 40px;  
+ text-align: center;
+ font-size: 0.9em;
+}
+.section-2 img{
+    padding: 30px;
+    border-bottom: 1px #c5c5c5 solid ;
+    border-right: 1px #c5c5c5 solid;
+    margin: 3px;
+    
+
+}
+
+h2,
+h3
+{
+    font-family: serif;
+    color: #46464d;
+    font-size: 2em;
+    font-weight: 900;
+    padding: 20px 0;
+    
+}
+h2{
+    padding-bottom: 0;
+}
+
+.discover-why-buttom {
+    display: block;
+    color: #4646b7;
+    font-weight: 700;
+    background-color: white;
+    display: block;
+    border-radius: 5px;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    margin: 25px auto;
+    width: 200px;
+    border: 2px #4646b7 solid;
+}
+
+.section-3{
+    padding: 20px 0;
+    margin-bottom: 20px;
+    border-bottom: 2px #c5c5c5 solid;
+    border-top: 2px #c5c5c5 solid;
+}
+ul {
+    list-style: none;
+    padding-top: 20px ;
+}
+li {
+    padding: 5px 0;
+}
+h4{
+    text-transform: uppercase;
+    font-size: 0.9em;
+    font-weight: bold;
+}
+
+footer{
+    font-size: 0.8em;
+    
+}
+.slack-icon{
+    padding: 10px;
+    width: 50%;
+}
+
+.sub-footer{
+    background-color: #F4F3F4;
+}
+
+.sub-footer ul{
+    display: flex;
+    flex-direction: row;
+    padding-top: 5px;
+}
+.sub-footer li{
+    padding: 10px;
+}
+.sub-footer img{
+    width: 20px;
+}
+
+.bar {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
