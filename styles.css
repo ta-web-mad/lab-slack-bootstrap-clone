@@ -1,0 +1,173 @@
+img {
+    width: 100%;
+}
+
+body {}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    border-bottom: 1px darkgrey solid;
+    height: 80px;
+}
+
+.slack-logo {
+    width: 200px;
+}
+
+.navicon-logo {
+    width: 40px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    align-content: space-around;
+}
+
+nav ul li {
+    list-style: none;
+    margin-left: 10px;
+}
+
+nav ul li a {
+    color: darkgrey;
+    text-decoration: none;
+}
+
+.workspaces {
+    border: 1px darkgrey solid;
+    padding: 5px;
+    margin-right: 2px;
+}
+
+.menu hr {
+    color: darkgrey;
+}
+
+.hero {
+    padding-top: 100px;
+    border-bottom: 1px darkgrey solid;
+}
+
+.hero input {
+    margin-bottom: 10px;
+}
+
+.hero button {
+    background-color: #4347B0;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.good-company {
+    background-color: #F6F6F6;
+    border-bottom: 1px darkgrey solid;
+    padding-top: 20px;
+}
+
+.discover-why-link {
+    color: #4347B0;
+    border: 1px #4347B0 solid;
+    border-radius: 5px;
+    padding: 5px;
+    text-decoration: none;
+}
+
+.discover-why {
+    margin-bottom: 60px;
+}
+
+.airbnb-logo {
+    padding: 20px 50px 20px 50px;
+}
+
+.capital-one {
+    padding: 20px 50px 20px 50px;
+
+}
+
+.harvard {
+    padding: 20px 50px 20px 50px;
+}
+
+.los-angeles-times {
+    padding: 20px 50px 20px 50px;
+}
+
+.oracle {
+    padding: 20px 50px 20px 50px;
+}
+
+.ticketmaster {
+    padding: 20px 50px 20px 50px;
+}
+
+.get-started {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 10px;
+    border-bottom: 1px darkgrey solid;
+}
+
+.get-started button {
+    background-color: #4347B0;
+    color: white;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+.email-address {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.lists {
+    display: flex;
+}
+
+.starter-code-icon {
+    width: 50px;
+}
+
+.bottom {
+    background-color: #F6F6F6;
+    padding-top: 10px;
+}
+
+.eeuu {
+    width: 30px;
+}
+
+footer ul li {
+    list-style: none;
+    margin-left: auto;
+}
+
+footer a {
+    color: grey;
+    text-decoration: none;
+}
+
+h6 {
+    color: #3f3d3d;
+}
+
+.language {
+    width: 80%;
+}
+
+.facebook {
+    width: 30%;
+}
+
+.twiter {
+    width: 40%;
+}
+
+.youtube {
+    width: 30%;
+}
