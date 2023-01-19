@@ -1,0 +1,148 @@
+/*
+background-grey: #F4F3F4;
+button-purple: #192592
+main-titles dark-grey: #2C303F;
+paragraph grey: #5b5e6d;
+nav grey: #5b5e6d;
+*/
+
+/*
+font-family: 'Poppins', sans-serif;
+font-family: 'Judson', serif;
+*/
+
+img {
+    width: 100%;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+    color: #5b5e6d;
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Judson', serif;
+    line-height: 0.9em;
+    color: #2c303f;
+}
+
+h2 {
+    font-size: 2.5em;
+    ;
+}
+
+h3 {
+    font-size: 2em;
+}
+
+h1 {
+    font-size: 3.5em;
+    margin-bottom: 50px;
+}
+
+.menu {
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+    margin: 0 30px;
+}
+
+.menu .logo {
+    width: 130px;
+    margin: 0;
+}
+
+.menu .navicon {
+    width: 30px;
+}
+
+.menu ul {
+    display: flex;
+    margin: 0;
+    list-style: none;
+}
+
+.menu a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.menu nav {
+    margin-right: 10px;
+}
+
+.section-main {
+    border-bottom: 1px solid #ccc;
+    padding-top: 50px;
+}
+
+.main-paragraph {
+    font-size: 1.1em;
+}
+
+.add-margin {
+    margin-bottom: 20px;
+}
+
+.section-companies {
+    background-color: #F4F3F4;
+    border-bottom: 1px solid #ccc;
+    padding: 40px 0;
+}
+
+.section-companies img {
+    padding: 40px;
+}
+
+.section-try {
+    padding: 40px 0;
+}
+
+footer {
+    padding: 50px 0;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer img {
+    width: 70px;
+    margin-bottom: 40px;
+}
+
+.footer-titels {
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-top: 20px;
+}
+
+footer a {
+    text-decoration: none;
+    color: #5b5e6d;
+}
+
+footer ul {
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+    padding-left: 0;
+}
+
+footer li {
+    margin-right: 25px;
+}
+
+.grey-bck {
+    background-color: #F4F3F4;
+    font-size: 0.9em;
+}
+
+.footer-logo {
+    width: 32px;
+}
