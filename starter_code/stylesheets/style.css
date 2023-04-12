@@ -5,3 +5,220 @@ main-titles dark-grey: #2C303F;
 paragraph grey: #5b5e6d;
 nav grey: #5b5e6d;
 */
+
+img {
+    width: 100%;    
+}
+
+body{
+    font-family:'Roboto', sans-serif;
+}
+
+h1{
+     font-size: 1.5em;
+    font-weight: 700;
+}
+
+p{
+   font-weight: 300;
+    font-size: 0.7em;
+}
+
+
+/*----- NAV -------*/
+
+.menu {
+    border-bottom: 2px solid #ccc;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.menu img {
+    width: 50px;
+}
+
+.menu .navicon {
+    width: 30px;
+}
+
+.menu ul {
+    display: flex;
+    margin: 0;
+    list-style: none;
+}
+
+.menu a {
+    color: inherit;
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+
+/*----- FIRST SECTION -------*/
+
+.adress{
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    
+}
+
+.adress p{
+    
+    font-weight: 300;
+    color:#ccc;
+    margin: 0;
+    padding: 10px;
+    text-align: left;
+    font-size: 0.7em;
+}
+
+
+.main-section img{
+    margin-top: 20px;
+    
+}
+
+.discover-section{
+    background-color: #eaeaea;
+    text-align: center;
+    padding: 50px;
+}
+
+
+.discover-section p{
+    font-size: 0.7em;
+    font-weight: 300;
+    
+}
+
+.company-section{
+    background-color: #eaeaea;
+    text-align: center;
+}
+
+.company-section img{
+    width: 170px;
+    margin: 50px;
+}
+
+.sign-section{
+   
+    text-align: center;
+    font-size: 0.7em;
+    padding: 50px 0px;
+}
+
+
+
+
+/*----- BUTTONS -------*/
+
+
+.button-blue {
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+    background-color: #192592;
+    text-align: center;
+    padding: 12px;
+    display: block;
+    border-radius: 10px;
+    font-size: 0.7em;
+    
+    }
+
+.button-white{
+    color: #192592;
+    border: 1px solid #192592;
+    text-decoration: none;
+    font-weight: 700;
+    background-color: white;
+    text-align: center;
+    padding: 12px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px;
+    font-size: 0.7em;
+
+    width: 200px;
+}
+
+
+
+.info-section img{
+    width: 80px;
+    text-align: left;
+}
+
+.info-section ul{
+    list-style: none;
+}
+.info-section a{
+    text-decoration: none;
+    font-size: 0.7em;
+    color: grey;
+    font-weight: 300;
+}
+.info-section p{
+    color: grey;
+    font-weight: 700;
+}
+
+
+
+
+.nav-footer ul{
+    display: flex;
+    list-style: none;
+    margin: 0 auto;
+    
+}
+
+.nav-footer li{
+    margin-left: 10px;  
+}
+
+
+
+
+.footer-rrss{
+    background-color: grey;
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.section-rrss{
+    display: flex;
+}
+
+.rrss ul{
+    display: flex;
+}
+
+
+
+
+
+@media screen and (min-width: 770px) {
+    
+    .button {
+    width: 200px;
+    margin-top: 0px;
+      
+  }
+
+  p{
+    
+    font-size: 1em;
+  }
+
+  .sign-section h1{
+    text-align: left;
+}
+}
+
+
