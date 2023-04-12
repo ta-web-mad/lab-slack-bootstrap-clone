@@ -1,7 +1,346 @@
-/*
-background-grey: #F4F3F4;
-button-purple: #192592
-main-titles dark-grey: #2C303F;
-paragraph grey: #5b5e6d;
-nav grey: #5b5e6d;
-*/
+/* ////NAV BAR///////// */
+body {
+    font-family: sans-serif;
+}
+
+header img {
+    width: 120px;
+}
+
+header svg {
+    width: 40px;
+}
+
+.header-container {
+    display: flex;
+    padding: 40px;
+    justify-content: space-between;
+    border-bottom: solid 1px lightgray;
+}
+
+.navbar {
+    display: none;
+}
+
+.header-container ul {
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+
+}
+
+.header-container li a {
+    color: #2C303F;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+.nav-btn {
+    border: black solid 1px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+
+/* /////SECTION 2/////// */
+.section-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.section-2 p {
+    color: #2C303F;
+    font-size: 1.2em;
+}
+
+.article-1 h1 {
+    font-size: 3.5em;
+}
+
+.img2 {
+    width: 100%
+}
+
+.img2-container {
+
+    align-items: center;
+}
+
+
+
+.form {
+    padding: 20px;
+    margin: 10px;
+
+
+}
+
+.form a {
+    display: block;
+    background: #192592;
+    text-align: center;
+    padding: 20px;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    margin-top: 10px;
+    white-space: nowrap;
+}
+
+.form-input {
+    border-radius: 5px;
+    width: 100%;
+    padding: 20px;
+    outline: none;
+    color: #2C303F;
+    margin-bottom: 20px;
+
+
+}
+
+.text2 {
+    text-align: center;
+    color: #2C303F;
+}
+
+/* ////SECTION 3 //////////// */
+.logos {
+    width: 100%;
+    padding: 60px;
+    margin-top: 20px;
+
+}
+
+.section-3 {
+    padding: 40px;
+    background-color: #F4F3F4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border-bottom: lightgray solid 1px;
+
+
+}
+
+.articulo-2 h2 {
+    font-weight: 800;
+    color: #2C303F;
+
+}
+
+.articulo-2 p {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    font-size: 1.2em;
+    color: #5b5e6d;
+}
+
+.articulo-2 a {
+    border: 1px solid black;
+    padding: 25px;
+    text-decoration: none;
+    color: #192592;
+    font-weight: 700;
+    background-color: white;
+    border-radius: 5px;
+
+
+}
+
+.section-4 {
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.text2 {
+    margin-top: 15px;
+}
+
+/* ////SECTION 5////////// */
+.section-5 {
+
+    border-top: solid 1px lightgray;
+
+}
+
+.col-6 a {
+    display: block;
+    padding: 10px;
+}
+
+.col-6 h2 {
+    margin-top: 10px;
+}
+
+
+.section-5 h2 {
+    color: #2C303F;
+    font-size: 1.1em;
+    font-weight: 600;
+}
+
+.section-5 a {
+    text-decoration: none;
+    color: #5b5e6d;
+
+}
+
+/* ////FOOTER/////////// */
+footer .rss img {
+    width: 30px;
+}
+
+footer {
+    background-color: #F4F3F4;
+    padding: 15px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.info {
+    display: block;
+}
+
+footer a {
+    text-decoration: none;
+    color: #2C303F;
+    font-weight: 600;
+}
+
+.info,
+.rss {
+    margin: 25px;
+
+}
+
+.lang {
+    margin: 25px;
+}
+
+/* //////////// MEDIAQUERIES/////// */
+
+@media (min-width: 768px) {
+
+    .header-container img {
+        width: 130px;
+    }
+
+    .header-container svg {
+        width: 50px;
+    }
+
+    .form a {
+        display: inline;
+
+        width: 40%;
+    }
+
+    .form-input {
+        width: 60%;
+    }
+
+    .text2 {
+        text-align: left;
+
+    }
+
+    .section-4 {
+        display: flex;
+        padding: 40px;
+        width: 100%;
+        align-items: center;
+        text-align: center;
+
+
+    }
+
+    .section-4 a {
+        width: 50%;
+    }
+
+    .section-4 input {
+        width: 50%;
+    }
+
+    .section-4 form {
+        width: 100%;
+    }
+
+    .section-4 h2 {
+        font-size: 1.7em;
+        font-weight: 600;
+        color: #2C303F;
+    }
+
+    .section-4 p {
+        font-size: 1.2em;
+        color: #5b5e6d;
+    }
+
+    .info {
+        display: flex;
+
+    }
+
+    .info a {
+        margin-left: 20px;
+    }
+
+
+
+    .rss {
+        display: flex;
+        align-items: center;
+    }
+
+    .rss img {
+
+        margin-left: 15px;
+
+
+    }
+
+    .logo-3 {
+        width: 20px;
+        height: 30px;
+    }
+
+
+    footer {
+        display: flex;
+        justify-content: space-between;
+    }
+
+
+
+    @media (min-width: 1200px) {
+        .navbar {
+            display: flex;
+        }
+
+        header svg {
+            display: none;
+        }
+
+        .form-input {
+            display: none;
+        }
+
+        .section-4 {
+            justify-content: space-between;
+        }
+
+        .form {
+            padding: 0px;
+            margin: 0px;
+
+
+        }
+
+    }
