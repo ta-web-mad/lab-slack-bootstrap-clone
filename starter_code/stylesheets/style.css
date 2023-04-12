@@ -81,10 +81,15 @@ input {
     margin-top: 1rem;
 }
 
+.sec2 {
+    margin-bottom: 50px;
+}
+
 /*Section3*/
 
 .links {
     margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .links img {
