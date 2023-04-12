@@ -5,3 +5,240 @@ main-titles dark-grey: #2C303F;
 paragraph grey: #5b5e6d;
 nav grey: #5b5e6d;
 */
+
+body {
+    background-color: white;
+}
+
+.padding {
+    padding: 0 20px;
+}
+
+/* NAV BAR */
+
+header{
+    background-color: white;
+    width: 100%;
+}
+
+.menu {
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #999999;
+    padding: 10px;
+}
+
+.menu .logo {
+    width: 100px;
+}
+
+.menu .navicon {
+    width: 30px;
+}
+
+.menu nav {
+    display: none;
+}
+
+.menu ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+}
+
+.menu li {
+    margin-left: 10px;
+}
+
+.menu a {
+    color: black;
+    text-decoration: none;
+}
+
+
+/* SECTION 1 */
+
+.section1 {
+    padding-top: 100px;
+    background-color: white;
+}
+
+.section1 img {
+    width: 100%;
+}
+
+.section1 h1 {
+    font-size: 2em;
+    margin: 20px;
+}
+
+.section1 p {
+    font-size: 0.8em;
+    margin: 20px;
+}
+
+.section1 .get-started-button {
+    margin: 20px;
+    border: 1px solid grey;
+    border-radius: 3px;
+    padding: 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    background-color: #192592;
+    font-size: 0.8em;
+    display: block;
+    text-align: center;
+}
+
+
+
+
+/* SECTION 2 */
+
+.section2 {
+    background-color: #F4F3F4;
+    padding: 60px 20px;
+}
+
+.section2 img {
+    width: 80%;
+    margin: 40px;
+}
+
+.section2 .discover-why-button {
+    padding: 10px;
+    background-color: white;
+    color: #192592;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    border: 1px solid #192592;
+    display: block;
+    margin: 20px;
+    border-radius: 3px;
+}
+
+
+
+
+/* SECTION 3 */
+
+.section3 {
+    padding: 40px 20px;
+}
+
+.section3 h3 {
+    font-size: 1.5em;
+}
+
+.section3 p {
+    font-size: 0.8em;
+}
+
+.section3 .get-started-button {
+    margin: 20px;
+    border: 1px solid #0f175f;
+    border-radius: 3px;
+    padding: 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    background-color: #192592;
+    font-size: 0.8em;
+    display: block;
+    text-align: center;
+}
+
+
+
+
+/* SECTION 4 */
+
+.section4 {
+    border-top: 1px solid #F4F3F4;
+}
+
+.section4 h4 {
+    text-transform: uppercase;
+    font-size: 0.9em;
+}
+
+.section4 ul {
+    list-style: none;
+    margin-bottom: 30px;
+    padding: 0;
+}
+
+.section4 a { 
+    text-decoration: none;
+    text-transform: none;
+    color: grey;
+    font-size: 0.8em;
+}
+
+
+
+@media screen and (min-width: 1200px) {
+    .menu nav {
+        display: block;
+    }
+
+    .menu .navicon {
+        display: none;
+    }
+}
+
+
+@media screen and (min-width: 768px) {
+    
+    .section1 input {
+        justify-content: center;
+        width: 50%;
+        margin-left: 20px;
+    }
+
+    .section1 .get-started-button {
+        display: inline;
+    }
+
+    .section2 .discover-why-button {
+        margin: 0 250px;
+    }
+
+    .section3 .get-started-button {
+        display: inline;
+    }
+
+    .section4 {
+        padding-top: 30px;
+    }
+
+    .section4 img {
+        width: 50%;
+    }
+
+}
+
+@media screen and (min-width: 1024px) {
+    
+    .section1 h1 {
+        font-size: 3em;
+    }
+
+    .section1 .get-started-button {
+        display: block;
+        margin: 0 80px 0 20px;
+        width: 120px;
+    }
+
+    .section1 input {
+        display: none;
+    }
+
+    .section3 .get-started-button {
+        margin: 0;
+    }
+}    
