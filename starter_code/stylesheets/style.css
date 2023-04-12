@@ -5,3 +5,144 @@ main-titles dark-grey: #2C303F;
 paragraph grey: #5b5e6d;
 nav grey: #5b5e6d;
 */
+img {
+    width: 100%;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-right: 30px;
+    position: fixed;
+    width: 100%;
+    background-color: white;
+}
+
+.box {
+    border: 2px;
+}
+
+.menu-nav {
+    padding-right: 0px;
+}
+
+.navicon {
+    width: 40px;
+    /* padding-left: 30px; */
+}
+
+.menu-slacklogo {
+    /* background-image: url("../images/slack-logo.png"); */
+    width: 150px;
+}
+
+.menu ul {
+    display: flex;
+    list-style: none;
+    /* text-decoration: none; */
+    /* padding-right: 150px; */
+}
+
+.get-started {
+    padding-top: 100px;
+    align-items: center;
+}
+
+.button {
+    color: grey;
+    text-decoration: none;
+    border-radius: 5px;
+    border: 1px solid grey;
+    /* text-align: left; */
+    padding: 20px 50px;
+    margin: 0 auto;
+    display: block;
+    width: 250px;
+
+}
+
+.button2 {
+    color: white;
+    background-color: rgb(44, 44, 190);
+    text-decoration: none;
+    font-weight: 700;
+    border-radius: 5px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px 50px;
+    display: block;
+    width: 250px;
+
+}
+
+.button3 {
+    color: rgb(44, 44, 190);
+    background-color: white;
+    border: 1px solid grey;
+    text-decoration: none;
+    font-weight: 700;
+    border-radius: 5px;
+    text-align: center;
+    /* display: block; */
+    margin: 100px 50px;
+    padding: 20px 50px;
+    width: 250px;
+
+}
+
+.discover-why {
+    align-items: center;
+    /* margin-bottom: 600px; */
+}
+
+.hola {
+    /* margin-bottom: 100px; */
+}
+
+.discover-why {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    text-align: center;
+}
+
+
+.logos {
+    /* margin: 15px 10px; */
+    padding-left: 60px;
+    width: 80%;
+    margin-bottom: 15px;
+    /* padding: 50px; */
+}
+
+.try {
+    text-align: center;
+}
+
+.info {
+    display: flex;
+
+}
+
+.info ul {
+    list-style: none;
+    text-decoration: none;
+}
+
+.info a {
+    text-decoration: none;
+    color: grey
+}
+
+.info img {
+    width: 150px;
+    /* padding-right: 50px; */
+}
+
+.strong {
+    font-weight: 900;
+}
