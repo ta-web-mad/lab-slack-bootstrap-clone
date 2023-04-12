@@ -5,3 +5,207 @@ main-titles dark-grey: #2C303F;
 paragraph grey: #5b5e6d;
 nav grey: #5b5e6d;
 */
+img {
+    width: 100%;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    background-color: #F4F3F4;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+}
+
+.menu .logo {
+    width: 100px;
+}
+
+.menu nav {
+    display: none;
+}
+
+.menu ul {
+    list-style: none;
+    display: flex;
+}
+
+.menu .navicon {
+    margin: 0 auto;
+}
+
+.menu li {
+    margin: 20px;
+}
+
+.menu a {
+    color: black;
+    text-decoration: none;
+}
+
+.button-menu {
+    border: solid black 1px;
+    padding: 5px;
+}
+
+@media screen and (min-width: 768px) {
+    .menu nav {
+        display: block;
+    }
+
+    .menu .navicon {
+        display: none;
+    }
+
+    .get-start {
+        display: flex;
+        justify-content: space-around;
+        width: 60%;
+    }
+
+    .companies-section a {
+        width: 50px;
+    }
+
+    .get-start2 {
+        display: flex;
+        justify-content: space-around;
+        width: 60%;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .first-section input {
+        display: none;
+    }
+
+    .companies-section a {
+        width: 50px;
+
+    }
+
+    .try-section input {
+        display: none;
+    }
+}
+
+.first-section {
+    padding-top: 100px;
+}
+
+.start-button {
+    color: white;
+    background-color: #192592;
+    text-decoration: none;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    text-align: center;
+    padding: 10px 20px;
+    display: block;
+    width: 100%;
+    margin: 20px 0;
+}
+
+.first-section input {
+    width: 100%;
+}
+
+.companies-section a {
+    color: #192592;
+    background-color: transparent;
+    border: solid 1px black;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: block;
+    width: 80%;
+    text-align: center;
+    margin: 50px auto;
+    padding: 10px;
+}
+
+.companies-section {
+    background-color: #F4F3F4;
+    margin-bottom: 40px;
+}
+
+.companies-section h2 {
+    text-align: center;
+    padding-top: 50px;
+}
+
+.companies-section p {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.companies-section .img-box {
+    border: solid grey 1px;
+}
+
+.companies-section img {
+    width: 60%;
+    padding: 10px;
+    display: flex;
+    text-align: center;
+    margin: 30px auto;
+
+}
+
+.start-button2 {
+    color: white;
+    background-color: #192592;
+    text-decoration: none;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    text-align: center;
+    padding: 10px 20px;
+    display: block;
+    width: 100%;
+    margin: 20px 0;
+}
+
+.try-section {
+    margin-bottom: 40px;
+}
+
+.resume-section img {
+    width: 200px;
+}
+
+.resume-section a {
+    color: black;
+    text-decoration: none;
+}
+
+.resume-section ul {
+    list-style: none;
+}
+
+footer ul {
+    list-style: none;
+    display: flex;
+}
+
+footer li {
+    margin: 10px;
+}
+
+.us-flag {
+    width: 20px;
+
+}
+
+footer {
+    background-color: #5b5e6d;
+}
+
+footer p {
+    margin-top: 10px;
+}
+
+footer svg {
+    margin-top: 10px;
+}
