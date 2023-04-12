@@ -5,3 +5,174 @@ main-titles dark-grey: #2C303F;
 paragraph grey: #5b5e6d;
 nav grey: #5b5e6d;
 */
+img {
+    width: 100%;
+}
+
+.menu img {
+    width: 200px;
+}
+
+h1 {
+    font-weight: bold;
+}
+
+svg {
+    width: 40px;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    background-color: white;
+    width: 100%;
+    font-size: 1em;
+    color: #2C303F;
+    position: fixed;
+    z-index: 1;
+}
+
+.menu ul {
+    display: flex;
+    list-style: none;
+    color: #5b5e6d;
+
+}
+
+.menu li {
+    margin-left: 30px;
+}
+
+.hero p {
+    margin: 2em;
+}
+
+a {
+    text-decoration: none;
+    color: #5b5e6d;
+}
+
+.hero {
+    padding-top: 200px;
+    text-align: center;
+}
+
+.button {
+    background-color: #192592;
+    color: white;
+    text-decoration: none;
+    letter-spacing: 2px;
+    text-align: center;
+    font-weight: bold;
+    display: block;
+    margin: 0 auto;
+}
+
+form {
+    border: 2px solid gray;
+    color: #5b5e6d;
+    border-radius: 15px;
+    margin: 25px;
+}
+
+.logos-section {
+    background-color: #F4F3F4;
+    padding: 50px;
+    text-align: center;
+}
+
+.logos-section img {
+    padding: 35px;
+}
+
+.address-section {
+    text-align: center;
+    margin: 30px 0;
+}
+
+.main-footer {
+    background-color: white;
+    padding: 30px;
+}
+
+.main-footer ul {
+    list-style: none;
+    text-align: center;
+    text-decoration: none;
+}
+
+.main-footer p {
+    text-align: center;
+    font-weight: bolder;
+}
+
+.second-footer {
+    background-color: #F4F3F4;
+}
+
+.second-footer .mid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    width: 100%;
+    font-size: 1em;
+    color: #2C303F;
+}
+
+.second-footer ul {
+    display: flex;
+    list-style: none;
+    color: #5b5e6d;
+    justify-content: space-around;
+}
+
+.second-footer li {
+    margin-left: 30px;
+}
+
+.second-footer svg {
+    width: 10px;
+    color: #5b5e6d;
+}
+
+.second-footer img {
+    width: 20px;
+}
+
+.btn-discover {
+    padding: 11px 49px;
+    border: 2px solid blue;
+    background-color: white;
+    color: blue;
+    text-decoration: none;
+    letter-spacing: 2px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.address-button {
+    width: 18em;
+    padding: 24px;
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 400px) {
+    .address-text {
+        margin-top: 30px;
+    }
+
+    h1 {
+        font-size: 4em;
+    }
+}
