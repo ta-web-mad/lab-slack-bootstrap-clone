@@ -5,3 +5,91 @@ main-titles dark-grey: #2C303F;
 paragraph grey: #5b5e6d;
 nav grey: #5b5e6d;
 */
+
+.menu {
+    border-bottom: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 40px;
+    align-items: center;
+    position: fixed;
+    background-color: #fff;
+    width: 100%;
+}
+
+.menu .logo {
+    width: 100px;
+}
+
+.menu .navicon {
+    width: 30px;
+}
+
+.menu ul {
+    display: flex;
+    margin: 0;
+    list-style: none;
+}
+
+.menu a {
+    color: inherit;
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+.hero {
+    padding: 10em 2.5em 4em 2.5em;
+
+}
+
+.form {
+    padding: 0.1em 2.5em;
+}
+
+.sign-in p {
+    font-size: 0.8em;
+}
+
+.hero img {
+    width: 100%
+}
+
+.get-started-button {
+    background-color: #192592;
+    color: white;
+}
+
+.clients {
+    background-color: #F4F3F4;
+}
+
+.marketing {
+    padding: 50px;
+    text-align: center;
+}
+
+.clients article {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.clients button {
+    background-color: white;
+    color: #192592;
+    padding: 0 10px;
+    align-items: center;
+    border-color: #192592;
+}
+
+
+.clients img {
+    width: 60%;
+    padding: 40px;
+    align-items: center;
+}
+
+.try-it-for-free {
+    padding: 70px;
+}
