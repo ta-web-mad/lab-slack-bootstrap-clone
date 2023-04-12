@@ -11,6 +11,10 @@ nav grey: #5b5e6d;
         display: none;
     }
 
+    footer {
+        text-align: center;
+    }
+
 
 }
 
@@ -142,4 +146,20 @@ img {
 
 .info p {
     font-weight: bold;
+}
+
+footer {
+    background-color: #F4F3F4
+}
+
+footer img {
+    width: 20px;
+    height: 20px;
+}
+
+footer a {
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 5px;
+    color: grey;
 }
