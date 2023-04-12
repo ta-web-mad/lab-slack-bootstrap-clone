@@ -5,3 +5,116 @@ main-titles dark-grey: #2C303F;
 paragraph grey: #5b5e6d;
 nav grey: #5b5e6d;
 */
+img {
+    width: 100%;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #5b5e6d;
+}
+
+.menu .navicon {
+    width: 15px;
+    height: 15px;
+    box-sizing: border-box;
+    margin-left: auto;
+    ;
+}
+
+.menu .logo1 {
+    display: flex;
+    width: 100px;
+}
+
+.nav1 {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    margin-right: 100px;
+}
+
+@media screen and (min-width: 992px) {
+    .navicon {
+        display: none;
+    }
+
+}
+
+@media screen and (max-width: 992px) {
+    .nav1 {
+        display: none;
+    }
+
+}
+
+.cssbloque1 {}
+
+.cssbloque1 h1 {
+    margin-left: 40px;
+
+}
+
+.cssbloque1 p {
+    margin-left: 40px;
+    margin-right: 40px;
+
+}
+
+.cssbloque1 input {
+    margin-left: 40px;
+}
+
+.cssbloque1 a {
+    margin-left: 40px;
+}
+
+.cssbloque2 {
+    justify-content: center;
+    justify-content: space-between;
+    background-color: #F4F3F4;
+}
+
+.cssbloque2 h2 {
+    text-align: center;
+}
+
+.cssbloque2 a {
+    align-items: center;
+    color: blue;
+    border: solid;
+    background-color: white;
+}
+
+.cssbloque3 {}
+
+
+
+.usflag {
+    width: 5px;
+}
+
+.getstarted {
+    background-color: blue;
+    color: white;
+    text-decoration: none;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 10%;
+}
+
+.sponsor img {
+    margin-left: 60px;
+    margin-right: 50px;
+    border-left: gray;
+    padding-bottom: 25px;
+    padding-top: 20px;
+    width: 300px;
+    border-bottom: 1px solid #5b5e6d;
+}
+
+.slackicon {
+    width: 50px;
+}
