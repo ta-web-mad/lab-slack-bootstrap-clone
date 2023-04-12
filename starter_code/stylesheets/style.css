@@ -1,7 +1,132 @@
 /*
 background-grey: #F4F3F4;
-button-purple: #192592
+button-purple: 
 main-titles dark-grey: #2C303F;
 paragraph grey: #5b5e6d;
-nav grey: #5b5e6d;
+nav grey: ;
 */
+img {
+    width: 100%;
+}
+
+.navBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: .5px solid #F4F3F4;
+    padding: 10px;
+}
+
+.navicon {
+    width: 30px;
+}
+
+.slacklogo {
+    width: 100px;
+}
+
+.navBar ul {
+    display: flex;
+    list-style: none;
+    display: none;
+
+}
+
+.navBar ul li {
+    margin-left: 10px;
+}
+
+
+.firstSec {
+    text-align: center;
+    width: 100%;
+    padding-bottom: 40px;
+    border-bottom: #5b5e6d;
+}
+
+.firstSec img {
+    width: 60%;
+}
+
+.firstSec button {
+    color: white;
+    background-color: #192592;
+
+}
+
+.secondSec {
+    text-align: center;
+    background-color: #F4F3F4;
+    border-bottom: #5b5e6d;
+    border-top: #5b5e6d;
+    margin-bottom: 40px;
+    padding-bottom: 30px;
+}
+
+.secondSec img {
+    width: 60%;
+}
+
+.secondSec button {
+    color: #192592;
+    background-color: white;
+    border-bottom: .5px solid #F4F3F4;
+}
+
+.thirdSec button {
+
+    color: white;
+    background-color: #192592;
+
+}
+
+.thirdSec {
+    padding-bottom: 40px;
+    border border-bottom: .5px solid #F4F3F4
+}
+
+.fourthSec {
+    border-top: .5px solid #F4F3F4;
+    padding-top: 30px;
+    text-align: center;
+}
+
+.fourthSec article {
+    text-align: center;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+.fourthSec ul {
+    list-style: none;
+}
+
+footer {
+    background-color: #f4f3f4;
+}
+
+footer img {
+    width: 30px;
+}
+
+footer ul {
+    display: flex;
+    list-style: none;
+}
+
+footer ul li {
+    padding-left: 10px;
+    font-size: xx-small;
+    font-weight: 500;
+}
+
+
+@media screen and (min-width: 992px) {
+    .navicon {
+        display: none;
+    }
+
+    .navBar ul {
+        display: flex;
+    }
+}
