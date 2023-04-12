@@ -5,3 +5,290 @@ main-titles dark-grey: #2C303F;
 paragraph grey: #5b5e6d;
 nav grey: #5b5e6d;
 */
+
+
+/* body {} */
+
+img {
+    width: 100%;
+}
+
+body p {
+    color: #5b5e6d;
+}
+
+
+/* HEADER */
+
+header {
+    margin: 100;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    justify-items: center;
+    padding: 20px;
+    background-color: white;
+    margin: 100 40;
+    position: fixed;
+    border-bottom: 1px solid #a8a8ad;
+    ;
+    width: 100%;
+}
+
+.logo {
+    width: 120px;
+}
+
+.navicon {
+    width: 18px
+}
+
+.menu {
+    display: none;
+}
+
+.menu ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #5b5e6d;
+    padding: 5px 10px;
+    font-size: 0.8em;
+}
+
+.button-workspace {
+    border: 1px solid #5b5e6d;
+    padding: 5px;
+}
+
+
+
+/* INTRO */
+
+.intro {
+    padding: 150px 50px 0px;
+}
+
+h1,
+h2,
+h3 {
+    font-family: serif;
+}
+
+.intro input {
+    padding: 10px;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.form-email .button-start {
+    box-sizing: border-box;
+    block-size: auto;
+    background-color: #192592;
+    padding: 20px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    border-radius: 5px;
+    font-size: 0.7em;
+    margin: 10px 0px 10px;
+    font-weight: bold;
+}
+
+.form-email .button-start a {
+    text-decoration: none;
+    color: white;
+}
+
+
+
+/* COMPANY */
+
+.company {
+    background-color: #F4F3F4;
+    padding: 50px;
+}
+
+h2 {
+    padding: 20px;
+    margin-top: 0px;
+}
+
+.company .button-discover {
+    box-sizing: border-box;
+    block-size: auto;
+    background-color: white;
+    padding: 20px;
+    color: #192592;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    border-radius: 5px;
+    font-size: 0.7em;
+    margin: 10px 0px 10px;
+    font-weight: bold;
+}
+
+.company .button-discover a {
+    text-decoration: none;
+    color: #192592;
+}
+
+.company img {
+    padding: 70px;
+}
+
+.form-email {
+    display: block;
+}
+
+
+
+/* TRY */
+
+.try {
+    padding: 70px;
+    display: flex;
+    justify-items: center;
+    border-top: 2px solid #d9d9d9;
+    border-bottom: 2px solid #d9d9d9;
+
+}
+
+.try input {
+    padding: 10px;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+
+
+/* COMPANY */
+
+.links .logoslack {
+    margin-bottom: 10px;
+}
+
+
+
+/* FOOTER */
+
+footer {
+    padding: 40px;
+}
+
+footer .logoslack {
+    width: 70px;
+}
+
+.links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.links a {
+    text-decoration: none;
+    color: #5b5e6d;
+    margin: 0;
+    font-size: 0.8em;
+    padding: 0;
+}
+
+
+
+/* FOOTER > LAST BAR*/
+
+.last-bar {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    justify-items: center;
+    background-color: #F4F3F4;
+    padding: 25px;
+    color: #5b5e6d;
+    margin: 0;
+}
+
+.english {
+    padding: 0px 30px 0px 0px;
+}
+
+.last-bar a {
+    text-decoration: none;
+    color: #5b5e6d;
+    margin: 0;
+    font-size: 0.9em;
+    padding: 0;
+}
+
+.eeuu {
+    width: 20px;
+}
+
+
+
+
+
+
+
+
+@media screen and (min-width: 720px) {
+
+    .intro input {
+        padding: 10px;
+        box-sizing: border-box;
+        width: 50%;
+    }
+
+    .button-discover {
+        display: inline;
+        width: 50%;
+    }
+
+    .company .hide-image {
+        display: none;
+    }
+
+}
+
+@media screen and (min-width: 960px) {
+    .navicon {
+        display: none;
+    }
+
+    .menu {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .try {
+        justify-items: flex-end;
+        justify-content: flex-end;
+    }
+
+    .try .button-start {
+        width: 300px;
+    }
+
+    .try input {
+        display: none;
+    }
+
+    .company .hide-image {
+        display: block;
+    }
+
+}
