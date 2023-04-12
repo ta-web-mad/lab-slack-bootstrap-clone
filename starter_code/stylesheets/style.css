@@ -5,3 +5,248 @@ main-titles dark-grey: #2C303F;
 paragraph grey: #5b5e6d;
 nav grey: #5b5e6d;
 */
+
+img {
+    width: 100%;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    border-bottom: 1px solid #F4F3F4;
+    position: fixed;
+    background-color: white;
+    width: 100%;
+}
+
+.menu .logo {
+    width: 180px;
+}
+
+.menu ul {
+    display: flex;
+    padding: 15px;
+    list-style: none;
+}
+
+.menu a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.menu li {
+    margin-left: 20px;
+    padding: 10px;
+    color: #5b5e6d;
+}
+
+.menu .your-workspace {
+    display: flex;
+    align-content: center;
+    border-radius: 5%;
+    border: 1px solid #5b5e6d;
+}
+
+h1,
+h2,
+h3 {
+    color: #2C303F;
+}
+
+.form-inline,
+.form-inline-thirdsec {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.form-inline input,
+.form-inline-thirdsec input {
+    vertical-align: middle;
+    margin: 5px 10px 5px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+.form-inline button,
+.form-inline-thirdsec button {
+    padding: 10px 20px;
+    background-color: #192592;
+    border: 1px solid #ddd;
+    color: white;
+    text-transform: uppercase;
+    border-radius: 5%;
+}
+
+.sign-in {
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .form-inline input {
+        margin: 10px 0;
+    }
+
+    .form-inline {
+        flex-direction: column;
+        align-items: stretch;
+    }
+}
+
+@media (min-width: 768px) {
+    .sign-in {
+        text-align: left;
+    }
+}
+
+.hero-section {
+    padding: 150px 10% 50px;
+}
+
+.gray-section {
+    background-color: #F4F3F4;
+    padding: 50px 10%;
+}
+
+.gray-article {
+    padding-bottom: 10%;
+    align-content: center;
+    text-align: center;
+}
+
+.gray-article h2,
+.gray-article p {
+    padding-bottom: 25px;
+}
+
+.discover-why {
+    color: #192592;
+    background-color: white;
+    text-decoration: none;
+    border-radius: 5%;
+    border: 1px solid #192592;
+    padding: 20px 30px;
+    text-transform: uppercase;
+}
+
+.discover-why a {
+    text-decoration: none;
+}
+
+.logos {
+    width: 100%;
+    padding: 10%;
+}
+
+.third-section {
+    padding: 20px 10px;
+    text-align: center;
+    border-bottom: 1px solid #f4f3f4;
+}
+
+@media (max-width: 768px) {
+    .form-inline-thirdsec input {
+        margin: 10px 0;
+    }
+
+    .form-inline-thirdsec {
+        flex-direction: column;
+        align-items: stretch;
+    }
+}
+
+@media (min-width: 768px) {
+    .third-section article {
+        text-align: left;
+    }
+
+    .third-section form {
+        display: flex;
+        flex-flow: nowrap;
+        white-space: nowrap;
+
+    }
+}
+
+@media (min-width: 992px) {
+    .third-section form {
+        flex-direction: row-reverse;
+        padding-top: 10px;
+    }
+}
+
+
+.fourth-section {
+    padding: 5% 10%;
+}
+
+.fourth-section ul {
+    padding: 0;
+}
+
+.fourth-section li {
+    list-style: none;
+}
+
+.fourth-section a {
+    text-decoration: none;
+    color: #5b5e6d;
+}
+
+.side-logo {
+    width: 50px;
+    padding: 10% 0;
+}
+
+footer {
+    background-color: #F4F3F4;
+    padding: 2% 10%;
+}
+
+footer ul {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    list-style: none;
+    white-space: nowrap;
+}
+
+footer a {
+    padding: 15px;
+    text-decoration: none;
+    color: #5b5e6d;
+}
+
+.us-flag {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+
+.flags {
+    display: flex;
+    white-space: nowrap;
+    align-items: center;
+    justify-content: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.flags>p {
+    margin: 0;
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+}
+
+.social svg {
+    width: 20px;
+    margin: 5%;
+    color: #5b5e6d;
+
+}

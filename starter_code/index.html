@@ -1,20 +1,229 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
 
-    <!-- link the font awesome CDN -->
-    <link href="https://use.fontawesome.com/releases/v5.0.1/css/all.css" rel="stylesheet"/>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
 
-    <!-- link your styles -->
-    <link rel="stylesheet" href="./stylesheets/style.css" />
-    <title>Where work happens | Slack</title>
-  </head>
+  <!-- link the font awesome CDN -->
+  <link href="https://use.fontawesome.com/releases/v6.4.0/css/all.css" rel="stylesheet" />
 
-  <body>
-   
-    
-  </body>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+</head>
+<!-- link your styles -->
+<link rel="stylesheet" href="./stylesheets/style.css" />
+<title>Where work happens | Slack</title>
+<link rel="icon" type="image/x-icon" href="images/Slack.ico">
+</head>
+
+<body>
+
+  <header class="menu">
+    <a href="#" class="logo"><img src="./images/slack-logo.png" alt="slack-logo"></a>
+    <svg class="d-lg-none navicon" xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="#2C303F"
+      class="bi bi-list" viewBox="0 0 16 16">
+      <path fill-rule="evenodd"
+        d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
+    </svg>
+    <nav class="d-none d-lg-block">
+      <ul>
+        <li><a href=""></a>Why Slack</li>
+        <li><a href=""></a>Pricing</li>
+        <li><a href=""></a>About Us</li>
+        <li class="your-workspace"><a href=""></a>Your Workspace</li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 order-lg-2">
+          <article class="top-article">
+            <h1>Where work happens</h1>
+            <p>When your team needs to kick off a project, hire a new employee, deploy some code, review a sales
+              contract blah blah blah blah Slack has you covered
+              ipsum, dolor sit amet consectetur adipisicing elit. Ducimus nisi excepturi assumenda,</p>
+
+            <form class="form-inline" action="/action_page.php">
+              <input type="text" placeholder="Email address">
+              <button type="submit" class="get-started" value="Submit">Get started</button>
+            </form>
+            <p class="sign-in">Already using Slack? <a href="#">Sign in!</a></p>
+
+          </article>
+        </div>
+        <div class="col-lg-6 order-lg-1">
+          <img src="./images/home_talking.png" alt="people talking">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="gray-section">
+    <article class="gray-article">
+      <h2>You're in good company</h2>
+      <p>Millions of people around the world have already made Slack their least annoying app where work doesn't happen
+        at all</p>
+      <a href="#" class="discover-why">Discover why</a>
+    </article>
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-md-6 col-lg-4 order-md-n logo-box">
+          <img class="logos" src="./images/airbnb-logo.png" alt="">
+        </div>
+        <div class="col-12 col-md-6 col-lg-4 order-md-n logo-box">
+          <img class="logos" src="./images/capital-one-logo.png" alt="">
+        </div>
+        <div class="col-12 col-md-6 col-lg-4 order-md-n logo-box">
+          <img class="logos" src="./images/harvard-logo.png" alt="">
+        </div>
+        <div class="col-12 col-md-6 col-lg-4 order-md-n logo-box">
+          <img class="logos" src="./images/los-angeles-times-logo.png" alt="">
+        </div>
+        <div class="col-12 col-md-6 col-lg-4 order-md-n logo-box">
+          <img class="logos" src="./images/oracle-logo.png" alt="">
+        </div>
+        <div class="col-12 col-md-6 col-lg-4 order-md-n logo-box">
+          <img class="logos" src="./images/ticketmaster-logo.png" alt="">
+        </div>
+
+      </div>
+  </section>
+
+  <section class="third-section">
+    <div class="container">
+      <div class="row justify-content-md-between">
+        <div class="col-12 col-md-6">
+          <article>
+            <h3>Try it for free</h3>
+            <p>Already using Slack? <a href="#">Sign in!</a></p>
+          </article>
+        </div>
+        <div class="col-12 col-md-6">
+          <form class="form-inline-thirdsec" action="/action_page.php">
+            <input type="text" placeholder="Email address" class="d-lg-none">
+            <button type="submit" value="Submit">Get started</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="fourth-section">
+    <div class="container">
+      <div class="row justify-content-between">
+        <div class="col-6 col-md-2">
+          <img class="side-logo" src="./images/Slack.ico" alt="slack logo">
+        </div>
+        <div class="col-6 col-lg-2 d-md-none d-lg-block">
+
+        </div>
+        <div class="col-6 col-md-2">
+          <article>
+            <h4>Company</h4>
+            <ul>
+              <li><a href="">About</a></li>
+              <li><a href="">Careers</a></li>
+              <li><a href="">Jobs</a></li>
+              <li><a href="">Press</a></li>
+            </ul>
+          </article>
+        </div>
+        <div class="col-6 col-md-2">
+          <article>
+            <h4>Product</h4>
+            <ul>
+              <li><a href="">Why Slack</a></li>
+              <li><a href="">Entreprise</a></li>
+              <li><a href="">Customer Stories</a></li>
+              <li><a href="">Pricing</a></li>
+              <li><a href="">Security</a></li>
+            </ul>
+          </article>
+        </div>
+        <div class="col-6 col-md-2">
+          <article>
+            <h4>Resources</h4>
+            <ul>
+              <li><a href="">Download</a></li>
+              <li><a href="">Help Center</a></li>
+              <li><a href="">Guides</a></li>
+              <li><a href="">Partners</a></li>
+              <li><a href="">Events</a></li>
+            </ul>
+          </article>
+        </div>
+        <div class="col-6 col-md-2">
+          <article>
+            <h4>Extras</h4>
+            <ul>
+              <li><a href="">Podcast</a></li>
+              <li><a href="">Slack Shop</a></li>
+              <li><a href="">Slack at Work</a></li>
+              <li><a href="">Slack Fund</a></li>
+            </ul>
+          </article>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <div class="row justify-content-between">
+        <div class="col-12 col-md-4 col-lg-3">
+          <ul>
+            <li><a href="">Status</a></li>
+            <li><a href="">Privacy & Terms</a></li>
+            <li><a href="">Contact Us</a></li>
+          </ul>
+        </div>
+        <div class="col-12 col-md-4 col-lg-3">
+          <div class="row">
+            <div class="col-12 col-md-6">
+              <div class="flags">
+                <img class="us-flag" src="./images/us-flag.png" alt="US flag">
+                <p>English (US)</p>
+              </div>
+            </div>
+            <div class="col-12 col-md-6">
+              <div class="social">
+                <svg xmlns="http://www.w3.org/2000/svg" width="50%" height="50%" fill="currentColor"
+                  class="bi bi-twitter" viewBox="0 0 16 16">
+                  <path
+                    d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="50%" height="50%" fill="currentColor"
+                  class="bi bi-facebook" viewBox="0 0 16 16">
+                  <path
+                    d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="50%" height="50%" fill="currentColor"
+                  class="bi bi-youtube" viewBox="0 0 16 16">
+                  <path
+                    d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.007 2.007 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.007 2.007 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31.4 31.4 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.007 2.007 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A99.788 99.788 0 0 1 7.858 2h.193zM6.4 5.209v4.818l4.157-2.408L6.4 5.209z" />
+                </svg>
+              </div>
+            </div>
+
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+    crossorigin="anonymous"></script>
+</body>
+
 </html>
