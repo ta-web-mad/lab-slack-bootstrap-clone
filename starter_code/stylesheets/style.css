@@ -5,3 +5,448 @@ main-titles dark-grey: #2C303F;
 paragraph grey: #5b5e6d;
 nav grey: #5b5e6d;
 */
+
+body {
+    color: #5b5e6d;
+}
+
+img {
+    width: 100px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 20px;
+    border-bottom: 0.3px solid #d6d7dd;
+    margin-bottom: 18px;
+    position: fixed;
+
+
+}
+
+
+
+.top-list ul {
+    display: flex;
+    list-style: none;
+    margin-top: 2px;
+
+}
+
+.top-list a {
+    text-decoration: none;
+    color: #5b5e6d;
+    margin: 10px;
+}
+
+.but-div {
+    background-color: white;
+    color: #5b5e6d;
+    border: 1px solid gray;
+    border-radius: 2px;
+    text-align: center;
+    width: 111px;
+    height: 24px;
+    font-size: 0.9em;
+    margin-top: 10px;
+    padding: 1px;
+    padding-left: 4px;
+    margin-left: 7px;
+}
+
+.naviconimg {
+    width: 53px;
+    height: 36px;
+    margin-top: 7px;
+}
+
+
+
+.col1-1,
+.col1-2 {
+    text-align: center;
+}
+
+
+
+
+.col1-1 h3 {
+    text-align: left;
+    color: #2C303F;
+    font-weight: bold;
+
+    font-size: 3em;
+    margin-bottom: 25px;
+}
+
+.col1-1 article {
+    padding: 16px;
+}
+
+.singin {
+    text-align: left;
+    margin-bottom: 28px;
+}
+
+input {
+    width: 481px;
+    height: 53px;
+    margin-bottom: 14px;
+    border-radius: 3px;
+    padding-left: 10px;
+    border: 1px solid #505050;
+}
+
+.button-section1 {
+    width: 481px;
+    height: 53px;
+    margin-bottom: 28px;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: #192592;
+    border-radius: 3px;
+    color: white;
+}
+
+
+.col-12 img {
+    width: 100%;
+}
+
+.imgprincipal {
+    width: 545px;
+}
+
+.section2,
+.section3 {
+    background-color: #F4F3F4;
+    padding: 50px 10px;
+    text-align: center;
+
+}
+
+.section3 {
+    margin-bottom: 55px;
+    border-bottom: 1px solid #5b5e6d;
+}
+
+.section2 h3 {
+    font-size: 2.3em;
+    color: black;
+    margin-top: 5px;
+    margin-bottom: 10px;
+
+}
+
+.button-section2 {
+    width: 481px;
+    height: 53px;
+    margin-top: 18px;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: white;
+    border-radius: 3px;
+    color: #192592;
+    font-weight: bold;
+}
+
+
+.section3 img {
+    margin: 31px;
+    width: 177px;
+    height: 50px;
+
+}
+
+.imgsection2 {
+    border-bottom: 1px solid #50505061;
+
+
+}
+
+.section4 {
+    text-align: center;
+    margin-bottom: 75px;
+
+}
+
+.section4 h4 {
+    color: black;
+    margin-bottom: 6px;
+
+}
+
+.section4 p {
+    font-size: 0.9em;
+}
+
+footer {
+    margin-bottom: 70px;
+}
+
+footer ul {
+    list-style: none;
+
+
+}
+
+footer li {
+    text-align: left;
+
+}
+
+footer a {
+    color: #5b5e6d;
+    text-decoration: none;
+
+}
+
+
+.section5 {
+    background-color: #F4F3F4;
+
+}
+
+.section5-flex {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+
+.bottom-right ul,
+.bottom-left ul {
+
+    display: flex;
+    list-style: none;
+
+}
+
+
+.bottom-right li,
+.bottom-left li {
+    margin-right: 15px;
+}
+
+.bottom-right img,
+.bottom-right img {
+    width: 20px;
+}
+
+.bottom-right a,
+.bottom-left a {
+    text-decoration: none;
+    color: #393838;
+    font-size: 0.8em;
+}
+
+.firstchild {
+    font-weight: bold;
+}
+
+
+
+@media screen and (min-width: 768px) {
+    .email-flex {
+        display: flex;
+    }
+
+    input {
+        width: 320px;
+        height: 53px;
+        margin-bottom: 14px;
+        border-radius: 3px;
+        padding-left: 10px;
+    }
+
+    .button-section1 {
+        width: 199px;
+        height: 53px;
+        margin-bottom: 28px;
+        text-align: center;
+        text-transform: uppercase;
+        background-color: #192592;
+        border-radius: 3px;
+        color: white;
+        margin-left: 7px;
+    }
+
+    .col1-1,
+    .col1-2 {
+        text-align: left;
+    }
+
+    .form {
+        height: 20px;
+    }
+
+    .email-flex {
+        height: 62px;
+    }
+
+    .col-12 img {
+        width: 100%;
+        margin-top: 16px;
+    }
+
+
+    .button-section2 {
+        width: 207px;
+        height: 53px;
+        margin-top: 18px;
+        text-align: center;
+        text-transform: uppercase;
+        background-color: white;
+        border-radius: 3px;
+        color: #192592;
+        font-weight: bold;
+    }
+
+    .let {
+        border-left: 1px solid #50505061;
+        padding-left: 5px;
+    }
+
+    .down {
+        border-bottom: 0px;
+
+    }
+
+
+    .cajasection4 {
+        margin-right: 47%;
+    }
+
+    .section4 input {
+        width: 160px;
+        margin-left: 10px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 768px) {
+    .nav {
+        height: 50px;
+        padding: 8px 20px;
+    }
+
+    .logoimg {
+        width: 70px;
+    }
+
+    .top-list ul {
+        display: flex;
+        list-style: none;
+        margin-top: 0px;
+
+    }
+
+    .top-list a {
+        text-decoration: none;
+        color: #5b5e6d;
+        margin: 7px;
+        font-size: 1em;
+    }
+
+    .but-div {
+
+        background-color: white;
+        color: #5b5e6d;
+        border: 1px solid gray;
+        border-radius: 2px;
+        text-align: center;
+        width: 108px;
+        height: 23px;
+        font-size: .9em;
+        margin-top: 8px;
+        padding: 1px;
+        padding-left: 4px;
+        margin-left: 7px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+
+    .col1-1 {
+        width: 100%;
+    }
+
+    .col1-1 article {}
+
+    .imgprincipal {
+        width: 437px;
+        margin-right: 40%;
+    }
+
+    .imgsection2 {
+        padding: 12px;
+    }
+
+    .angel {
+        border-bottom: 0px;
+    }
+
+    .down {
+        border-left: 0px;
+        border-left: 1px solid #50505061;
+    }
+
+    .section3 {
+        border-bottom: 0.5px;
+    }
+
+    .harvard {
+        border-left: 1px solid #50505061;
+    }
+
+
+
+
+    .section4 {
+        border-bottom: 1px solid gray;
+        padding-bottom: 40px;
+    }
+
+    .col1-1 article {
+        margin-left: 74%;
+        width: 299px;
+    }
+
+    .imgprincipal {
+        width: 496px;
+        margin-left: 10%;
+    }
+
+    .col1-1 h3 {
+        width: 190%;
+        font-size: 3em;
+    }
+
+    .col1-1 p {
+        width: 180%;
+    }
+
+    .button-section1 {
+        margin: 0px;
+    }
+
+    .middle {
+        margin-left: 64%;
+    }
+
+    .cajasection4 {
+        margin-right: 56%;
+    }
+
+}
