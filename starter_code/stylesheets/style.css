@@ -26,6 +26,7 @@ input {
 
 /*Header*/
 .header {
+
     display: flex;
     justify-content: space-between;
     padding: 1rem;
@@ -50,7 +51,7 @@ input {
 
 /*Section1*/
 .section1 {
-    margin-top: 20px;
+    margin-bottom: 10px;
 }
 
 .section1 img {
