@@ -30,7 +30,7 @@ Para ello, me he basado en los diseños que se pueden ver en la siguiente imagen
 
 ## Saber más
 
-<!-- Meter aquí un enlace al post que haya publicado en el blog (en caso de haberlo) -->
+[Aquí tienes toda la experiencia del desarrollo del proyecto](https://blog.gonzalo.pro/proyectos/slack-clon-y-la-magia-del-mobile-first/)
 
 ## Contacto
 
