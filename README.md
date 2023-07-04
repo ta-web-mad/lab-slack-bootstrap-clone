@@ -13,7 +13,7 @@
 
 ## Objetivo
 
-El objetivo de este proyecto era refrescarmis habilidades de maquetación, con especial atención al responsive.
+El objetivo de este proyecto era refrescar mis habilidades de maquetación, con especial atención al responsive.
 Para ello, me he basado en los diseños que se pueden ver en la siguiente imagen, con diferentes distribuciones de elementos en función de los diferentes anchos de pantalla.
 
 ![Plantilla proyecto](./reference.jpg)
