@@ -5,3 +5,146 @@ main-titles dark-grey: #2C303F;
 paragraph grey: #5b5e6d;
 nav grey: #5b5e6d;
 */
+
+
+img {
+    width: 100%;
+}
+
+.menu {
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    background-color: white;
+}
+
+.menu .logo {
+    width: 180px;
+}
+
+.menu .navicon {
+    width: 30px;
+}
+
+.menu nav {
+    display: none;
+}
+
+.menu ul {
+    display: flex;
+    margin: 0;
+    list-style: none;
+}
+
+.menu a {
+    color: inherit;
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+section {
+    padding: 200px 80px;
+}
+
+@media screen and (min-width: 992px) {
+
+    .menu .navicon {
+        display: none;
+    }
+
+    .menu nav {
+        display: block;
+    }
+}
+
+h2,
+p {
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+}
+
+.info {
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(245, 243, 243)
+}
+
+button {
+    text-transform: uppercase;
+    text-align: center;
+    color: rgb(38, 142, 247);
+    background-color: white;
+    border-color: rgb(38, 142, 247);
+    font-family: sans-serif;
+    border-style: double;
+
+
+}
+
+.info .container .up {
+    padding: -30px;
+    text-align: center;
+    margin-top: -100px;
+
+}
+
+.row .col-md-4 {
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-between;
+
+}
+
+.try {
+    padding-right: 410px;
+}
+
+.borderemail {
+    border-radius: 0%;
+
+}
+
+.mid {
+    display: flex;
+    padding: 80px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.info img {
+    width: 220px;
+    align-content: center;
+    justify-content: center;
+}
+
+.info h2,
+p {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.info {
+    margin-top: 0;
+    margin-top: -20%;
+}
+
+ul {
+    list-style-type: none;
+    font-family: sans-serif;
+}
+
+h3 {
+    text-transform: uppercase;
+    color: #2C303F;
+}
+
+.final .logodown {
+    width: 180px;
+
+}
