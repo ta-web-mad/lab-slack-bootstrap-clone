@@ -5,3 +5,130 @@ main-titles dark-grey: #2C303F;
 paragraph grey: #5b5e6d;
 nav grey: #5b5e6d;
 */
+
+img {
+    width: 100%;
+}
+
+.menu {
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    background-color: white;
+}
+
+.menu .logo {
+    width: 180px;
+}
+
+.menu .navicon {
+    width: 30px;
+}
+
+.menu nav {
+    display: none;
+}
+
+.menu ul {
+    display: flex;
+    margin: 0;
+    list-style: none;
+}
+
+.menu a {
+    color: inherit;
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+section {
+    padding: 200px 80px;
+}
+
+
+@media screen and (min-width: 992px) {
+
+    .menu .navicon {
+        display: none;
+    }
+
+    .menu nav {
+        display: block;
+    }
+}
+
+.second .info {
+    margin-top: -300px;
+    color: black;
+    text-align: center;
+}
+
+.trial {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left-content {
+    text-align: left;
+}
+
+.right-content {
+    text-align: right;
+}
+
+.mail {
+    display: flex;
+    align-items: center;
+}
+
+.second img {
+    width: 250px;
+    margin-top: 5%;
+}
+
+.second h2,
+p {
+    margin-top: 10px;
+    text-align: center;
+
+}
+
+.second {
+    margin-top: 0;
+    margin-top: -20%;
+}
+
+.hero p,
+h1 {
+    text-align: left;
+}
+
+.trial .container {
+    margin-top: 0px;
+}
+
+.fourth img {
+    width: 250px;
+}
+
+.fourth .container {
+    padding-top: -400px;
+    margin-top: -800px;
+}
+
+footer {
+    background-color: rgb(244, 244, 244);
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+.second {
+    background-color: rgb(244, 244, 244);
+}
