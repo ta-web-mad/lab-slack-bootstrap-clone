@@ -5,3 +5,68 @@ main-titles dark-grey: #2C303F;
 paragraph grey: #5b5e6d;
 nav grey: #5b5e6d;
 */
+img {
+    width: 100%;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+
+}
+
+header ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 10px
+}
+
+header li {
+    margin-left: 10px;
+}
+
+header a {
+    text-decoration: none;
+    color: darkblue;
+}
+
+.work {
+    border: 1px solid;
+    padding: 5px;
+}
+
+.logo {
+    width: 100px;
+}
+
+.navicon {
+    width: 50px;
+    align-items: end;
+}
+
+.email {
+    border: 1px solid;
+    padding: 5px;
+}
+
+.buttonStarted {
+    border: 1px solid;
+    padding: 5px;
+    text-decoration: none;
+    padding: 5px;
+    text-transform: uppercase;
+    color: white;
+    background-color: darkblue;
+}
+
+.buttonDiscover {
+    border: 1px solid;
+    padding: 5px;
+    text-decoration: none;
+    padding: 5px;
+    text-transform: uppercase;
+    color: darkblue;
+    background-color: white;
+}
