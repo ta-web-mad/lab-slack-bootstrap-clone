@@ -5,3 +5,200 @@ main-titles dark-grey: #2C303F;
 paragraph grey: #5b5e6d;
 nav grey: #5b5e6d;
 */
+
+
+
+img{
+
+    width:100%;
+
+}
+p{
+    font-size: 0.8em;
+}
+
+.menu {
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+}
+
+.menu .logo {
+    width: 180px;
+}
+
+.menu .navicon {
+    width: 30px;
+}
+
+.menu ul {
+    display: flex;
+    margin: 0;
+    list-style: none;
+}
+
+.menu a {
+    color: inherit;
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+
+nav .button{
+    padding:10px;
+    border: 1px solid;
+    margin-left: 20px;
+    display: block;
+    margin-top: -10px;
+}
+
+nav .button a{
+    margin: 0;
+}
+
+h1{
+   font-size: 2.3em;
+    padding-top: 20px;
+    width: 80%;
+}
+
+h3{
+    text-align: center;
+}
+.sign{
+    text-align: center;
+}
+h2{
+    
+}
+
+input{
+    width:100%;
+    border:1px solid #eee;
+    height: 40px;
+    margin-bottom: 10px;
+}
+
+.already{
+    font-size: 0.7em;
+    margin-top:10px;
+}
+
+
+
+.happens button, .try button {
+    width: 100%;
+    background-color: blue;
+    color:#FFF;
+    text-transform: uppercase;
+    padding: 10px 0;
+    border-radius: 5px;
+    border: 0;
+   
+    cursor: pointer;
+}
+
+/* STYLES SECTIONS */
+
+.company{
+
+    background-color:#f2f2f2;
+    text-align: center;
+    border-top: 1px solid #d6d2d2;
+    padding: 70px 0;
+
+}
+
+.company a{
+    display: block;
+    
+    padding: 10px;
+    border: 1px solid #5d5dbf;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #5d5dbf;
+}
+   
+
+.company a.discover{
+    border-radius: 5px;
+     background-color: #FFF;
+    margin: 0 auto 30px auto;
+    }
+
+
+.company_logo img {
+    width: 50%;
+}
+
+
+.company a.company_logo{
+    border: 0;
+    border-radius: 0;
+    padding-top: 25px;
+}
+
+.try{
+padding: 70px 0;
+}
+
+.second_footer{
+    display: flex;
+    justify-content: space-around;
+    background-color: #f2f2f2;
+}
+
+
+.second_footer {
+    display: flex;
+    justify-content:space-between;
+}
+
+footer ul li a{
+    text-decoration: none;
+    color:#858585;
+    
+}
+
+
+footer ul.status{
+    list-style: none;
+    margin: 0 auto;
+    
+}
+
+
+footer a.language{
+    text-align: center;
+    font-size: 0.8em;
+    padding-left: 30px;
+    text-decoration: none;
+        color: #858585;
+}
+
+footer a.language span{
+    rotate: 45deg;
+}
+
+footer a.language img{
+
+        width: 5%;
+} 
+
+footer ul.status li{
+    display: inline;
+}
+
+footer ul.status li a{
+    font-size: 0.8em;
+} 
+
+
+
+
+
+
+
+
