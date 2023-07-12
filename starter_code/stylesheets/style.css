@@ -5,3 +5,114 @@ main-titles dark-grey: #2C303F;
 paragraph grey: #5b5e6d;
 nav grey: #5b5e6d;
 */
+img{
+    width: 100%;
+}
+.imgSlack{
+    margin-left: 15px;
+    width: 15%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.hamburguer{
+    margin-right: 15px;
+    width: 7%;
+}
+.navi{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content:space-between ;
+}
+a{
+    margin-right:10px ;
+    text-align: center;
+    text-decoration: none;
+    color: black;   
+}
+
+.art1{
+    margin-top: 20px;
+}
+.bor{
+    border-bottom: 1px solid black;
+}
+.navLi{
+display:flex ;
+justify-content: center;
+align-items: center;
+
+}
+
+.butomnav{
+    border: 1px solid gray;
+    text-align: center;
+    justify-content: center;
+    padding:8px ;
+
+}
+.email{
+    border: 1px solid rgb(113, 113, 113,0.5);
+    padding: 5px;
+}
+.get{
+    background-color: blue ;
+    padding: 5px;
+    text-align: center;
+}
+  .get a{
+    color: white;
+
+  }
+  .intro{
+    color:blue ;
+    text-decoration: underline;
+  }
+  
+  .spaceButtom {
+    background-color: white;
+    border: 1px solid black;
+    padding: 10px;
+  }
+  .articuloLogo{
+    background-color:#F4F3F4 ;
+  }
+
+  
+  
+  .art2{
+    text-align: center;
+    height: 200px;
+  }
+  .imgair{
+    padding: 20px;
+  }
+   
+   
+   .emailFo{
+    color: grey;
+    border: 1px solid grey;
+    text-align: center;
+    padding:10px ;
+    
+   }
+   .getFo{
+    background-color: blue;
+    color: white;
+    border:1px solid black ;
+    
+    text-align:center;
+    padding: 10px;
+   
+   }
+   .sigFo{
+    color: blue;
+    margin-left: 2px;
+    text-decoration: underline;
+   }
+   .fotherMain{
+    margin-left:30px ;
+    padding-top:40px ;
+   }
+  
+   
