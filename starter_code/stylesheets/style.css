@@ -5,3 +5,121 @@ main-titles dark-grey: #2C303F;
 paragraph grey: #5b5e6d;
 nav grey: #5b5e6d;
 */
+
+img {
+    width: 100%;
+}
+
+header {
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid;
+}
+
+header ul {
+    display: flex;
+    list-style: none;
+}
+
+header li {
+    margin-left: 20px;
+}
+
+header a {
+    text-decoration: none;
+    color: black;
+}
+
+.slack-logo {
+    width: 50px;
+    margin-left: 20px;
+
+}
+
+.navicon {
+    width: 30px;
+}
+
+.border {
+    border-bottom: 1px solid;
+}
+
+.workspace {
+    border: 1px solid;
+    padding: 5px;
+}
+
+.hero {
+    padding: 30px;
+}
+
+.email {
+    border: 1px solid;
+    padding: 5px;
+}
+
+.get-started {
+    border: 1px solid;
+    background-color: #192592;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    justify-content: left;
+}
+
+.using-slack {
+    text-align: center;
+}
+
+.companies {
+    text-align: center;
+    background-color: #F4F3F4;
+    padding: 10px;
+
+}
+
+.space-buttom {
+    padding: 70px;
+}
+
+.discover {
+    border: 1px solid;
+    padding: 20px;
+    text-decoration: none;
+    color: #192592;
+    margin-top: 20px;
+
+
+}
+
+.companies img {
+    padding: 40px 120px;
+}
+
+.try-for-free {
+    border-bottom: 1px solid grey;
+    padding: 20px;
+}
+
+.end-section {
+    padding: 10px;
+    justify-content: center;
+}
+
+.end-section img {
+    width: 30%;
+}
+
+footer {
+    justify-content: center;
+    align-items: center;
+    background-color: #F4F3F4;
+}
+
+footer img {
+    justify-content: center;
+    width: 150px;
+    align-items: center;
+}
