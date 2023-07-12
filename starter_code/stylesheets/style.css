@@ -5,3 +5,172 @@ main-titles dark-grey: #2C303F;
 paragraph grey: #5b5e6d;
 nav grey: #5b5e6d;
 */
+img {
+    width: 100%;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: white;
+    border-bottom: 1px solid #ccc;
+}
+
+.menu nav {
+    display: none;
+}
+
+.menu nav ul {
+    display: flex;
+    list-style: none;
+    position: relative;
+    top: 12px;
+
+}
+
+.menu nav ul li a {
+    color: black;
+    text-decoration: none;
+    margin-right: 20px;
+    outline: none;
+    list-style: none;
+}
+
+.menu img {
+    width: 120px;
+}
+
+.menu .navicon {
+    width: 50px;
+}
+
+.emailAddress {
+    display: flex;
+    border: 1px solid black;
+    padding-top: 7px;
+    padding-left: 7px;
+    padding-bottom: 7px;
+    border-radius: 3px;
+    margin-top: 7px;
+
+}
+
+.getStarted {
+    display: flex;
+    background-color: blue;
+    border: 1px solid rgb(52, 52, 255);
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    padding: 7px;
+    border-radius: 3px;
+    margin-top: 7px;
+}
+
+.section1 .usingSlack {
+    display: flex;
+    align-items: center;
+    padding-top: 7px;
+}
+
+.section2 {
+    background-color: #ccc;
+}
+
+
+
+.section2 figure {
+    padding: 20%;
+}
+
+.section3 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid black;
+
+}
+
+.section4 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+    border-bottom: 1px solid black;
+}
+
+.section4 .slackIcon {
+    width: 40px;
+}
+
+.footer {
+    background-color: #ccc;
+}
+
+.footer img {
+    width: 25px;
+}
+
+.footer ul {
+    list-style: none;
+    display: flex;
+}
+
+.footer ul li {
+    margin-right: 5px;
+    color: black;
+    text-decoration: none;
+}
+
+
+
+
+@media screen and (min-width: 768px) {
+    .menu nav {
+        display: block;
+
+    }
+
+    .menu nav ul {
+        text-decoration: none;
+        color: black;
+        margin-right: 10px;
+    }
+
+    .menu .navicon {
+        display: none;
+    }
+
+    .section1 h1 {
+        font-size: 60px;
+    }
+
+    .section1 .usingSlack {
+        display: block;
+        padding-top: 7px;
+    }
+
+    .footer {
+        display: flex;
+        align-items: center;
+    }
+
+
+
+
+}
+
+@media screen and (min-width:576px)and (max-width: 768px) {
+    .section2 .begone {
+        display: none;
+
+    }
+
+
+}
+
+@media screen and (min-width:992px) {
+    .section1 h1 {
+        font-size: 80px;
+    }
+
+}
