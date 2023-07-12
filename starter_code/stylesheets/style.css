@@ -5,3 +5,175 @@ main-titles dark-grey: #2C303F;
 paragraph grey: #5b5e6d;
 nav grey: #5b5e6d;
 */
+
+img {
+    width: 100%;
+}
+
+li {
+    list-style: none;
+}
+
+.container ul {
+    margin-left: 0;
+    padding-left: 0;
+}
+
+/* Backgrounds styles */
+
+.menu {
+    border-bottom: 1px solid #ccc;
+}
+
+.hero {
+    border-bottom: 1px solid #ccc;
+    padding-top: 40px;
+}
+
+.section__sponsors {
+    background-color: #F4F3F4;
+    border-bottom: 1px solid #ccc;
+    padding-top: 40px;
+    padding-bottom: 60px;
+}
+
+.section__tryForFree {
+    border-bottom: 1px solid #ccc;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.section__preFooter {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.footer {
+    background-color: #F4F3F4;
+    padding-top: 20px;
+}
+
+/* Font and related styles */
+
+.menu ul {
+    margin: 0;
+    list-style: none;
+}
+
+.menu a {
+    color: inherit;
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+.hero h1 {
+    color: #2C303F;
+    font-family: serif;
+    font-weight: 900;
+    font-size: 2.8em;
+}
+
+.hero p {
+    color: #5b5e6d;
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+
+.hero h2 {
+    font-size: 1em;
+    color: #5b5e6d;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.hero h2 a {
+    margin-left: 10px;
+}
+
+.section__sponsors h2 {
+    color: #2C303F;
+    font-family: serif;
+    font-size: 1.8em;
+    font-weight: 900;
+}
+
+.section__sponsors h3 {
+    color: #5b5e6d;
+    font-size: 1em;
+    margin-bottom: 30px;
+    padding: 0 30px;
+}
+
+.section__tryForFree h2 {
+    color: #2C303F;
+    font-family: serif;
+    font-weight: 900;
+    font-size: 1.6em;
+}
+
+.section__tryForFree h3 {
+    color: #2C303F;
+    font-weight: 400;
+    font-size: 1em;
+}
+
+.section__preFooter h2 {
+    color: #2C303F;
+}
+
+.section__preFooter ul {
+    list-style: none;
+}
+
+.section__preFooter li {
+    color: #5b5e6d;
+    padding: 8px 0px;
+}
+
+.footer__listDisplay {
+    list-style: none;
+}
+
+.footer__language h2 {
+    text-align: center;
+}
+
+/* Image Styles */
+
+.menu .logo {
+    width: 120px;
+    margin: 0px 10px;
+}
+
+.menu .navicon {
+    width: 30px;
+    margin: 0px 30px;
+}
+
+.section__sponsors img {
+    width: 300px;
+    padding: 30px;
+}
+
+.section__preFooter figure {
+    width: 102px;
+}
+
+.section__preFooter img{
+    width: 100px;
+} 
+
+.footer__language img {
+    width: 30px;
+    margin-right: 10px;
+}
+
+.footer__socialIcons {
+    padding: 20px 150px;
+}
+
+.footer__socialIcons img {
+    filter: grayscale(100);
+    width: 50px;
+}
