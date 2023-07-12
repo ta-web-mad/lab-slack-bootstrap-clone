@@ -5,3 +5,250 @@ main-titles dark-grey: #2C303F;
 paragraph grey: #5b5e6d;
 nav grey: #5b5e6d;
 */
+
+/*----------general----------*/
+
+img {
+    width: 100%;
+}
+
+/*----------menu----------*/
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+    border-bottom: 2px solid #efeded;
+}
+
+.menu .logo {
+    width: 120px;
+}
+
+.menu .navicon {
+    width: 30px;
+}
+
+.menu ul {
+    display: flex;
+    margin: 0;
+    list-style: none;
+}
+
+.menu a {
+    color: #212529;
+    margin-left: 20px;
+    text-decoration: none;
+    padding-left: 20px;
+    padding-right: 50px;
+}
+
+/* CONFIRM: How to add border to "Your Workspace*/
+
+/* ----------intro---------- */
+
+.intro {
+    padding-top: 100px;
+}
+
+.intro h1 {
+    font-size: 6em;
+    padding-left: 50px;
+    font-family: serif;
+    font-weight: bold;
+}
+
+.intro p {
+    padding-left: 50px;
+    margin-top: 20px;
+}
+
+.intro .placeholder {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    font-family: sans-serif;
+    width: 205px;
+    padding: 20px;
+    margin-top: 25px;
+    margin-left: 50px;
+    background-color: white;
+    color: rgb(0, 0, 0);
+    border: 1px solid;
+    border-color: #212529;
+}
+
+.intro .button {
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: bolder;
+    width: 205px;
+    padding: 20px;
+    margin-top: 25px;
+    margin-left: 50px;
+    background-color: darkblue;
+    color: white;
+}
+
+/* CONFIRM: How to add padding to the div class col-md-etc inside class intro */
+
+/* CONFIRM: How to adjust image sizes for different viewports? */
+
+/* CONFIRM: How to add a placeholder?*/
+
+/*   < !----------section1----------> */
+
+.section1 {
+    background-color: #e5e4e4;
+    margin-top: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.section1 h2 {
+    font-size: 3em;
+    padding-left: 50px;
+    text-align: center;
+    font-family: serif;
+    font-weight: bold;
+}
+
+.section1 p {
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.section1 .button {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-family: sans-serif;
+    padding: 20px 0px;
+    margin: 20px auto;
+    width: 205px;
+    background-color: white;
+    color: darkblue;
+    border: 1px solid;
+    border-color: darkblue;
+}
+
+.section1 .row {
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    line-height: 200px;
+}
+
+/* CONFIRM: How to adjust the button size to the lenght of the viewport?*/
+
+/* CONFIRM: How to round the borders of a button?*/
+
+
+
+/* < !----------section2----------> */
+
+.section2 {
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+.section2 h3 {
+    text-align: center;
+    font-family: serif;
+    font-weight: bold;
+    font-size: 2em;
+}
+
+.section2 p {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.section2 .placeholder {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    font-family: sans-serif;
+    padding: 20px 0px;
+    margin: 20px auto;
+    width: 205px;
+    background-color: white;
+    color: rgb(0, 0, 0);
+    border: 1px solid;
+    border-color: #212529;
+}
+
+.section2 .button {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-family: sans-serif;
+    padding: 20px 0px;
+    margin: 20px auto;
+    width: 205px;
+    background-color: darkblue;
+    color: white;
+}
+
+/* CONFIRM: How to set the placeholder from up (sm viewport) to left (md viewport) */
+
+/* ----------section3----------> */
+
+.section3 {
+    padding-top: 50px;
+    margin-bottom: 50px;
+    border-top: 2px solid #efeded;
+}
+
+.section3 ul {
+    margin: 0;
+    list-style: none;
+    line-height: 200%;
+}
+
+.section3 a {
+    color: #858688;
+    margin-left: 20px;
+    text-decoration: none;
+    padding-left: 20px;
+    padding-right: 50px;
+}
+
+.section3 strong {
+    text-transform: uppercase;
+}
+
+/* ADD Slack logo and edit columns settings to different viewports */
+
+/* < !----------footer----------> */
+
+.footer {
+    background-color: #e5e4e4;
+    padding: 35px;
+}
+
+.footer ul {
+    display: flex;
+    margin: 0;
+    list-style: none;
+}
+
+.footer a {
+    color: #858688;
+    text-decoration: none;
+    padding-left: 20px;
+}
+
+/* ADD icons and edit columns settings to different viewports */
