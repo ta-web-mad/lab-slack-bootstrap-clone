@@ -5,3 +5,98 @@ main-titles dark-grey: #2C303F;
 paragraph grey: #5b5e6d;
 nav grey: #5b5e6d;
 */
+
+/*ESTILO NAVEGADOR*/
+
+img {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.menu {
+    border-bottom: 1px solid #5b5e6d;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+    background-color: #F4F3F4;
+}
+
+.menu .logo {
+    width: 180px;
+}
+
+.menu .navicon {
+    width: 30px;
+}
+
+.menu ul {
+    display: flex;
+    margin: 0;
+    list-style: none;
+}
+
+.menu a {
+    color: inherit;
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+/*FIN ESTILO NAVEGADOR*/
+
+/*ESTILO CLASE 1*/
+
+.one a {
+    text-decoration: none;
+    background-color: #192592;
+    border-radius: 5px;
+    padding: 5px;
+    color: white;
+}
+
+.one input {
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    border-left: 15px;
+}
+
+.one .sign {
+    margin: 5px;
+    background-color: #F4F3F4;
+}
+
+/* ESTILO CLASE 2 */
+.two {
+    background-color: #F4F3F4;
+}
+
+.two h2 {
+    text-align: center;
+    font-size: 1.8em;
+    padding-top: 35px;
+    font-family: Cambria;
+}
+
+.two p {
+    text-align: center;
+}
+
+.two a {
+    text-decoration: none;
+    text-align: center;
+    background-color: white;
+    padding: 15px;
+    border: solid;
+    text-align: center;
+    border-color: #dee2e6;
+
+
+}
+
+.container2 {
+    padding-bottom: 25px;
+}
+
+/*ESTILO CLASE 3*/
