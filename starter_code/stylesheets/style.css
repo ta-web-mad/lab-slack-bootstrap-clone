@@ -5,3 +5,85 @@ main-titles dark-grey: #2C303F;
 paragraph grey: #5b5e6d;
 nav grey: #5b5e6d;
 */
+
+img {
+    width: 100%;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+    border-bottom: 1px solid #5b5e6d;
+}
+
+.logo {
+    width: 100px;
+}
+
+.menu-icon {
+    width: 30px;
+}
+
+.menu ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.menu a {
+    text-decoration: none;
+    margin-left: 20px;
+    color: #5b5e6d;
+}
+
+.workspaces-button {
+    border: #5b5e6d solid 1px;
+    padding: 5px;
+}
+
+.sponsors {
+    background-color: #F4F3F4;
+
+
+}
+
+.sponsors img {
+    padding: 20px;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.brand-image {
+    width: 300px;
+}
+
+.button-white {
+    text-decoration: none;
+    background-color: white;
+    color: #192592;
+    border: #192592 solid 1px;
+    border-radius: 3px;
+    padding: 5px;
+
+}
+
+.button-blue {
+    text-decoration: none;
+    background-color: #192592;
+    color: white;
+    border: #192592 solid 1px;
+    border-radius: 3px;
+    padding: 5px;
+
+}
+
+
+.info-icon {
+    width: 60px;
+}
