@@ -5,3 +5,153 @@ main-titles dark-grey: #2C303F;
 paragraph grey: #5b5e6d;
 nav grey: #5b5e6d;
 */
+img {
+    width: 100%;
+}
+
+h1,
+h2,
+h3 {
+    font-weight: bold;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+    border-style: dotted;
+}
+
+
+.menu logo {
+    width: 100px;
+
+}
+
+.navicon {
+    width: 30px;
+}
+
+.menu ul {
+    display: flex;
+    margin: 0;
+    list-style: none;
+}
+
+.menu li {
+
+    margin-left: 20px;
+}
+
+.hero {
+    padding: 40px;
+}
+
+.hero .button {
+    text-decoration: none;
+    color: black;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    border: 1px solid;
+    padding: 20px;
+    display: block;
+    width: 300px;
+    text-align: center;
+    margin-top: 100px;
+    background-color: rgb(85, 85, 217);
+    border-radius: 20px 20px;
+}
+
+.marcas {
+    background-color: rgb(195, 185, 185);
+    padding-top: 80px;
+    padding: 100px;
+    border-style: dotted;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+}
+
+.marcas .button {
+    text-decoration: none;
+    color: rgb(73, 41, 232);
+    font-family: sans-serif;
+    text-transform: uppercase;
+    border: 1px solid;
+    padding: 20px;
+    width: 400px;
+    text-align: center;
+    margin-top: 80px;
+    border-radius: 20px 20px;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.info {
+    align-items: center;
+}
+
+.info .button {
+    text-decoration: none;
+    color: black;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    border: 1px solid;
+    padding: 20px;
+    display: block;
+    width: 300px;
+    text-align: center;
+    margin-top: 100px;
+    background-color: rgb(85, 85, 217);
+    border-radius: 20px 20px;
+}
+
+.marcas p {
+    margin: 20px;
+    margin-bottom: 2opx;
+}
+
+
+
+
+.marcas img {
+    width: 40%;
+    padding: 10px;
+    margin: 50px;
+}
+
+.ico {
+    width: 20%;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+}
+
+
+
+.menu nav {
+    list-style: none;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+    color: black;
+}
+
+.menu .logo {
+    width: 70px;
+}
+
+.info {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-top: 80px;
+}
