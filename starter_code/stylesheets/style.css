@@ -5,3 +5,186 @@ main-titles dark-grey: #2C303F;
 paragraph grey: #5b5e6d;
 nav grey: #5b5e6d;
 */
+
+img {
+    width: 100%;
+}
+
+body {
+    font-family: sans-serif;
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    color: #2C303F;
+}
+
+p {
+    color: #5b5e6d;
+}
+
+nav {
+    color: #5b5e6d;
+}
+
+.menu {
+    border-bottom: 2px solid #ccc;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 20px;
+    align-items: center;
+    width: 100%;
+    background-color: white;
+
+}
+
+.menu .logo {
+    width: 160px;
+    margin-left: 15px;
+
+}
+
+.menu .navicon {
+    width: 45px;
+    margin-right: 15px;
+}
+
+.menu nav {
+    display: none;
+    color: #5b5e6d;
+}
+
+.menu a {
+    text-decoration: none;
+    color: inherit;
+    margin-right: 20px;
+}
+
+.menu li {
+    list-style: none;
+}
+
+.menu ul {
+    display: flex;
+}
+
+.menu2 {
+    padding-top: 20px;
+}
+
+.menu2 h1 {
+    font-size: 3em;
+}
+
+.p2 {
+    text-align: center;
+    margin-top: 5px;
+}
+
+
+
+.button {
+    background-color: #192592;
+    color: white;
+    text-transform: uppercase;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    width: 100%;
+    padding: 16px;
+    border-radius: 5px;
+
+
+}
+
+.email-size {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 8px;
+}
+
+.menu3 {
+    margin-top: 25px;
+    padding: 10px;
+    background-color: #F4F3F4;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 20px;
+
+
+}
+
+.menu3 img {
+    width: 55%;
+    margin-top: 10px;
+
+
+}
+
+.menu3 button {
+    background-color: white;
+    padding: 10px;
+    color: #192592;
+    text-transform: uppercase;
+    border-color: #192592;
+    width: 100%;
+    font-size: 1em;
+    border-radius: 5px;
+    margin-bottom: 20px;
+
+}
+
+.menu4 {
+    margin-top: 15px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+}
+
+.menu5 {
+    margin-top: 20px;
+}
+
+.menu5 img {
+    width: 20%;
+}
+
+
+.menu5 ul li {
+    list-style: none;
+    margin-top: 15px;
+}
+
+
+.menu6 {
+    background-color: #F4F3F4;
+    border-top: 1px solid #ccc;
+    padding-top: 20px;
+    font-size: 0.8em;
+    padding-bottom: 5px;
+
+}
+
+.menu6 p img {
+    width: 6%;
+}
+
+.menu6 ul {
+    display: flex;
+
+}
+
+.menu6 ul li {
+
+    list-style: none;
+    margin-left: 10px;
+
+
+}
+
+.menu6 img {
+    width: 12%;
+}
