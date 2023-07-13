@@ -5,3 +5,156 @@ main-titles dark-grey: #2C303F;
 paragraph grey: #5b5e6d;
 nav grey: #5b5e6d;
 */
+
+img {
+    width: 100%;
+}
+
+body {
+    padding: 20px;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid lightgrey;
+    color: #5b5e6d;
+    object-position: center;
+    align-items: center;
+}
+
+.menu nav {
+    display: none;
+}
+
+.menu img {
+    width: 100px;
+    margin-left: 20px;
+}
+
+.menu .navicon {
+    width: 35px;
+    height: 35px;
+    margin-left: 10px;
+}
+
+.menu nav ul {
+    list-style: none;
+    display: flex;
+}
+
+.menu nav li {
+    margin-right: 15px;
+    margin-top: 15px;
+    color: #5b5e6d;
+}
+
+.menu a {
+    color: inherit;
+    text-decoration-line: none;
+}
+
+@media screen and (min-width: 992px) {
+
+    .menu nav {
+        display: block;
+    }
+
+    .menu .navicon {
+        display: none;
+    }
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+}
+
+.hero p {
+    color: #5b5e6d;
+    margin-top: 10px;
+}
+
+h1 {
+    font-size: 2em;
+    color: #2C303F
+}
+
+h2,
+h3,
+h4 {
+    color: #2C303F
+}
+
+.homeimg {
+    margin-top: 10px;
+    margin: 10px;
+}
+
+.email-box {
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 100%px;
+    margin-bottom: 10px;
+}
+
+.button {
+    color: white;
+    background-color: #192592;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    padding: 20px;
+    display: block;
+    width: 100%;
+    text-align: center;
+    border: none;
+    outline: none;
+    text-decoration: none;
+}
+
+.sponsor {
+    background-color: #F4F3F4;
+    text-align: center;
+    padding: 40px;
+    gap: 10;
+}
+
+.sponsor img {
+    width: 50%;
+}
+
+.bottom img {
+    width: 25%;
+}
+
+.discover-button {
+    background-color: white;
+    color: #192592;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    border: solid;
+    outline: none;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+}
+
+.footer {
+    background-color: #F4F3F4;
+}
+
+.footer img {
+    width: 25%;
+    height: auto;
+}
+
+.tryit {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
