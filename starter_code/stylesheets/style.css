@@ -5,3 +5,86 @@ main-titles dark-grey: #2C303F;
 paragraph grey: #5b5e6d;
 nav grey: #5b5e6d;
 */
+img{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20%;
+}
+.menu.points{
+    
+}
+
+menu.points{
+    text-align: right;
+        display: inline-flex;
+        background-color: red;
+
+}
+.logo{
+    width: ;
+    
+}
+.email{
+    width: 100%;
+}
+.button{
+            text-decoration: none;
+            color: black;
+            font-family: sans-serif;
+            text-transform: uppercase;
+            border: 1px solid;
+            padding: 20px;
+            display: block;
+            width: 300px;
+            text-align: center;
+            margin-top: 100px;
+        }
+
+.buttonWhite{
+            text-decoration: none;
+                color: black;
+                font-family: sans-serif;
+                text-transform: uppercase;
+                border: 1px solid;
+                padding: 20px;
+                display: block;
+                width: 300px;
+                text-align: center;
+                margin-top: 100px;
+            }
+
+.textCentre{
+    text-align: center;
+}
+.buttonBlue {
+    text-decoration: none;
+    color: white;
+    background-color: #192592;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    border: 1px solid;
+    width: 300px;
+    text-align: center;
+    padding: 5px;
+    padding-left: 80px;
+    padding-right: 80px;
+    
+    
+}
+
+body{
+    width: 100%;
+}
+
+.menu.logo{
+    width: 10px;
+    
+}
+
+
+.menu{
+
+    contain: content;
+}
+
