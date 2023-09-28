@@ -5,3 +5,130 @@ main-titles dark-grey: #2C303F;
 paragraph grey: #5b5e6d;
 nav grey: #5b5e6d;
 */
+nav {
+    position: fixed;
+}
+.slack-logo {
+    width: 100px;
+}
+.row-one {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+}
+.home-talking {
+    width: 100%;
+}
+.top-text {
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    text-align:left;
+    gap: 10px;
+}
+.title {
+    font-family:'Times New Roman', Times, serif;
+    font-style: inherit;
+    color: #2C303F;
+    font-size: 5rem;
+}
+.subtitle {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.5rem;
+}
+.primary {
+    background-color: #192592;
+    color:white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 4px 4px;
+    border: 5px solid #192592;
+    border-radius: 8px;
+}
+.companies {
+    background-color: #F4F3F4;
+    padding-top: 100px;
+    border-top: 2px solid lightgray;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+.second-title {
+    font-family:'Times New Roman', Times, serif;
+    font-size: 3rem;
+    color: #2C303F;
+}
+.secondary {
+    color: #192592;
+    border: 2px solid lightgrey;
+    padding: 10px 10px;
+    border-radius: 8px;
+    background-color: white;
+}
+.logo {
+    width: 250px;
+    padding: 30px;
+}
+.row-images {
+    width: 80%;
+    padding: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.column-images {
+    display: flex;
+    justify-content: center;
+}
+.try-it {
+    margin: 40px;
+}
+.third-title {
+    font-family:'Times New Roman', Times, serif;
+    font-size: 2rem;
+    color: #2C303F;
+}
+.button-email {
+    color: #192592;
+    border: 2px solid lightgrey;
+    padding: 8px 8px;
+    border-radius: 8px;
+    background-color: white;
+}
+footer {
+    border-top: 2px solid lightgray;
+    padding: 40px;
+}
+.row-footer{
+    padding: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.slack-icon {
+    width: 100px;
+}
+.list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    color: #5b5e6d;;
+}
+.image-us {
+    width: 30px;
+}
+.bottom {
+    background-color: #F4F3F4;
+    padding: 30px;
+}
+.column-bottom {
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+    font-size: 0.75rem;
+}
+.bottom-icon {
+    width: 7%;
+}
