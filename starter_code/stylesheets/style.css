@@ -1,7 +1,149 @@
 /*
 background-grey: #F4F3F4;
-button-purple: #192592
+button-purple: #192592;
 main-titles dark-grey: #2C303F;
 paragraph grey: #5b5e6d;
 nav grey: #5b5e6d;
 */
+
+p{
+  color: #5b5e6d;
+}
+
+li{
+  color: #5b5e6d;
+}
+
+img {
+  width: 100%;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  border-bottom: 1px solid #c6c8d1;
+}
+
+header .logo {
+  width: 100px;
+}
+
+header .navicon {
+  width: 30px;
+}
+
+header ul {
+  display: flex;
+  font-weight: bold;
+}
+
+header li {
+  list-style: none;
+  margin-right: 30px;
+}
+
+.section-top{
+  margin-top: 20px;
+  text-align: center;
+}
+
+.section-top h1{
+  font-weight: bold;
+}
+
+.section-mid {
+  background-color: #f4f3f4;
+  border-bottom: 1px solid #c6c8d1;
+}
+
+.article-top {
+  text-align: center;
+  padding: 30px;
+}
+.article-top h2 {
+  font-weight: bold;
+}
+
+.article-bottom {
+  padding: 30px;
+}
+
+.article-bottom img {
+  border: 1px dotted;
+  padding: 30px;
+}
+
+.section-bottom {
+  text-align: center;
+  padding: 30px;
+  border-bottom: 1px solid #c6c8d1;
+}
+
+.section-bottom h2 {
+  font-weight: bold;
+  display: block;
+}
+
+.footer-top {
+  align-items: center;
+  border-bottom: 1px solid #c6c8d1;
+}
+
+footer img {
+  width: 50px;
+}
+
+footer li {
+  list-style: none;
+}
+
+.footer-top li:first-child {
+  font-weight: bolder;
+}
+
+.footer-bottom {
+  background-color: #f4f3f4;
+  text-align: center;
+  font-weight: bold;
+}
+
+.footer-bottom ul {
+  display: flex;
+}
+
+.footer-bottom li {
+  margin-right: 10px;
+}
+
+.input-box {
+  margin: 30px 0;
+}
+
+.button-border {
+  border: 2px solid;
+  padding: 4px;
+  color: black;
+  text-decoration: none;
+  border-radius: 6px;
+}
+
+.button-blue {
+  background-color: #192592;
+  color: white;
+  padding: 10px;
+  text-decoration: none;
+  border-radius: 6px;
+}
+
+.button-white {
+  background-color: white;
+  color: #192592;
+  padding: 10px;
+  text-decoration: none;
+  border-radius: 6px;
+  border: 2px solid;
+  font-weight: bold;
+  text-transform: uppercase;
+}
