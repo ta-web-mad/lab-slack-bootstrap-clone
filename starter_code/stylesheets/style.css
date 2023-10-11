@@ -5,3 +5,91 @@ main-titles dark-grey: #2C303F;
 paragraph grey: #5b5e6d;
 nav grey: #5b5e6d;
 */
+
+img {
+    width: 100%;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu img {
+    width: 100px;
+}
+
+.menu ul {
+    display: flex;
+    list-style: none;
+}
+
+.features {
+    background-color: #F4F3F4;
+}
+
+.features img {
+    width: 200px;
+    display: flex;
+    align-items: center;
+}
+
+.boton2 {
+    border: 1px solid;
+    font-weight: 80;
+    text text-decoration: none;
+    margin: 20px;
+    padding: 5px;
+    display: block;
+    text-align: center;
+}
+
+.boton3 {
+    border: 1px solid;
+    font-weight: 80;
+    background-color: blue;
+    margin: 20px;
+    padding: 5px;
+    display: block;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+}
+
+.boton1 {
+    border: 1px solid;
+    font-weight: 80;
+    text text-decoration: none;
+    margin: 20px;
+    padding: 5px;
+    display: block;
+    text-align: center;
+}
+
+.navegador {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    align-items: center;
+}
+
+.boton4 {
+    border: 1px solid;
+    font-weight: 80;
+    background-color: white;
+    margin: 20px;
+    padding: 5px;
+    display: block;
+    text-align: center;
+    color: blue;
+}
+
+.emial {
+    text-align: center;
+}
+
+.patrocinadores {
+    text-align: center;
+    padding-top: 30px;
+}
