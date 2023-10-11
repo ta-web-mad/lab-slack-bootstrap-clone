@@ -5,3 +5,178 @@ main-titles dark-grey: #2C303F;
 paragraph grey: #5b5e6d;
 nav grey: #5b5e6d;
 */
+img {
+    width: 100%;
+}
+
+.menu {
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+}
+
+.menu .logo {
+    width: 180px;
+}
+
+.menu .navicon {
+    width: 30px;
+}
+
+.menu ul {
+    display: flex;
+    margin: 0;
+    list-style: none;
+}
+
+.menu a {
+    color: gray;
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+.firstSec {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    justify-items: center;
+}
+
+.rightCol {
+    align-items: center;
+    justify-content: center;
+    padding-left: 40px;
+}
+
+.rightCol h1 {
+    text-align: center;
+    justify-content: center;
+
+}
+
+.rightCol p {
+    text-align: center;
+    margin: 10px;
+}
+
+.formAndAll {
+    padding: 20px 10px;
+}
+
+.grayBG {
+    background-color: rgb(186, 179, 179);
+    background-size: cover;
+    text-align: center;
+    padding: 4%;
+
+}
+
+.grayBG h {
+    font-size: 2em;
+    color: rgb(186, 179, 179);
+
+}
+
+.grayBG p {
+    margin: 20px;
+    font-size: 1 em;
+}
+
+.justText {
+    padding: 40px;
+
+}
+
+
+.justText a {
+
+    background-color: aliceblue;
+    text-align: center;
+    color: rgb(66, 101, 208);
+    font-size: larger;
+    justify-content: center;
+    border-radius: 7px;
+    border-width: 8px;
+    border-color: rgb(66, 101, 208);
+    text-decoration: none;
+    align-self: center;
+    padding: 20px;
+}
+
+.sponsors {
+    padding: 50px 20px;
+}
+
+.sponsors img {
+    width: 60%;
+    margin-top: 15px;
+    margin-bottom: 30px;
+
+}
+
+.moreInfo {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 30px;
+    padding-right: 0;
+    justify-content: space-between;
+}
+
+.lastSection img {
+    width: 30%;
+}
+
+.lastSection h4 {
+    text-transform: uppercase;
+    color: darkgray;
+    font-size: 1em;
+    text-align: left;
+
+}
+
+.buttCont {
+
+    background-color: rgb(48, 118, 179);
+    text-align: center;
+    color: rgb(183, 185, 189);
+    font-size: larger;
+    justify-content: center;
+    border-radius: 7px;
+    border-width: 8px;
+    border-color: rgb(230, 231, 234);
+    text-decoration: none;
+    align-self: center;
+    padding: 8px;
+    margin-top: 100px;
+    width: 80%;
+}
+
+footer {
+    flex-wrap: wrap;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    color: white;
+
+}
+
+footer img {
+    width: 40px;
+}
+
+footer li img {
+    filter: invert(1);
+}
+
+footer ul {
+    list-style: none;
+    display: flex;
+}
+
+footer li {
+    margin-right: 10px;
+
+
+}
