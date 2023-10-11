@@ -5,3 +5,158 @@ main-titles dark-grey: #2C303F;
 paragraph grey: #5b5e6d;
 nav grey: #5b5e6d;
 */
+
+body {
+    margin: 0;
+}
+
+img {
+    width: 100%;
+}
+
+.header-section {
+    border-bottom: 1px solid lightgray;
+}
+
+.header-section .slack-logo {
+    width: 100px;
+}
+
+.header-section .navicon {
+    width: 30px;
+}
+
+.navigation-menu ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    margin-bottom: 0;
+}
+
+.navigation-menu ul li a {
+    color: #5b5e6d;
+    text-decoration: none;
+}
+
+.main-top-section {
+    margin-top: 70px;
+}
+
+.main-top-section h1 {
+    color: #2C303F;
+    font-family: serif;
+    font-size: 3.5em;
+    font-weight: 800;
+}
+.main-top-section p {
+    color: #5b5e6d;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.email-input {
+    border: 1px solid lightgray;
+    border-radius: 4px;
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.get-button {
+    background-color: #192592;
+    color: white;
+    text-transform: uppercase;
+    border: 1px solid #192592;
+    border-radius: 4px;
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.centered-text {
+    text-align: center;
+}
+
+.centered-text a {
+    color: #192592;
+}
+
+.main-middle-section {
+    background-color: #F4F3F4;
+    text-align: center;
+}
+
+.main-middle-section h2 {
+    color: #2C303F;
+    font-family: serif;
+    font-size: 2em;
+    font-weight: 800;
+    padding-top: 40px;
+}
+
+.discover-button {
+    color: #192592;
+    text-transform: uppercase;
+    border: 1px solid #192592;
+    border-radius: 4px;
+    width: 100%;
+    max-width: 500px;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.main-middle-section img {
+    width: 150px;
+    margin: 30px;
+}
+
+.main-bottom-section {
+    text-align: center;
+    margin: 50px 0;
+}
+
+.main-bottom-section h3 {
+    color: #2C303F;
+    font-family: serif;
+    font-size: 1.5em;
+    font-weight: 800;
+}
+
+.footer-top-section {
+    margin-top: 30px;
+}
+
+.footer-top-section .slack-img {
+    width: 60px;
+}
+
+.footer-top-section h4 {
+    text-transform: uppercase;
+    color: #2C303F;
+}
+
+.footer-top-section p {
+    color: #5b5e6d;
+    font-size: 0.9em;
+    font-weight: 400;
+}
+
+.footer-bottom-section {
+    background-color: #F4F3F4;
+    padding: 20px 0;
+}
+
+.footer-bottom-section p {
+    margin-bottom: 0;
+    color: #5b5e6d;
+    font-weight: 600;
+}
+
+.footer-bottom-section .flag {
+    width: 20px;
+}
+
+.footer-bottom-section .social-icon {
+    width: 20px;
+    filter: invert(0.40);
+}
