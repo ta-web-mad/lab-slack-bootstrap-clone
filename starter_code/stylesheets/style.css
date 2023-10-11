@@ -5,3 +5,127 @@ main-titles dark-grey: #2C303F;
 paragraph grey: #5b5e6d;
 nav grey: #5b5e6d;
 */
+img {
+    width: 100%;
+}
+
+.hero {
+
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid gray;
+
+
+
+}
+
+.email {
+    display: flex;
+
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+
+}
+
+.hero section img {
+    width: 40%;
+}
+
+nav ul li a {
+    margin: 20px;
+    text-decoration: none;
+    text-align: center;
+    color: #5b5e6d;
+
+}
+
+.hero section img {
+    width: 10%;
+    margin-left: 10px;
+}
+
+.hero nav img {
+    width: 60%;
+}
+
+.menu {
+    width: 10px;
+}
+
+.boton {
+    background-color: #192592;
+    color: white;
+    padding: 10px
+}
+
+.primero {
+    padding: 30px;
+}
+
+.segundo {
+    padding: 30px;
+    background-color: rgb(186, 185, 185)
+}
+
+body {
+    background-color: ;
+}
+
+.graybackground {
+    background-color: rgb(186, 185, 185);
+}
+
+p {
+    color: #5b5e6d;
+}
+
+.enlaces a {
+    text-decoration: none;
+    color: #5b5e6d;
+}
+
+.tercero {
+    padding: 30px;
+
+}
+
+.cuarto {
+    padding: 30px;
+}
+
+.quinto {
+    padding: 20px;
+    background-color: rgb(186, 185, 185);
+    display: flex;
+    justify-content: space-between;
+    color: #5b5e6d;
+
+}
+
+.quinto img {
+    width: 20px;
+}
+
+h1 h2 h3 h4 {
+    color: #2C303F;
+}
+
+.good-company {
+    text-align: center;
+    align-items: center;
+}
+
+.quinto ul {
+    display: flex;
+    justify-content: space-between;
+
+    list-style: none;
+}
+
+.quinto ul li a {
+    margin: 20px;
+}
