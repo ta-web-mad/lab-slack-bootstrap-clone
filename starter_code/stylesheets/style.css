@@ -6,11 +6,11 @@ paragraph grey: #5b5e6d;
 nav grey: #5b5e6d;
 */
 
-p{
+p {
   color: #5b5e6d;
 }
 
-li{
+li {
   color: #5b5e6d;
 }
 
@@ -44,12 +44,12 @@ header li {
   margin-right: 30px;
 }
 
-.section-top{
+.section-top {
   margin-top: 20px;
   text-align: center;
 }
 
-.section-top h1{
+.section-top h1 {
   font-weight: bold;
 }
 
@@ -108,13 +108,12 @@ footer li {
   text-align: center;
   font-weight: bold;
 }
+.footer-bottom img {
+  width: 20px;
+}
 
 .footer-bottom ul {
   display: flex;
-}
-
-.footer-bottom li {
-  margin-right: 10px;
 }
 
 .input-box {
