@@ -5,3 +5,153 @@ main-titles dark-grey: #2C303F;
 paragraph grey: #5b5e6d;
 nav grey: #5b5e6d;
 */
+img {
+    width: 100%;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    border-bottom: 1px solid #5b5e6d;
+}
+
+.menu img {
+    width: 25%;
+}
+
+.menu .navicon {
+    width: 8%;
+}
+
+.menu nav ul {
+    list-style: none;
+    display: flex;
+}
+
+.menu nav ul li {
+    padding-left: 20px;
+    color: #5b5e6d;
+    font-size: 1.5em;
+}
+
+.menu nav ul li a {
+    text-decoration: none;
+    color: #5b5e6d;
+    border: 1px solid;
+    border-radius: 6px;
+    padding: 5px;
+}
+
+.email-button {
+    color: #5b5e6d;
+    border: 1px solid #5b5e6d;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.get-button {
+    text-align: center;
+    background-color: #192592;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    color: white;
+    border: 1px solid #192592;
+    border-radius: 5px;
+    padding-top: 10px;
+}
+
+.hero h1 {
+    font-size: 4em;
+}
+
+.firstSection {
+    text-align: center;
+    margin-top: 10px;
+    background-color: #F4F3F4;
+    padding-top: 20px;
+
+}
+
+.firstSection img {
+    width: 60%;
+    padding-bottom: 40px;
+}
+
+.firstSection article {
+    margin-bottom: 40px;
+}
+
+.discover a {
+    background-color: white;
+    border: 1px solid #192592;
+    border-radius: 5px;
+    text-decoration: none;
+    padding: 10px;
+    color: #192592;
+}
+
+.secondSection {
+    margin: 10px 20px;
+}
+
+.thirdSection img {
+    width: 80px;
+    padding: 20px;
+}
+
+.thirdSection {
+    color: #5b5e6d;
+}
+
+.thirdSection ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+footer {
+    background-color: #F4F3F4;
+    padding-top: 20px;
+}
+
+.firstList {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.firstList li {
+    list-style: none;
+    color: #5b5e6d;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.secondList {
+    display: flex;
+    justify-content: center;
+}
+
+.secondList li {
+    list-style: none;
+    color: #5b5e6d;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.thirdList {
+    display: flex;
+    justify-content: center;
+}
+
+footer img {
+    width: 20px;
+}
+
+.thirdList li {
+    padding: 10px;
+    list-style: none;
+
+}
