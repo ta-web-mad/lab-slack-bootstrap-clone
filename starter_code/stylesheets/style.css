@@ -5,3 +5,115 @@ main-titles dark-grey: #2C303F;
 paragraph grey: #5b5e6d;
 nav grey: #5b5e6d;
 */
+body{
+    font-family: sans-serif;
+}
+img{
+    width: 100%;
+}
+.where h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    margin-bottom: 30px;
+    color: red;
+}
+.logotype a img{
+    width: 80px;
+}
+.logotype{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    align-items: center;
+    border-bottom: 1px solid rgb(81, 74, 74);
+}
+.menu{
+    display: flex;
+} 
+.menu  ul{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    flex-wrap: wrap;
+    width: 600px;
+}
+.menu ul li{
+    margin:5px;
+    list-style: none;
+    text-decoration: none;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+.buttom1 a{
+    background-color: white;
+    display: block;
+    color: rgb(3, 3, 3);
+    text-decoration: none;
+    padding: 10px;
+    border: 1px solid rgba(124, 121, 121, 0.484);
+    border-radius: 4px;
+}
+.buttom2 a{
+    background-color: rgb(69, 82, 206);
+    color: white;
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    border: 1px solid rgb(111, 109, 109);
+    border-radius: 4px;
+    width: 150px;
+    
+
+}
+.secondSection{
+    background-color: #F4F3F4;
+    text-align: center;
+    padding: 50px;
+}
+.secondSection a{
+    display: block;
+    border-bottom: 2px solid;
+    background-color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 8px;
+    border-radius: 4px;
+    margin:auto;
+    width: 250px;
+}
+.gallery{
+    padding: 20px;
+
+}
+.gallery img{
+    width: 60%;
+    margin: 20px;
+    justify-content: center;
+    
+}
+.thirdSection{
+ background-color: #F4F3F4;
+ text-align: center;
+}
+.fourthSection{
+    text-align: center;
+    padding: 20px;
+    border-bottom: 1px solid rgb(193, 191, 191);
+    margin-bottom: 30px;
+}
+.fifthsection img{
+    width: 60px;
+   
+}
+footer img{
+    width: 15px;
+}
+footer{
+    padding: 25px;
+    background-color:#F4F3F4 ;
+    text-align: center;
+}
