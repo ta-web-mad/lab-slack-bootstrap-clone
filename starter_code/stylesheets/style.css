@@ -5,3 +5,231 @@ main-titles dark-grey: #2C303F;
 paragraph grey: #5b5e6d;
 nav grey: #5b5e6d;
 */
+
+.test {
+    background-color: red;
+}
+
+
+img {
+    width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    color: #2C303F;
+}
+
+p {
+    color: #5b5e6d;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #ccc;
+    align-items: center;
+    padding: 10px 30px;
+}
+
+.menu .logo {
+    width: 150px;
+}
+
+.burguer {
+    width: 30px;
+}
+
+.menu ul {
+    display: flex;
+    margin: 0;
+    list-style: none;
+}
+
+.menu a {
+    color: black;
+    margin-left: 15px;
+    text-decoration: none;
+}
+
+.workspace {
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 3px;
+}
+
+.email {
+    border: 1px solid #5b5e6d;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 10px 3px;
+    text-align: left;
+}
+
+.getStarted {
+    background-color: darkblue;
+    border-radius: 5px;
+    padding: 15px 25px;
+    text-align: center;
+    margin: 10px 3px;
+}
+
+.getStarted a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+}
+
+.signIn {
+    margin-bottom: 5px;
+    margin-left: 3px;
+    text-align: left;
+}
+
+.centered {
+    text-align: center;
+}
+
+.discover {
+    background-color: #F4F3F4;
+    padding: 50px 0;
+}
+
+.discoverWhy {
+    text-decoration: none;
+    text-transform: uppercase;
+    border: 1px solid #5b5e6d;
+    border-radius: 5px;
+    padding: 10px 25px;
+    text-align: center;
+    margin: 10px 3px;
+}
+
+.discover a {
+    text-decoration: none;
+    color: #192592;
+}
+
+.discover img {
+    width: 200px;
+    padding: 15px;
+}
+
+.slack-ico {
+    width: 60px;
+}
+
+.footerList ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+.footerList li {
+    padding: 5px;
+}
+
+.footerList a {
+    text-decoration: none;
+    color: #5b5e6d;
+}
+
+
+.footerList h4 {
+    text-transform: uppercase;
+    font-size: 1em;
+    padding-top: 20px;
+}
+
+.footerList {
+    padding-top: 30px;
+}
+
+.bottomLine {
+    border-bottom: 3px solid lightgrey;
+}
+
+.leftLine {
+    border-left: 3px solid lightgrey;
+}
+
+.rightLine {
+    border-right: 3px solid lightgrey;
+}
+
+.tryiIt {
+    padding: 30px 0;
+}
+
+.sponsor {
+    height: 80px;
+
+}
+
+.hero {
+    padding-top: 40px;
+}
+
+.hero h1 {
+    font-size: 4em;
+    font-family: serif;
+    font-weight: bold;
+}
+
+.language {
+    background-color: #F4F3F4;
+    font-weight: bold;
+    padding: 30px 0;
+}
+
+.languagelist {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+.languagelist li {
+    padding: 15px
+}
+
+.language a {
+    text-decoration: none;
+    color: #5b5e6d;
+
+}
+
+.language img {
+    width: 20px;
+}
+
+
+.languageIcons {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.languageIcons li {
+    padding: 8px
+}
+
+@media screen and (max-width: 768px) {
+    .people {
+        width: 80%;
+    }
+
+    .tryiIt h3,
+    p {
+        text-align: center;
+
+    }
+
+    .signIn {
+        text-align: center
+    }
+
+
+}
