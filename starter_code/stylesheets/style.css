@@ -5,3 +5,135 @@ main-titles dark-grey: #2C303F;
 paragraph grey: #5b5e6d;
 nav grey: #5b5e6d;
 */
+img {
+    width: 100%
+}
+
+/*Navigation menue styles*/
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: #5b5e6d 1px solid;
+    margin-bottom: 30px;
+}
+
+.nav-bar .slack-logo {
+    width: 20%;
+}
+
+.nav-bar .navicon {
+    width: 40px;
+}
+
+.nav-bar ul {
+    list-style: none;
+    display: flex;
+}
+
+.nav-bar li {
+    padding: 0 10px;
+}
+
+/*First section styles*/
+.description {
+    margin: 20px auto
+}
+
+.email {
+    border: solid 1px #d0d1d5;
+    border-radius: 5px;
+    padding: 10px;
+    color: #5b5e6d;
+}
+
+.first-cta,
+.login {
+    margin: 20px;
+    text-align: center;
+}
+
+.get-started,
+.button {
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    font-weight: 600;
+    padding: 10px;
+    border-radius: 5px;
+
+}
+
+.get-started {
+    background-color: #192592;
+    color: white;
+    display: block;
+}
+
+.button {
+    color: #192592;
+    border: solid 2px #192592;
+}
+
+/*Logos section*/
+
+.logos {
+    background-color: #F4F3F4;
+    text-align: center;
+}
+
+.logos img {
+    width: 70%;
+    padding: 50px;
+}
+
+.second-cta {
+    padding: 30px;
+    border-bottom: 1px solid #8d8e90;
+    align-items: center;
+}
+
+.cta-section p {
+    display: inline;
+}
+
+.site-map {
+    margin: 30px;
+}
+
+.site-map a {
+    text-decoration: none;
+    color: #5b5e6d
+}
+
+.site-map img {
+    width: 30%;
+}
+
+
+/*Footer navigation panel*/
+
+.footer-nav ul,
+.language,
+.rss-icons {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.footer-nav li {
+    margin: 0 20px;
+}
+
+.flag,
+.icon {
+    width: 40px;
+    margin: 0 10px;
+}
+
+.rss-icons img {
+    width: 30px;
+    opacity: 0.5;
+}
