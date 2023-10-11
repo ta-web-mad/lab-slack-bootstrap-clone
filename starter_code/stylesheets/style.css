@@ -5,9 +5,11 @@ main-titles dark-grey: #2C303F;
 paragraph grey: #5b5e6d;
 nav grey: #5b5e6d;
 */
+
 img {
     width: 100%
 }
+
 
 /*Navigation menue styles*/
 .nav-bar {
@@ -37,8 +39,23 @@ img {
 }
 
 /*First section styles*/
-.description {
+.description,
+.first-cta h2,
+.first-cta p {
     margin: 20px auto
+}
+
+h1,
+h2 {
+    font-family: serif;
+    font-weight: 700;
+
+}
+
+h1 {
+    line-height: 0.8em;
+    margin: 30px 0;
+    font-size: 3.8em;
 }
 
 .email {
@@ -50,8 +67,8 @@ img {
 
 .first-cta,
 .login {
-    margin: 20px;
     text-align: center;
+    margin-bottom: 30px;
 }
 
 .get-started,
@@ -69,6 +86,7 @@ img {
     background-color: #192592;
     color: white;
     display: block;
+    margin-bottom: 15px;
 }
 
 .button {
@@ -78,7 +96,8 @@ img {
 
 /*Logos section*/
 
-.logos {
+.logos,
+.footer-nav {
     background-color: #F4F3F4;
     text-align: center;
 }
@@ -92,10 +111,19 @@ img {
     padding: 30px;
     border-bottom: 1px solid #8d8e90;
     align-items: center;
+    text-align: center;
+
+
+}
+
+.cta-section {
+    margin-bottom: 20px;
+    ;
 }
 
 .cta-section p {
     display: inline;
+
 }
 
 .site-map {
@@ -109,6 +137,7 @@ img {
 
 .site-map img {
     width: 30%;
+    margin-bottom: 20px;
 }
 
 
@@ -123,8 +152,12 @@ img {
     padding: 10px;
 }
 
-.footer-nav li {
+.footer-nav a,
+.language {
     margin: 0 20px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #5b5e6d
 }
 
 .flag,
@@ -136,4 +169,21 @@ img {
 .rss-icons img {
     width: 30px;
     opacity: 0.5;
+}
+
+@media screen and (min-width: 575px) {
+    .second-cta {
+        text-align: left
+    }
+
+    h1 {
+        font-size: 4.2em;
+    }
+
+}
+
+@media screen and (min-width: 770px) {
+    .login {
+        text-align: left;
+    }
 }
