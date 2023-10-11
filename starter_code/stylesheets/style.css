@@ -5,3 +5,138 @@ main-titles dark-grey: #2C303F;
 paragraph grey: #5b5e6d;
 nav grey: #5b5e6d;
 */
+
+
+
+img {
+    width: 100%;
+}
+
+.menu .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 5px;
+}
+
+.menu .logo {
+    width: 100px;
+}
+
+.menu .navicon {
+    width: 20px;
+}
+
+.menu ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu li {
+    margin-right: 10px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #2C303F;
+}
+
+.menu button {
+    border: 1px solid;
+    border-color: #2C303F;
+    background-color: white;
+    border-radius: 5%;
+}
+
+
+.hero h1 {
+    color: #2C303F;
+    font-family: serif;
+    font-weight: 400;
+}
+
+.hero p {
+    color: #5b5e6d;
+    font-size: 0.8em;
+}
+
+.getstarted {
+    text-transform: uppercase;
+    border: 1px solid;
+    background-color: #3e359d;
+    color: white;
+    font-weight: 100;
+    border-radius: 4%;
+    padding: 12.5px 30px;
+    width: 100%;
+
+}
+
+.getstarted a {
+    color: white;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.email {
+    padding: 10px;
+    width: 100%;
+}
+
+.logos {
+    background-color: rgb(239, 239, 239);
+    padding: 30px;
+}
+
+.logos h2 {
+    font-family: serif;
+    font-weight: 500;
+    font-size: 2em;
+    letter-spacing: 0.8;
+    text-align: center;
+}
+
+.logos p {
+    text-align: center;
+}
+
+.discoverwhy {
+    justify-content: center;
+    border: 1px solid;
+    border-color: #3e359d;
+    background-color: white;
+    border-radius: 5%;
+}
+
+.col-12.col-md-4.col-lg-3 {
+    text-align: center;
+}
+
+/* Ya sé que está mal pero no me salía de otra forma. */
+
+.discoverwhy a {
+    display: block;
+    color: #3e359d;
+    font-weight: 500;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 30px;
+
+}
+
+
+.logos img {
+    width: 100%;
+    padding: 30px;
+}
+
+.tryit h3 {
+    font-family: serif;
+}
+
+.tryit {
+    margin-top: 20px;
+}
