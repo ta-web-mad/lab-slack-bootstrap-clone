@@ -1,7 +1,57 @@
-/*
-background-grey: #F4F3F4;
-button-purple: #192592
-main-titles dark-grey: #2C303F;
-paragraph grey: #5b5e6d;
-nav grey: #5b5e6d;
-*/
+img {
+    width: 100%;
+}
+
+.menu {
+    display: flex;
+    border-bottom: 1px solid #ccc;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+}
+
+.menu .logo {
+    width: 180px;
+}
+
+.menu .rayitas {
+    width: 30px;
+}
+
+.menu ul {
+    display: flex;
+    margin: 0;
+    list-style: none;
+}
+
+.menu a {
+    color: inherit;
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+.menu .cuadro {
+
+    border-style: solid;
+    border-radius: 5px;
+
+}
+
+.menu nav {
+    display: none;
+}
+
+.menu nav ul {
+    list-style: none;
+    display: flex;
+}
+
+@media screen and (min-width: 650px) {
+    .menu nav {
+        display: block;
+    }
+
+    .menu .rayitas {
+        display: none;
+    }
+}
