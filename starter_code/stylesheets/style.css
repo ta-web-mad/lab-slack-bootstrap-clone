@@ -5,3 +5,109 @@ main-titles dark-grey: #2C303F;
 paragraph grey: #5b5e6d;
 nav grey: #5b5e6d;
 */
+img {
+    width: 100%;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid grey;
+
+}
+
+.menu img {
+    width: 100px;
+    margin-left: 50px;
+}
+
+.menu ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin-right: 50px;
+}
+
+.menu .button {
+    border: 1px solid;
+    border-radius: 5px;
+}
+
+.menu ul a {
+    text-decoration: none;
+    color: black;
+    padding: 7px;
+}
+
+.menu .navicon {
+    width: 30px;
+    margin-right: 50px;
+}
+
+.section1 {
+    border-bottom: 1px solid black;
+    padding: 20px 0;
+}
+
+.email {
+    color: rgb(144, 131, 131);
+    border: 1px solid rgb(144, 131, 131);
+    border-radius: 3px;
+    text-align: left;
+    padding: 5px;
+}
+
+.getStarted {
+    background-color: #192592;
+    color: white;
+    border: 1px solid rgb(144, 131, 131);
+    border-radius: 3px;
+    text-align: center;
+    padding: 5px;
+}
+
+.section2 {
+    border-bottom: 1px solid black;
+    background-color: #F4F3F4;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.discoverWhy {
+    background-color: white;
+    color: #192592;
+    border: 1px solid #192592;
+    border-radius: 3px;
+    text-align: center;
+}
+
+.section2 img {
+    width: 200px;
+    margin: 20px;
+
+}
+
+.section3 {
+    border-bottom: 1px solid black;
+    padding: 50px 0;
+}
+
+.section4 {
+    border-bottom: 1px solid black;
+    padding: 50px 0;
+}
+
+.section4 p {
+    color: grey;
+}
+
+.section4 img {
+    width: 150px;
+}
+
+.section4 ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
