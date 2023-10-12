@@ -1,0 +1,132 @@
+img {
+    width: 100%;
+}
+
+.menu {
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 100px;
+    padding-left: 50px;
+    align-items: center;
+}
+
+
+.menu img {
+    width: 80px;
+}
+
+
+
+.menu nav {
+
+    display: flex;
+    list-style: none;
+    text-align: justify;
+    text-decoration: none;
+    justify-content: space-around;
+
+
+}
+
+.menu nav ul {
+    margin: 0;
+
+    list-style: none;
+    display: flex;
+}
+
+.menu nav ul li {
+    padding: 10px;
+    text-decoration: none;
+}
+
+.menu a {
+    text-decoration: none;
+    color: grey
+}
+
+.logo {
+    padding: 10px;
+
+
+}
+
+.icons {
+    display: flex;
+    padding: 25px;
+    margin: 15px;
+}
+
+.icons text {
+    align-items: center;
+}
+
+.patros {
+    text-align: center;
+
+    background-color: rgb(213, 213, 213);
+    border-bottom: 5px;
+    margin-bottom: 10px;
+
+}
+
+.patros img {
+    align-items: center;
+    width: 50%;
+    justify-content: space-between;
+    justify-content: space-around;
+    margin margin-top: 10px;
+}
+
+.patros p {
+
+    text-align: center;
+    margin-bottom: 25px;
+
+}
+
+.tryfor {
+    border-radius: 5px;
+    width: 15%;
+
+
+}
+
+.subot {
+    width: 15px;
+
+}
+
+.subot img {
+    width: 15px;
+}
+
+.bot {
+    text-size-adjust: 15px;
+    display: flex;
+    align-items: center;
+}
+
+footer {
+    display: flex;
+    background-color: rgb(197, 194, 194);
+
+}
+
+footer img {
+    margin-left: 200px;
+    width: 25px;
+    justify-content: space-around;
+    justify-content: end;
+
+}
+
+.slackfinal {
+    width: 80px;
+}
+
+.container2 {
+    margin-left: 100px;
+
+}
