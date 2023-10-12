@@ -5,3 +5,66 @@ main-titles dark-grey: #2C303F;
 paragraph grey: #5b5e6d;
 nav grey: #5b5e6d;
 */
+img{
+    width: 100%;
+}
+
+.menu{
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+}
+.menu nav{
+    display: none;
+}
+
+.menu .logo{
+    width: 180px;
+}
+.menu .menuicon{
+    width: 30px;
+}
+.menu img{
+    width: 140px;
+}
+.menu nav ul{
+    list-style: none;
+    display: flex;
+}
+.menu nav li{
+    margin-right: 5px;
+}
+.menu ul{
+    display: flex;
+    margin: 0;
+    list-style: none;
+}
+
+.menu a{
+    color: inherit;
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+@media screen and (min-width: 650px) {
+    
+.menu nav {
+    display: block;
+}
+.menu .menuicon{
+    display: none;
+}
+}
+@media screen and (min-width: 650px) {
+
+    .section harvard {
+        display: block;
+    }
+
+    .section times-logo {
+        display: none;
+    }
+}
+
