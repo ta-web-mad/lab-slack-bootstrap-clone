@@ -5,3 +5,76 @@ main-titles dark-grey: #2C303F;
 paragraph grey: #5b5e6d;
 nav grey: #5b5e6d;
 */
+
+img {
+    width: 100%;
+}
+
+.slack-logo {
+    width: 200px;
+    padding-left: 20px;
+}
+
+.hola {
+    width: 30px;
+    height: 30px;
+}
+
+
+li {
+    list-style: none;
+    font-size: 13px;
+
+}
+
+header {
+    border-bottom: 0.5px solid #a3a4a8;
+
+}
+
+.zona-gris {
+    background-color:
+        #f8f8f8;
+}
+
+.btn {
+    background-color: #192592 !important;
+    color: white;
+    text-transform: uppercase;
+    margin: 10px;
+}
+
+input {
+
+    margin: 10px;
+}
+
+
+
+.in-footer {
+    background-color: #F4F3F4;
+}
+
+.in-footer ul {
+    display: flex;
+    flex-direction: row;
+    padding-top: 5px;
+}
+
+.in-footer li {
+    padding: 10px;
+}
+
+.in-footer img {
+    width: 20px;
+}
+
+.icono {
+    width: 50%;
+    padding: 10px;
+
+}
+
+.marcas {
+    padding: 30px;
+}
