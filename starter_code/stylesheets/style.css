@@ -5,3 +5,48 @@ main-titles dark-grey: #2C303F;
 paragraph grey: #5b5e6d;
 nav grey: #5b5e6d;
 */
+img {
+    width: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.menu {
+    border-bottom: 1px #ccc;
+    justify-content: space-between;
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+}
+
+.butt-email {
+    background-color: #1264a3;
+    border: none;
+    padding: 10px 25px;
+    color: #fff;
+    border-radius: 5px
+}
+
+.menu .logo {
+    width: 130px
+}
+
+.menu .navicon {
+    width: 50px;
+}
+
+.menu ul {
+    display: flex;
+    margin: 0;
+    list-style: none;
+    justify-content: space-between;
+}
+
+.menu nav li {
+    margin-right: 6px;
+}
