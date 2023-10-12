@@ -5,3 +5,51 @@ main-titles dark-grey: #2C303F;
 paragraph grey: #5b5e6d;
 nav grey: #5b5e6d;
 */
+
+
+
+.img {
+    width: 100px;
+
+
+}
+
+
+
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+
+
+}
+
+.menu li {
+    display: inline;
+}
+
+.menu img {
+    height: 3em;
+}
+
+
+.caja {
+    border: 1px;
+    border-color: black;
+    padding: 10px;
+    display: inline-block;
+}
+
+.text {
+    display: flex;
+}
+
+.segundaparte {
+    background-color: #F4F3F4;
+}
+
+
+.cuartaparte {
+    display: flex;
+}
