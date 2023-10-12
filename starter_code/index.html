@@ -1,20 +1,190 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
 
-    <!-- link the font awesome CDN -->
-    <link href="https://use.fontawesome.com/releases/v5.0.1/css/all.css" rel="stylesheet"/>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
 
-    <!-- link your styles -->
-    <link rel="stylesheet" href="./stylesheets/style.css" />
-    <title>Where work happens | Slack</title>
-  </head>
+  <!-- link the font awesome CDN -->
+  <link href="https://use.fontawesome.com/releases/v5.0.1/css/all.css" rel="stylesheet" />
 
-  <body>
-   
-    
-  </body>
+  <!-- link your styles -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="stylesheet" href="./stylesheets/style.css" />
+  <title>Where work happens | Slack</title>
+</head>
+
+<body>
+  <header class="header">
+    <div class="flex">
+      <figure class="logo">
+        <img src="./images/slack-logo.png" alt="slack logo">
+      </figure>
+      <div class="col d-block d-md-none">
+        <figure class="hamburguer">
+          <img src="./images/menu.png" alt="hamburguer menu">
+        </figure>
+      </div>
+      <nav class="nav d-none d-md-block">
+        <ul>
+          <div class="flex">
+            <li><a href="#">why slack?</a></li>
+            <li><a href="#">pricing</a></li>
+            <li><a href="#">about us</a></li>
+            <li class="button-link"><a href="#">your workspaces</a></li>
+          </div>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <section class="hero">
+    <div class="container">
+      <div class="row">
+        <div class="col col-lg-6 order-sm-2 intro">
+          <h1>Where work happens</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci dicta corrupti ad magni, ducimus facilis
+            ut?
+            Blanditiis totam molestias vero? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo, eum?</p>
+          <form action="#" class="email">
+            <input type="email" placeholder="E-mail address">
+            <button type="submit" class="email-button">Get started</button>
+          </form>
+          <p>Already using Slack?<a href="#" class="but">Sign in</a></p>
+        </div>
+        <div class="col col-lg-6 order-sm-1">
+          <figure class="hero-img">
+            <img src="./images/home_talking.png" alt="home page">
+          </figure>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="partners">
+    <div class="container">
+      <article class="companies">
+        <h3>You're in good company</h3>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos, nihil.</p>
+        <a href="#" class="button-link">discover why</a>
+      </article>
+      <article>
+        <div class="row">
+          <figure class=" col-md-6 col-lg-4 partners-img"><img src="./images/airbnb-logo.png" alt="airbnb-logo">
+          </figure>
+          <figure class=" col-md-6 col-lg-4 partners-img"><img src="./images/capital-one-logo.png"
+              alt="capital-one-logo"></figure>
+          <figure class=" col-md-6 col-lg-4 partners-img"><img src="./images/harvard-logo.png" alt="harvard-logo">
+          </figure>
+          <figure class=" col-md-6 col-lg-4 partners-img"><img src="./images/los-angeles-times-logo.png"
+              alt="los-angeles-times-logo">
+          </figure>
+          <figure class="col-md-6 col-lg-4 partners-img"><img src="./images/oracle-logo.png" alt="oracle-logo">
+          </figure>
+          <figure class="col-md-6 col-lg-4 partners-img"><img src="./images/ticketmaster-logo.png"
+              alt="ticketmaster-logo"></figure>
+        </div>
+      </article>
+    </div>
+  </section>
+  <section class="try">
+    <div class="container">
+      <div class="row">
+        <article class="col col-lg-6">
+          <h6>Try it for free</h6>
+          <p>Already using Slack?<a href="#">Sign in</a></p>
+        </article>
+        <article class="col col-lg-6">
+          <form action="#" class="email">
+            <label for="email">Email adress</label>
+            <input type="email">
+            <button type="submit" class="email-button">get started</button>
+        </article>
+        </form>
+      </div>
+    </div>
+  </section>
+  <section class="information">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 order-md-1 ">
+          <figure>
+            <img src="./images/iso-slack.png" alt="iso-slack">
+          </figure>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-6 col-md-4">
+          <div class="row">
+            <article class="col-md-6 ">
+              <h6 class="end-title">Company</h6>
+              <p class="info">About us</p>
+              <p class="info">Careers</p>
+              <p class="info">Blog</p>
+              <p class="info">Press</p>
+              <p class="info">Brand Guidelines</p>
+            </article>
+            <article class="col-md-6 ">
+              <h6 class="end-title">Product</h6>
+              <p class="info">why slack?</p>
+              <p class="info">enterprise</p>
+              <p class="info">customer stories</p>
+              <p class="info">pricing</p>
+              <p class="info">security</p>
+            </article>
+          </div>
+        </div>
+        <div class="col-6 col-md-4 ">
+          <div class="row">
+            <article class="col-md-6">
+              <h6 class="end-title">Resources</h6>
+              <p class="info">download</p>
+              <p class="info">help center</p>
+              <p class="info">guides</p>
+              <p class="info">partners</p>
+              <p class="info">events</p>
+              <p class="info">app directory</p>
+              <p class="info cap">api</p>
+            </article>
+            <article class="col-md-6">
+              <h6 class="end-title">extras</h6>
+              <p class="info">podcast</p>
+              <p class="info">slack shop</p>
+              <p class="info">slack at work</p>
+              <p class="info">slack fund</p>
+            </article>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <div class="container">
+      <div class="row">
+        <article class="col">
+          <div class="flex">
+            <p class="footer-text">status</p>
+            <p class="footer-text">privacy & terms</p>
+            <p class="footer-text">contact us</p>
+        </article>
+        <article class="col">
+          <button>
+            <div class="flex language-button">
+              <img src="./images/us-flag.png" alt="lang-img">
+              <p class="footer-text">english (US)</p>
+            </div>
+          </button>
+        </article>
+        <article class="col">
+          <div class="flex rss-icons">
+            <figure><img src="./images/facebook.png" alt="facebook-icon" class="footer-icons"></figure>
+            <figure><img src="./images/twiter.png" alt="twitter-icon" class="footer-icons"></figure>
+            <figure><img src="./images/youtube.png" alt="youtube-icon" class="footer-icons"></figure>
+          </div>
+        </article>
+      </div>
+    </div>
+  </footer>
+</body>
+
 </html>
