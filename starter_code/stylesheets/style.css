@@ -1,7 +1,499 @@
-/*
-background-grey: #F4F3F4;
-button-purple: #192592
-main-titles dark-grey: #2C303F;
-paragraph grey: #5b5e6d;
-nav grey: #5b5e6d;
-*/
+/* RESET CSS */
+
+/* Aquí definimos las Custom properties */
+:root {
+    --negro: #323848;
+    --blanco:#ffffff;
+    --gris:#5b5e6d;
+    --background-grey: #F4F3F4;
+    --button-blue: #4348b0; 
+    --main-titles-dark-grey: #2C303F;
+    --paragraph-grey: #5b5e6d;
+    --nav-grey: #5b5e6d;
+    
+    /* Tipografía */
+    --tipo-principal: Helvetica, Arial, sans-serif;
+    --tipo-secundaria: Verdana;
+    --titulos: 'Playfair Display', serif;
+}
+
+/* Reseteamos los margin y paddings de todas las etiquetas */
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    vertical-align: baseline;
+}
+
+/* Evitamos problemas con las imagenes */
+img,
+picture,
+video,
+iframe,
+figure {
+    max-width: 100%;
+    width: 100%;
+    display: block;
+    /* opcional */
+    -o-object-fit: cover;
+    object-fit: cover;
+    /* opcional */
+    -o-object-position: center center;
+    object-position: center center;
+}
+
+/* Reseteamos los enlaces para funcionar como cajas... */
+a {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+    font-size: inherit;
+}
+
+/* ... excepto los que se encuentran en párrafos */
+p a {
+    display: inline;
+}
+
+/* Quitamos los puntos de los <li> */
+li {
+    list-style-type: none;
+}
+
+/* Configuramos anclas suaves */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Desactivamos estilos por defecto de las principales etiquetas de texto */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span,
+a,
+strong,
+blockquote,
+i,
+b,
+u,
+em {
+    font-size: 1em;
+    font-weight: inherit;
+    font-style: inherit;
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Evitamos problemas con los pseudoelementos de quotes */
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: "";
+    content: none;
+}
+
+/* Configuramos el texto que seleccionamos */
+::-moz-selection {
+    background-color: var(--negro);
+    color: var(--blanco);
+}
+
+::selection {
+    background-color: var(--negro);
+    color: var(--blanco);
+}
+
+/* Nivelamos problemas de tipografías y colocación de formularios */
+form,
+input,
+textarea,
+select,
+button,
+label {
+    font-family: inherit;
+    font-size: inherit;
+    -webkit-hyphens: auto;
+    -ms-hyphens: auto;
+    hyphens: auto;
+    background-color: transparent;
+    color: inherit;
+    display: block;
+    /* opcional */
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+/* Reseteamos las tablas */
+table,
+tr,
+td {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* Evitamos problemas con los SVG */
+svg {
+    width: 100%;
+    display: block;
+    fill: currentColor;
+}
+
+
+/* Configuramos la tipografía para toda la web */
+body {
+    min-height: 100vh;
+    font-size: 100%;
+    font-family: var(--tipo-principal);
+    color: var(--negro);
+    /* opcional */
+    line-height: 1.4em;
+    /* opcional */
+    -webkit-hyphens: auto;
+    -ms-hyphens: auto;
+    hyphens: auto;
+    /* opcional */
+    font-smooth: always;
+    /* opcional */
+    -webkit-font-smoothing: antialiased;
+    /* opcional */
+    -moz-osx-font-smoothing: grayscale;
+}
+
+
+/* FIN RESET CSS */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    border-bottom: 1px #efefef solid;
+}
+.slackLogo {
+    max-width: 8rem;
+}
+
+.nav {
+    display: none;
+    color: var(--gris);
+}
+
+header ul {
+    margin: 0;
+    display: flex;
+}
+
+header a {
+    padding: 0 1rem;
+}
+
+.header .workspaces {
+border: 1px solid var(--negro);
+border-radius: 0.3rem;
+}
+
+.navicon {
+    width: 40px;
+}
+
+
+.hero {
+    padding: 2rem;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    font-family: var(--titulos);
+    font-weight: bold;
+    color: var(--negro)
+}
+.formGroup {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+
+}
+.form {
+    display: flex;
+    margin: 0.5rem;
+}
+.emailInput {
+border: 1px solid var(--gris) ;
+border-radius: 0.3rem;
+padding: 0.2rem;
+}
+.formButton {
+    margin: 0 0 0 0.3rem;
+    color:  var(--blanco);
+    background-color: var(--button-blue);
+    border-radius: 10px;
+    padding: 0.6rem;
+}
+
+.formGroup a {
+    color: var(--button-blue);
+    text-decoration: underline;
+}
+.partners {
+    background-color: var(--background-grey);
+    padding: 2rem;
+    border-top: 1px solid #cccccc ;
+    border-bottom: 1px solid #cccccc ;
+}
+
+.partners h2 {
+    font-size: 1.5rem;
+    font-family: var(--titulos);
+    font-weight: 700;
+    color: var(--negro);
+    text-align: center;
+}
+
+.partners p{
+    text-align: center;
+}
+.partnersContent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 3rem 0;
+}
+
+.discoverWhy {
+    background-color: var(--blanco);
+    text-align: center;
+    color: var(--button-blue);
+    font-size: 1rem;
+    font-weight:bold ;
+    text-transform: uppercase;
+    border: 1px solid var(--button-blue);
+    border-radius: 0.3rem;
+    width: 10rem;
+    padding: 0.5rem;
+}
+
+.partnersLogos .row{
+    display: flex;
+    align-items: flex-end;
+
+}
+
+.partners article {
+    width: 100%;
+    padding: 3rem;
+    border-bottom: 1px solid #cccccc;;
+}
+
+.tryIt{
+    display: flex;
+    padding: 2rem;
+    border-bottom: 1px solid #cccccc;
+}
+.tryItFormCol{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.tryIt h2 {
+    font-size: 1.5rem;
+    font-family: var(--titulos);
+    font-weight: 700;
+    color: var(--negro);
+    text-align: center;
+}
+
+.tryItColumn {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.bottomMenu{
+    padding: 2rem;
+    color: var(--nav-grey);
+}
+
+.bottomMenuRow {
+    display: flex;
+    align-items: flex-start;
+}
+.bottomMenu h3 {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.bottomMenu ul {
+    padding: 0;
+}
+.slackIcon {
+    width: 100px;
+    margin: 20px;
+    padding: 10px;
+}
+
+footer {
+    background-color: var(--background-grey);
+    display: flex;
+    padding: 2rem;
+    color: var(--nav-grey);
+}
+footer ul {
+    display: flex;
+    font-weight: bold;
+}
+footer li {
+    margin: 0 1rem;
+}
+footer .row{
+    display: flex;
+    align-items: center;
+    
+}
+footer .col{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.language {
+    display: flex;
+    margin: 0 1rem;
+}
+.language p {
+    margin: 0 1rem;
+}
+.usFlag{
+    max-width: 1.5rem;
+}
+
+@media screen and (min-width: 768px) {
+    header .navicon {
+        display: none;
+    }
+
+    header .nav {
+        display: block;
+    }
+}
+
+/* Móvil */
+@media (min-width: 10px) and (max-width: 576px) {
+    .formGroup {
+    width: 100%; 
+    display: flex;
+    align-items: center;
+    margin: 1rem 0;
+    }
+    .form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+    .emailInput {
+    min-width: 19rem;
+    }
+    .formButton {
+        margin: 1rem;
+        width: 100%;
+    }
+    .signInTabletDesktop {
+        display: none;
+    }
+    .signInMobile {
+    text-align: center;
+    }
+    .signInMobile a{
+        text-decoration: underline;
+        color: var(--button-blue);
+    }
+    .slackIconColDesktop {
+        display: none;
+    }
+}
+
+/* Tablet */
+@media (min-width: 576px) and (max-width: 768px) {
+    .form {
+        flex-direction: row;
+    }
+    .formButton {
+        width: 8rem;
+    }
+    .formGroup {
+        margin: 0 0 2.5rem 0;
+    }
+        .partners h2 {
+            font-size: 2rem;
+        }
+    .signInMobile {
+        display: none;
+    }
+    .signInTabletDesktop a{
+        text-decoration: underline;
+        color: var(--button-blue);
+    }
+    .slackIconColMobile {
+        display: none;
+    }
+}
+/* Desktop */
+@media (min-width: 768px) {
+    .emailInput {
+        display: none;
+    }
+    .formButton {
+        width: 12rem;
+    }
+    .partners h2 {
+    font-size: 2rem;
+    }
+    .signInTabletDesktop{
+        display: none;
+    }
+    .signInTabletDesktop a{
+        text-decoration: underline;
+        color: var(--button-blue);
+    }
+    .tryItColumn {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .signInMobile a{
+        text-decoration: underline;
+        color: var(--button-blue);
+    }
+    .slackIconColMobile {
+        display: none;
+    }
+}
